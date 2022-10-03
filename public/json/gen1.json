@@ -10,7 +10,8 @@
       "Sp. Attack": 65,
       "Sp. Defense": 65,
       "Speed": 45
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/bulbasaur.png"
   },
   {
     "id": 2,
@@ -23,13 +24,12 @@
       "Sp. Attack": 80,
       "Sp. Defense": 80,
       "Speed": 60
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/ivysaur.png"
   },
   {
     "id": 3,
-    "name": {
-      "english": "Venusaur"
-    },
+    "name": "Venusaur",
     "type": ["Grass", "Poison"],
     "base": {
       "HP": 80,
@@ -38,13 +38,12 @@
       "Sp. Attack": 100,
       "Sp. Defense": 100,
       "Speed": 80
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/venusaur.png"
   },
   {
     "id": 4,
-    "name": {
-      "english": "Charmander"
-    },
+    "name": "Charmander",
     "type": ["Fire"],
     "base": {
       "HP": 39,
@@ -53,13 +52,12 @@
       "Sp. Attack": 60,
       "Sp. Defense": 50,
       "Speed": 65
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/charmander.png"
   },
   {
     "id": 5,
-    "name": {
-      "english": "Charmeleon"
-    },
+    "name": "Charmeleon",
     "type": ["Fire"],
     "base": {
       "HP": 58,
@@ -68,13 +66,12 @@
       "Sp. Attack": 80,
       "Sp. Defense": 65,
       "Speed": 80
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/charmeleon.png"
   },
   {
     "id": 6,
-    "name": {
-      "english": "Charizard"
-    },
+    "name": "Charizard",
     "type": ["Fire", "Flying"],
     "base": {
       "HP": 78,
@@ -83,13 +80,12 @@
       "Sp. Attack": 109,
       "Sp. Defense": 85,
       "Speed": 100
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/charizard.png"
   },
   {
     "id": 7,
-    "name": {
-      "english": "Squirtle"
-    },
+    "name": "Squirtle",
     "type": ["Water"],
     "base": {
       "HP": 44,
@@ -98,13 +94,12 @@
       "Sp. Attack": 50,
       "Sp. Defense": 64,
       "Speed": 43
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/squirtle.png"
   },
   {
     "id": 8,
-    "name": {
-      "english": "Wartortle"
-    },
+    "name": "Wartortle",
     "type": ["Water"],
     "base": {
       "HP": 59,
@@ -113,13 +108,12 @@
       "Sp. Attack": 65,
       "Sp. Defense": 80,
       "Speed": 58
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/wartortle.png"
   },
   {
     "id": 9,
-    "name": {
-      "english": "Blastoise"
-    },
+    "name": "Blastoise",
     "type": ["Water"],
     "base": {
       "HP": 79,
@@ -128,13 +122,12 @@
       "Sp. Attack": 85,
       "Sp. Defense": 105,
       "Speed": 78
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/blastoise.png"
   },
   {
     "id": 10,
-    "name": {
-      "english": "Caterpie"
-    },
+    "name": "Caterpie",
     "type": ["Bug"],
     "base": {
       "HP": 45,
@@ -143,13 +136,12 @@
       "Sp. Attack": 20,
       "Sp. Defense": 20,
       "Speed": 45
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/caterpie.png"
   },
   {
     "id": 11,
-    "name": {
-      "english": "Metapod"
-    },
+    "name": "Metapod",
     "type": ["Bug"],
     "base": {
       "HP": 50,
@@ -158,13 +150,12 @@
       "Sp. Attack": 25,
       "Sp. Defense": 25,
       "Speed": 30
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/metapod.png"
   },
   {
     "id": 12,
-    "name": {
-      "english": "Butterfree"
-    },
+    "name": "Butterfree",
     "type": ["Bug", "Flying"],
     "base": {
       "HP": 60,
@@ -173,13 +164,12 @@
       "Sp. Attack": 90,
       "Sp. Defense": 80,
       "Speed": 70
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/butterfree.png"
   },
   {
     "id": 13,
-    "name": {
-      "english": "Weedle"
-    },
+    "name": "Weedle",
     "type": ["Bug", "Poison"],
     "base": {
       "HP": 40,
@@ -188,13 +178,12 @@
       "Sp. Attack": 20,
       "Sp. Defense": 20,
       "Speed": 50
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/weedle.png"
   },
   {
     "id": 14,
-    "name": {
-      "english": "Kakuna"
-    },
+    "name": "Kakuna",
     "type": ["Bug", "Poison"],
     "base": {
       "HP": 45,
@@ -203,13 +192,12 @@
       "Sp. Attack": 25,
       "Sp. Defense": 25,
       "Speed": 35
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/kakuna.png"
   },
   {
     "id": 15,
-    "name": {
-      "english": "Beedrill"
-    },
+    "name": "Beedrill",
     "type": ["Bug", "Poison"],
     "base": {
       "HP": 65,
@@ -218,13 +206,12 @@
       "Sp. Attack": 45,
       "Sp. Defense": 80,
       "Speed": 75
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/beedrill.png"
   },
   {
     "id": 16,
-    "name": {
-      "english": "Pidgey"
-    },
+    "name": "Pidgey",
     "type": ["Normal", "Flying"],
     "base": {
       "HP": 40,
@@ -233,13 +220,12 @@
       "Sp. Attack": 35,
       "Sp. Defense": 35,
       "Speed": 56
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/pidgey.png"
   },
   {
     "id": 17,
-    "name": {
-      "english": "Pidgeotto"
-    },
+    "name": "Pidgeotto",
     "type": ["Normal", "Flying"],
     "base": {
       "HP": 63,
@@ -248,13 +234,12 @@
       "Sp. Attack": 50,
       "Sp. Defense": 50,
       "Speed": 71
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/pidgeotto.png"
   },
   {
     "id": 18,
-    "name": {
-      "english": "Pidgeot"
-    },
+    "name": "Pidgeot",
     "type": ["Normal", "Flying"],
     "base": {
       "HP": 83,
@@ -263,13 +248,12 @@
       "Sp. Attack": 70,
       "Sp. Defense": 70,
       "Speed": 101
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/pidgeot.png"
   },
   {
     "id": 19,
-    "name": {
-      "english": "Rattata"
-    },
+    "name": "Rattata",
     "type": ["Normal"],
     "base": {
       "HP": 30,
@@ -278,13 +262,12 @@
       "Sp. Attack": 25,
       "Sp. Defense": 35,
       "Speed": 72
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/rattata.png"
   },
   {
     "id": 20,
-    "name": {
-      "english": "Raticate"
-    },
+    "name": "Raticate",
     "type": ["Normal"],
     "base": {
       "HP": 55,
@@ -293,13 +276,12 @@
       "Sp. Attack": 50,
       "Sp. Defense": 70,
       "Speed": 97
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/raticate.png"
   },
   {
     "id": 21,
-    "name": {
-      "english": "Spearow"
-    },
+    "name": "Spearow",
     "type": ["Normal", "Flying"],
     "base": {
       "HP": 40,
@@ -308,13 +290,12 @@
       "Sp. Attack": 31,
       "Sp. Defense": 31,
       "Speed": 70
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/spearow.png"
   },
   {
     "id": 22,
-    "name": {
-      "english": "Fearow"
-    },
+    "name": "Fearow",
     "type": ["Normal", "Flying"],
     "base": {
       "HP": 65,
@@ -323,13 +304,12 @@
       "Sp. Attack": 61,
       "Sp. Defense": 61,
       "Speed": 100
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/fearow.png"
   },
   {
     "id": 23,
-    "name": {
-      "english": "Ekans"
-    },
+    "name": "Ekans",
     "type": ["Poison"],
     "base": {
       "HP": 35,
@@ -338,13 +318,12 @@
       "Sp. Attack": 40,
       "Sp. Defense": 54,
       "Speed": 55
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/ekans.png"
   },
   {
     "id": 24,
-    "name": {
-      "english": "Arbok"
-    },
+    "name": "Arbok",
     "type": ["Poison"],
     "base": {
       "HP": 60,
@@ -353,13 +332,12 @@
       "Sp. Attack": 65,
       "Sp. Defense": 79,
       "Speed": 80
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/arbok.png"
   },
   {
     "id": 25,
-    "name": {
-      "english": "Pikachu"
-    },
+    "name": "Pikachu",
     "type": ["Electric"],
     "base": {
       "HP": 35,
@@ -368,13 +346,12 @@
       "Sp. Attack": 50,
       "Sp. Defense": 50,
       "Speed": 90
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/pikachu.png"
   },
   {
     "id": 26,
-    "name": {
-      "english": "Raichu"
-    },
+    "name": "Raichu",
     "type": ["Electric"],
     "base": {
       "HP": 60,
@@ -383,13 +360,12 @@
       "Sp. Attack": 90,
       "Sp. Defense": 80,
       "Speed": 110
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/raichu.png"
   },
   {
     "id": 27,
-    "name": {
-      "english": "Sandshrew"
-    },
+    "name": "Sandshrew",
     "type": ["Ground"],
     "base": {
       "HP": 50,
@@ -398,13 +374,12 @@
       "Sp. Attack": 20,
       "Sp. Defense": 30,
       "Speed": 40
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/sandshrew.png"
   },
   {
     "id": 28,
-    "name": {
-      "english": "Sandslash"
-    },
+    "name": "Sandslash",
     "type": ["Ground"],
     "base": {
       "HP": 75,
@@ -413,13 +388,12 @@
       "Sp. Attack": 45,
       "Sp. Defense": 55,
       "Speed": 65
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/sandslash.png"
   },
   {
     "id": 29,
-    "name": {
-      "english": "Nidoran♀"
-    },
+    "name": "Nidoran♀",
     "type": ["Poison"],
     "base": {
       "HP": 55,
@@ -428,13 +402,12 @@
       "Sp. Attack": 40,
       "Sp. Defense": 40,
       "Speed": 41
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/nidoranf.png"
   },
   {
     "id": 30,
-    "name": {
-      "english": "Nidorina"
-    },
+    "name": "Nidorina",
     "type": ["Poison"],
     "base": {
       "HP": 70,
@@ -443,13 +416,12 @@
       "Sp. Attack": 55,
       "Sp. Defense": 55,
       "Speed": 56
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/nidorina.png"
   },
   {
     "id": 31,
-    "name": {
-      "english": "Nidoqueen"
-    },
+    "name": "Nidoqueen",
     "type": ["Poison", "Ground"],
     "base": {
       "HP": 90,
@@ -458,13 +430,12 @@
       "Sp. Attack": 75,
       "Sp. Defense": 85,
       "Speed": 76
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/nidoqueen.png"
   },
   {
     "id": 32,
-    "name": {
-      "english": "Nidoran♂"
-    },
+    "name": "Nidoran♂",
     "type": ["Poison"],
     "base": {
       "HP": 46,
@@ -473,13 +444,12 @@
       "Sp. Attack": 40,
       "Sp. Defense": 40,
       "Speed": 50
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/nidoranm.png"
   },
   {
     "id": 33,
-    "name": {
-      "english": "Nidorino"
-    },
+    "name": "Nidorino",
     "type": ["Poison"],
     "base": {
       "HP": 61,
@@ -488,13 +458,12 @@
       "Sp. Attack": 55,
       "Sp. Defense": 55,
       "Speed": 65
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/nidorino.png"
   },
   {
     "id": 34,
-    "name": {
-      "english": "Nidoking"
-    },
+    "name": "Nidoking",
     "type": ["Poison", "Ground"],
     "base": {
       "HP": 81,
@@ -503,13 +472,12 @@
       "Sp. Attack": 85,
       "Sp. Defense": 75,
       "Speed": 85
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/nidoking.png"
   },
   {
     "id": 35,
-    "name": {
-      "english": "Clefairy"
-    },
+    "name": "Clefairy",
     "type": ["Fairy"],
     "base": {
       "HP": 70,
@@ -518,13 +486,12 @@
       "Sp. Attack": 60,
       "Sp. Defense": 65,
       "Speed": 35
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/clefairy.png"
   },
   {
     "id": 36,
-    "name": {
-      "english": "Clefable"
-    },
+    "name": "Clefable",
     "type": ["Fairy"],
     "base": {
       "HP": 95,
@@ -533,13 +500,12 @@
       "Sp. Attack": 95,
       "Sp. Defense": 90,
       "Speed": 60
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/clefable.png"
   },
   {
     "id": 37,
-    "name": {
-      "english": "Vulpix"
-    },
+    "name": "Vulpix",
     "type": ["Fire"],
     "base": {
       "HP": 38,
@@ -548,13 +514,12 @@
       "Sp. Attack": 50,
       "Sp. Defense": 65,
       "Speed": 65
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/vulpix.png"
   },
   {
     "id": 38,
-    "name": {
-      "english": "Ninetales"
-    },
+    "name": "Ninetales",
     "type": ["Fire"],
     "base": {
       "HP": 73,
@@ -563,13 +528,12 @@
       "Sp. Attack": 81,
       "Sp. Defense": 100,
       "Speed": 100
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/ninetales.png"
   },
   {
     "id": 39,
-    "name": {
-      "english": "Jigglypuff"
-    },
+    "name": "Jigglypuff",
     "type": ["Normal", "Fairy"],
     "base": {
       "HP": 115,
@@ -578,13 +542,12 @@
       "Sp. Attack": 45,
       "Sp. Defense": 25,
       "Speed": 20
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/jigglypuff.png"
   },
   {
     "id": 40,
-    "name": {
-      "english": "Wigglytuff"
-    },
+    "name": "Wigglytuff",
     "type": ["Normal", "Fairy"],
     "base": {
       "HP": 140,
@@ -593,13 +556,12 @@
       "Sp. Attack": 85,
       "Sp. Defense": 50,
       "Speed": 45
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/wigglytuff.png"
   },
   {
     "id": 41,
-    "name": {
-      "english": "Zubat"
-    },
+    "name": "Zubat",
     "type": ["Poison", "Flying"],
     "base": {
       "HP": 40,
@@ -608,13 +570,12 @@
       "Sp. Attack": 30,
       "Sp. Defense": 40,
       "Speed": 55
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/zubat.png"
   },
   {
     "id": 42,
-    "name": {
-      "english": "Golbat"
-    },
+    "name": "Golbat",
     "type": ["Poison", "Flying"],
     "base": {
       "HP": 75,
@@ -623,13 +584,12 @@
       "Sp. Attack": 65,
       "Sp. Defense": 75,
       "Speed": 90
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/golbat.png"
   },
   {
     "id": 43,
-    "name": {
-      "english": "Oddish"
-    },
+    "name": "Oddish",
     "type": ["Grass", "Poison"],
     "base": {
       "HP": 45,
@@ -638,13 +598,12 @@
       "Sp. Attack": 75,
       "Sp. Defense": 65,
       "Speed": 30
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/oddish.png"
   },
   {
     "id": 44,
-    "name": {
-      "english": "Gloom"
-    },
+    "name": "Gloom",
     "type": ["Grass", "Poison"],
     "base": {
       "HP": 60,
@@ -653,13 +612,12 @@
       "Sp. Attack": 85,
       "Sp. Defense": 75,
       "Speed": 40
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/gloom.png"
   },
   {
     "id": 45,
-    "name": {
-      "english": "Vileplume"
-    },
+    "name": "Vileplume",
     "type": ["Grass", "Poison"],
     "base": {
       "HP": 75,
@@ -668,13 +626,12 @@
       "Sp. Attack": 110,
       "Sp. Defense": 90,
       "Speed": 50
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/vileplume.png"
   },
   {
     "id": 46,
-    "name": {
-      "english": "Paras"
-    },
+    "name": "Paras",
     "type": ["Bug", "Grass"],
     "base": {
       "HP": 35,
@@ -683,13 +640,12 @@
       "Sp. Attack": 45,
       "Sp. Defense": 55,
       "Speed": 25
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/paras.png"
   },
   {
     "id": 47,
-    "name": {
-      "english": "Parasect"
-    },
+    "name": "Parasect",
     "type": ["Bug", "Grass"],
     "base": {
       "HP": 60,
@@ -698,13 +654,12 @@
       "Sp. Attack": 60,
       "Sp. Defense": 80,
       "Speed": 30
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/parasect.png"
   },
   {
     "id": 48,
-    "name": {
-      "english": "Venonat"
-    },
+    "name": "Venonat",
     "type": ["Bug", "Poison"],
     "base": {
       "HP": 60,
@@ -713,13 +668,12 @@
       "Sp. Attack": 40,
       "Sp. Defense": 55,
       "Speed": 45
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/venonat.png"
   },
   {
     "id": 49,
-    "name": {
-      "english": "Venomoth"
-    },
+    "name": "Venomoth",
     "type": ["Bug", "Poison"],
     "base": {
       "HP": 70,
@@ -728,13 +682,12 @@
       "Sp. Attack": 90,
       "Sp. Defense": 75,
       "Speed": 90
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/venomoth.png"
   },
   {
     "id": 50,
-    "name": {
-      "english": "Diglett"
-    },
+    "name": "Diglett",
     "type": ["Ground"],
     "base": {
       "HP": 10,
@@ -743,13 +696,12 @@
       "Sp. Attack": 35,
       "Sp. Defense": 45,
       "Speed": 95
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/diglett.png"
   },
   {
     "id": 51,
-    "name": {
-      "english": "Dugtrio"
-    },
+    "name": "Dugtrio",
     "type": ["Ground"],
     "base": {
       "HP": 35,
@@ -758,13 +710,12 @@
       "Sp. Attack": 50,
       "Sp. Defense": 70,
       "Speed": 120
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/dugtrio.png"
   },
   {
     "id": 52,
-    "name": {
-      "english": "Meowth"
-    },
+    "name": "Meowth",
     "type": ["Normal"],
     "base": {
       "HP": 40,
@@ -773,13 +724,12 @@
       "Sp. Attack": 40,
       "Sp. Defense": 40,
       "Speed": 90
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/meowth.png"
   },
   {
     "id": 53,
-    "name": {
-      "english": "Persian"
-    },
+    "name": "Persian",
     "type": ["Normal"],
     "base": {
       "HP": 65,
@@ -788,13 +738,12 @@
       "Sp. Attack": 65,
       "Sp. Defense": 65,
       "Speed": 115
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/persian.png"
   },
   {
     "id": 54,
-    "name": {
-      "english": "Psyduck"
-    },
+    "name": "Psyduck",
     "type": ["Water"],
     "base": {
       "HP": 50,
@@ -803,13 +752,12 @@
       "Sp. Attack": 65,
       "Sp. Defense": 50,
       "Speed": 55
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/psyduck.png"
   },
   {
     "id": 55,
-    "name": {
-      "english": "Golduck"
-    },
+    "name": "Golduck",
     "type": ["Water"],
     "base": {
       "HP": 80,
@@ -818,13 +766,12 @@
       "Sp. Attack": 95,
       "Sp. Defense": 80,
       "Speed": 85
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/golduck.png"
   },
   {
     "id": 56,
-    "name": {
-      "english": "Mankey"
-    },
+    "name": "Mankey",
     "type": ["Fighting"],
     "base": {
       "HP": 40,
@@ -833,13 +780,12 @@
       "Sp. Attack": 35,
       "Sp. Defense": 45,
       "Speed": 70
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/mankey.png"
   },
   {
     "id": 57,
-    "name": {
-      "english": "Primeape"
-    },
+    "name": "Primeape",
     "type": ["Fighting"],
     "base": {
       "HP": 65,
@@ -848,13 +794,12 @@
       "Sp. Attack": 60,
       "Sp. Defense": 70,
       "Speed": 95
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/primeape.png"
   },
   {
     "id": 58,
-    "name": {
-      "english": "Growlithe"
-    },
+    "name": "Growlithe",
     "type": ["Fire"],
     "base": {
       "HP": 55,
@@ -863,13 +808,12 @@
       "Sp. Attack": 70,
       "Sp. Defense": 50,
       "Speed": 60
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/growlithe.png"
   },
   {
     "id": 59,
-    "name": {
-      "english": "Arcanine"
-    },
+    "name": "Arcanine",
     "type": ["Fire"],
     "base": {
       "HP": 90,
@@ -878,13 +822,12 @@
       "Sp. Attack": 100,
       "Sp. Defense": 80,
       "Speed": 95
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/arcanine.png"
   },
   {
     "id": 60,
-    "name": {
-      "english": "Poliwag"
-    },
+    "name": "Poliwag",
     "type": ["Water"],
     "base": {
       "HP": 40,
@@ -893,13 +836,12 @@
       "Sp. Attack": 40,
       "Sp. Defense": 40,
       "Speed": 90
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/poliwag.png"
   },
   {
     "id": 61,
-    "name": {
-      "english": "Poliwhirl"
-    },
+    "name": "Poliwhirl",
     "type": ["Water"],
     "base": {
       "HP": 65,
@@ -908,13 +850,12 @@
       "Sp. Attack": 50,
       "Sp. Defense": 50,
       "Speed": 90
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/poliwhirl.png"
   },
   {
     "id": 62,
-    "name": {
-      "english": "Poliwrath"
-    },
+    "name": "Poliwrath",
     "type": ["Water", "Fighting"],
     "base": {
       "HP": 90,
@@ -923,13 +864,12 @@
       "Sp. Attack": 70,
       "Sp. Defense": 90,
       "Speed": 70
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/poliwrath.png"
   },
   {
     "id": 63,
-    "name": {
-      "english": "Abra"
-    },
+    "name": "Abra",
     "type": ["Psychic"],
     "base": {
       "HP": 25,
@@ -938,13 +878,12 @@
       "Sp. Attack": 105,
       "Sp. Defense": 55,
       "Speed": 90
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/abra.png"
   },
   {
     "id": 64,
-    "name": {
-      "english": "Kadabra"
-    },
+    "name": "Kadabra",
     "type": ["Psychic"],
     "base": {
       "HP": 40,
@@ -953,13 +892,12 @@
       "Sp. Attack": 120,
       "Sp. Defense": 70,
       "Speed": 105
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/kadabra.png"
   },
   {
     "id": 65,
-    "name": {
-      "english": "Alakazam"
-    },
+    "name": "Alakazam",
     "type": ["Psychic"],
     "base": {
       "HP": 55,
@@ -968,13 +906,12 @@
       "Sp. Attack": 135,
       "Sp. Defense": 95,
       "Speed": 120
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/alakazam.png"
   },
   {
     "id": 66,
-    "name": {
-      "english": "Machop"
-    },
+    "name": "Machop",
     "type": ["Fighting"],
     "base": {
       "HP": 70,
@@ -983,13 +920,12 @@
       "Sp. Attack": 35,
       "Sp. Defense": 35,
       "Speed": 35
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/machop.png"
   },
   {
     "id": 67,
-    "name": {
-      "english": "Machoke"
-    },
+    "name": "Machoke",
     "type": ["Fighting"],
     "base": {
       "HP": 80,
@@ -998,13 +934,12 @@
       "Sp. Attack": 50,
       "Sp. Defense": 60,
       "Speed": 45
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/machoke.png"
   },
   {
     "id": 68,
-    "name": {
-      "english": "Machamp"
-    },
+    "name": "Machamp",
     "type": ["Fighting"],
     "base": {
       "HP": 90,
@@ -1013,13 +948,12 @@
       "Sp. Attack": 65,
       "Sp. Defense": 85,
       "Speed": 55
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/machamp.png"
   },
   {
     "id": 69,
-    "name": {
-      "english": "Bellsprout"
-    },
+    "name": "Bellsprout",
     "type": ["Grass", "Poison"],
     "base": {
       "HP": 50,
@@ -1028,13 +962,12 @@
       "Sp. Attack": 70,
       "Sp. Defense": 30,
       "Speed": 40
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/bellsprout.png"
   },
   {
     "id": 70,
-    "name": {
-      "english": "Weepinbell"
-    },
+    "name": "Weepinbell",
     "type": ["Grass", "Poison"],
     "base": {
       "HP": 65,
@@ -1043,13 +976,12 @@
       "Sp. Attack": 85,
       "Sp. Defense": 45,
       "Speed": 55
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/weepinbell.png"
   },
   {
     "id": 71,
-    "name": {
-      "english": "Victreebel"
-    },
+    "name": "Victreebel",
     "type": ["Grass", "Poison"],
     "base": {
       "HP": 80,
@@ -1058,13 +990,12 @@
       "Sp. Attack": 100,
       "Sp. Defense": 70,
       "Speed": 70
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/victreebel.png"
   },
   {
     "id": 72,
-    "name": {
-      "english": "Tentacool"
-    },
+    "name": "Tentacool",
     "type": ["Water", "Poison"],
     "base": {
       "HP": 40,
@@ -1073,13 +1004,12 @@
       "Sp. Attack": 50,
       "Sp. Defense": 100,
       "Speed": 70
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/tentacool.png"
   },
   {
     "id": 73,
-    "name": {
-      "english": "Tentacruel"
-    },
+    "name": "Tentacruel",
     "type": ["Water", "Poison"],
     "base": {
       "HP": 80,
@@ -1088,13 +1018,12 @@
       "Sp. Attack": 80,
       "Sp. Defense": 120,
       "Speed": 100
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/tentacruel.png"
   },
   {
     "id": 74,
-    "name": {
-      "english": "Geodude"
-    },
+    "name": "Geodude",
     "type": ["Rock", "Ground"],
     "base": {
       "HP": 40,
@@ -1103,13 +1032,12 @@
       "Sp. Attack": 30,
       "Sp. Defense": 30,
       "Speed": 20
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/geodude.png"
   },
   {
     "id": 75,
-    "name": {
-      "english": "Graveler"
-    },
+    "name": "Graveler",
     "type": ["Rock", "Ground"],
     "base": {
       "HP": 55,
@@ -1118,13 +1046,12 @@
       "Sp. Attack": 45,
       "Sp. Defense": 45,
       "Speed": 35
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/graveler.png"
   },
   {
     "id": 76,
-    "name": {
-      "english": "Golem"
-    },
+    "name": "Golem",
     "type": ["Rock", "Ground"],
     "base": {
       "HP": 80,
@@ -1133,13 +1060,12 @@
       "Sp. Attack": 55,
       "Sp. Defense": 65,
       "Speed": 45
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/golem.png"
   },
   {
     "id": 77,
-    "name": {
-      "english": "Ponyta"
-    },
+    "name": "Ponyta",
     "type": ["Fire"],
     "base": {
       "HP": 50,
@@ -1148,13 +1074,12 @@
       "Sp. Attack": 65,
       "Sp. Defense": 65,
       "Speed": 90
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/ponyta.png"
   },
   {
     "id": 78,
-    "name": {
-      "english": "Rapidash"
-    },
+    "name": "Rapidash",
     "type": ["Fire"],
     "base": {
       "HP": 65,
@@ -1163,13 +1088,12 @@
       "Sp. Attack": 80,
       "Sp. Defense": 80,
       "Speed": 105
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/rapidash.png"
   },
   {
     "id": 79,
-    "name": {
-      "english": "Slowpoke"
-    },
+    "name": "Slowpoke",
     "type": ["Water", "Psychic"],
     "base": {
       "HP": 90,
@@ -1178,13 +1102,12 @@
       "Sp. Attack": 40,
       "Sp. Defense": 40,
       "Speed": 15
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/slowpoke.png"
   },
   {
     "id": 80,
-    "name": {
-      "english": "Slowbro"
-    },
+    "name": "Slowbro",
     "type": ["Water", "Psychic"],
     "base": {
       "HP": 95,
@@ -1193,13 +1116,12 @@
       "Sp. Attack": 100,
       "Sp. Defense": 80,
       "Speed": 30
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/slowbro.png"
   },
   {
     "id": 81,
-    "name": {
-      "english": "Magnemite"
-    },
+    "name": "Magnemite",
     "type": ["Electric", "Steel"],
     "base": {
       "HP": 25,
@@ -1208,13 +1130,12 @@
       "Sp. Attack": 95,
       "Sp. Defense": 55,
       "Speed": 45
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/magnemite.png"
   },
   {
     "id": 82,
-    "name": {
-      "english": "Magneton"
-    },
+    "name": "Magneton",
     "type": ["Electric", "Steel"],
     "base": {
       "HP": 50,
@@ -1223,13 +1144,12 @@
       "Sp. Attack": 120,
       "Sp. Defense": 70,
       "Speed": 70
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/magneton.png"
   },
   {
     "id": 83,
-    "name": {
-      "english": "Farfetch'd"
-    },
+    "name": "Farfetch'd",
     "type": ["Normal", "Flying"],
     "base": {
       "HP": 52,
@@ -1238,13 +1158,12 @@
       "Sp. Attack": 58,
       "Sp. Defense": 62,
       "Speed": 60
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/farfetchd.png"
   },
   {
     "id": 84,
-    "name": {
-      "english": "Doduo"
-    },
+    "name": "Doduo",
     "type": ["Normal", "Flying"],
     "base": {
       "HP": 35,
@@ -1253,13 +1172,12 @@
       "Sp. Attack": 35,
       "Sp. Defense": 35,
       "Speed": 75
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/doduo.png"
   },
   {
     "id": 85,
-    "name": {
-      "english": "Dodrio"
-    },
+    "name": "Dodrio",
     "type": ["Normal", "Flying"],
     "base": {
       "HP": 60,
@@ -1268,13 +1186,12 @@
       "Sp. Attack": 60,
       "Sp. Defense": 60,
       "Speed": 110
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/dodrio.png"
   },
   {
     "id": 86,
-    "name": {
-      "english": "Seel"
-    },
+    "name": "Seel",
     "type": ["Water"],
     "base": {
       "HP": 65,
@@ -1283,13 +1200,12 @@
       "Sp. Attack": 45,
       "Sp. Defense": 70,
       "Speed": 45
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/seel.png"
   },
   {
     "id": 87,
-    "name": {
-      "english": "Dewgong"
-    },
+    "name": "Dewgong",
     "type": ["Water", "Ice"],
     "base": {
       "HP": 90,
@@ -1298,13 +1214,12 @@
       "Sp. Attack": 70,
       "Sp. Defense": 95,
       "Speed": 70
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/dewgong.png"
   },
   {
     "id": 88,
-    "name": {
-      "english": "Grimer"
-    },
+    "name": "Grimer",
     "type": ["Poison"],
     "base": {
       "HP": 80,
@@ -1313,13 +1228,12 @@
       "Sp. Attack": 40,
       "Sp. Defense": 50,
       "Speed": 25
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/grimer.png"
   },
   {
     "id": 89,
-    "name": {
-      "english": "Muk"
-    },
+    "name": "Muk",
     "type": ["Poison"],
     "base": {
       "HP": 105,
@@ -1328,13 +1242,12 @@
       "Sp. Attack": 65,
       "Sp. Defense": 100,
       "Speed": 50
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/muk.png"
   },
   {
     "id": 90,
-    "name": {
-      "english": "Shellder"
-    },
+    "name": "Shellder",
     "type": ["Water"],
     "base": {
       "HP": 30,
@@ -1343,13 +1256,12 @@
       "Sp. Attack": 45,
       "Sp. Defense": 25,
       "Speed": 40
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/shellder.png"
   },
   {
     "id": 91,
-    "name": {
-      "english": "Cloyster"
-    },
+    "name": "Cloyster",
     "type": ["Water", "Ice"],
     "base": {
       "HP": 50,
@@ -1358,13 +1270,12 @@
       "Sp. Attack": 85,
       "Sp. Defense": 45,
       "Speed": 70
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/cloyster.png"
   },
   {
     "id": 92,
-    "name": {
-      "english": "Gastly"
-    },
+    "name": "Gastly",
     "type": ["Ghost", "Poison"],
     "base": {
       "HP": 30,
@@ -1373,13 +1284,12 @@
       "Sp. Attack": 100,
       "Sp. Defense": 35,
       "Speed": 80
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/gastly.png"
   },
   {
     "id": 93,
-    "name": {
-      "english": "Haunter"
-    },
+    "name": "Haunter",
     "type": ["Ghost", "Poison"],
     "base": {
       "HP": 45,
@@ -1388,13 +1298,12 @@
       "Sp. Attack": 115,
       "Sp. Defense": 55,
       "Speed": 95
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/haunter.png"
   },
   {
     "id": 94,
-    "name": {
-      "english": "Gengar"
-    },
+    "name": "Gengar",
     "type": ["Ghost", "Poison"],
     "base": {
       "HP": 60,
@@ -1403,13 +1312,12 @@
       "Sp. Attack": 130,
       "Sp. Defense": 75,
       "Speed": 110
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/gengar.png"
   },
   {
     "id": 95,
-    "name": {
-      "english": "Onix"
-    },
+    "name": "Onix",
     "type": ["Rock", "Ground"],
     "base": {
       "HP": 35,
@@ -1418,13 +1326,12 @@
       "Sp. Attack": 30,
       "Sp. Defense": 45,
       "Speed": 70
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/onix.png"
   },
   {
     "id": 96,
-    "name": {
-      "english": "Drowzee"
-    },
+    "name": "Drowzee",
     "type": ["Psychic"],
     "base": {
       "HP": 60,
@@ -1433,13 +1340,12 @@
       "Sp. Attack": 43,
       "Sp. Defense": 90,
       "Speed": 42
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/drowzee.png"
   },
   {
     "id": 97,
-    "name": {
-      "english": "Hypno"
-    },
+    "name": "Hypno",
     "type": ["Psychic"],
     "base": {
       "HP": 85,
@@ -1448,13 +1354,12 @@
       "Sp. Attack": 73,
       "Sp. Defense": 115,
       "Speed": 67
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/hypno.png"
   },
   {
     "id": 98,
-    "name": {
-      "english": "Krabby"
-    },
+    "name": "Krabby",
     "type": ["Water"],
     "base": {
       "HP": 30,
@@ -1463,13 +1368,12 @@
       "Sp. Attack": 25,
       "Sp. Defense": 25,
       "Speed": 50
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/krabby.png"
   },
   {
     "id": 99,
-    "name": {
-      "english": "Kingler"
-    },
+    "name": "Kingler",
     "type": ["Water"],
     "base": {
       "HP": 55,
@@ -1478,13 +1382,12 @@
       "Sp. Attack": 50,
       "Sp. Defense": 50,
       "Speed": 75
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/kingler.png"
   },
   {
     "id": 100,
-    "name": {
-      "english": "Voltorb"
-    },
+    "name": "Voltorb",
     "type": ["Electric"],
     "base": {
       "HP": 40,
@@ -1493,13 +1396,12 @@
       "Sp. Attack": 55,
       "Sp. Defense": 55,
       "Speed": 100
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/voltorb.png"
   },
   {
     "id": 101,
-    "name": {
-      "english": "Electrode"
-    },
+    "name": "Electrode",
     "type": ["Electric"],
     "base": {
       "HP": 60,
@@ -1508,13 +1410,12 @@
       "Sp. Attack": 80,
       "Sp. Defense": 80,
       "Speed": 150
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/electrode.png"
   },
   {
     "id": 102,
-    "name": {
-      "english": "Exeggcute"
-    },
+    "name": "Exeggcute",
     "type": ["Grass", "Psychic"],
     "base": {
       "HP": 60,
@@ -1523,13 +1424,12 @@
       "Sp. Attack": 60,
       "Sp. Defense": 45,
       "Speed": 40
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/exeggcute.png"
   },
   {
     "id": 103,
-    "name": {
-      "english": "Exeggutor"
-    },
+    "name": "Exeggutor",
     "type": ["Grass", "Psychic"],
     "base": {
       "HP": 95,
@@ -1538,13 +1438,12 @@
       "Sp. Attack": 125,
       "Sp. Defense": 75,
       "Speed": 55
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/exeggutor.png"
   },
   {
     "id": 104,
-    "name": {
-      "english": "Cubone"
-    },
+    "name": "Cubone",
     "type": ["Ground"],
     "base": {
       "HP": 50,
@@ -1553,13 +1452,12 @@
       "Sp. Attack": 40,
       "Sp. Defense": 50,
       "Speed": 35
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/cubone.png"
   },
   {
     "id": 105,
-    "name": {
-      "english": "Marowak"
-    },
+    "name": "Marowak",
     "type": ["Ground"],
     "base": {
       "HP": 60,
@@ -1568,13 +1466,12 @@
       "Sp. Attack": 50,
       "Sp. Defense": 80,
       "Speed": 45
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/marowak.png"
   },
   {
     "id": 106,
-    "name": {
-      "english": "Hitmonlee"
-    },
+    "name": "Hitmonlee",
     "type": ["Fighting"],
     "base": {
       "HP": 50,
@@ -1583,13 +1480,12 @@
       "Sp. Attack": 35,
       "Sp. Defense": 110,
       "Speed": 87
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/hitmonlee.png"
   },
   {
     "id": 107,
-    "name": {
-      "english": "Hitmonchan"
-    },
+    "name": "Hitmonchan",
     "type": ["Fighting"],
     "base": {
       "HP": 50,
@@ -1598,13 +1494,12 @@
       "Sp. Attack": 35,
       "Sp. Defense": 110,
       "Speed": 76
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/hitmonchan.png"
   },
   {
     "id": 108,
-    "name": {
-      "english": "Lickitung"
-    },
+    "name": "Lickitung",
     "type": ["Normal"],
     "base": {
       "HP": 90,
@@ -1613,13 +1508,12 @@
       "Sp. Attack": 60,
       "Sp. Defense": 75,
       "Speed": 30
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/lickitung.png"
   },
   {
     "id": 109,
-    "name": {
-      "english": "Koffing"
-    },
+    "name": "Koffing",
     "type": ["Poison"],
     "base": {
       "HP": 40,
@@ -1628,13 +1522,12 @@
       "Sp. Attack": 60,
       "Sp. Defense": 45,
       "Speed": 35
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/koffing.png"
   },
   {
     "id": 110,
-    "name": {
-      "english": "Weezing"
-    },
+    "name": "Weezing",
     "type": ["Poison"],
     "base": {
       "HP": 65,
@@ -1643,13 +1536,12 @@
       "Sp. Attack": 85,
       "Sp. Defense": 70,
       "Speed": 60
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/weezing.png"
   },
   {
     "id": 111,
-    "name": {
-      "english": "Rhyhorn"
-    },
+    "name": "Rhyhorn",
     "type": ["Ground", "Rock"],
     "base": {
       "HP": 80,
@@ -1658,13 +1550,12 @@
       "Sp. Attack": 30,
       "Sp. Defense": 30,
       "Speed": 25
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/rhyhorn.png"
   },
   {
     "id": 112,
-    "name": {
-      "english": "Rhydon"
-    },
+    "name": "Rhydon",
     "type": ["Ground", "Rock"],
     "base": {
       "HP": 105,
@@ -1673,13 +1564,12 @@
       "Sp. Attack": 45,
       "Sp. Defense": 45,
       "Speed": 40
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/rhydon.png"
   },
   {
     "id": 113,
-    "name": {
-      "english": "Chansey"
-    },
+    "name": "Chansey",
     "type": ["Normal"],
     "base": {
       "HP": 250,
@@ -1688,13 +1578,12 @@
       "Sp. Attack": 35,
       "Sp. Defense": 105,
       "Speed": 50
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/chansey.png"
   },
   {
     "id": 114,
-    "name": {
-      "english": "Tangela"
-    },
+    "name": "Tangela",
     "type": ["Grass"],
     "base": {
       "HP": 65,
@@ -1703,13 +1592,12 @@
       "Sp. Attack": 100,
       "Sp. Defense": 40,
       "Speed": 60
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/tangela.png"
   },
   {
     "id": 115,
-    "name": {
-      "english": "Kangaskhan"
-    },
+    "name": "Kangaskhan",
     "type": ["Normal"],
     "base": {
       "HP": 105,
@@ -1718,13 +1606,12 @@
       "Sp. Attack": 40,
       "Sp. Defense": 80,
       "Speed": 90
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/kangaskhan.png"
   },
   {
     "id": 116,
-    "name": {
-      "english": "Horsea"
-    },
+    "name": "Horsea",
     "type": ["Water"],
     "base": {
       "HP": 30,
@@ -1733,13 +1620,12 @@
       "Sp. Attack": 70,
       "Sp. Defense": 25,
       "Speed": 60
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/horsea.png"
   },
   {
     "id": 117,
-    "name": {
-      "english": "Seadra"
-    },
+    "name": "Seadra",
     "type": ["Water"],
     "base": {
       "HP": 55,
@@ -1748,13 +1634,12 @@
       "Sp. Attack": 95,
       "Sp. Defense": 45,
       "Speed": 85
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/seadra.png"
   },
   {
     "id": 118,
-    "name": {
-      "english": "Goldeen"
-    },
+    "name": "Goldeen",
     "type": ["Water"],
     "base": {
       "HP": 45,
@@ -1763,13 +1648,12 @@
       "Sp. Attack": 35,
       "Sp. Defense": 50,
       "Speed": 63
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/goldeen.png"
   },
   {
     "id": 119,
-    "name": {
-      "english": "Seaking"
-    },
+    "name": "Seaking",
     "type": ["Water"],
     "base": {
       "HP": 80,
@@ -1778,13 +1662,12 @@
       "Sp. Attack": 65,
       "Sp. Defense": 80,
       "Speed": 68
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/seaking.png"
   },
   {
     "id": 120,
-    "name": {
-      "english": "Staryu"
-    },
+    "name": "Staryu",
     "type": ["Water"],
     "base": {
       "HP": 30,
@@ -1793,13 +1676,12 @@
       "Sp. Attack": 70,
       "Sp. Defense": 55,
       "Speed": 85
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/staryu.png"
   },
   {
     "id": 121,
-    "name": {
-      "english": "Starmie"
-    },
+    "name": "Starmie",
     "type": ["Water", "Psychic"],
     "base": {
       "HP": 60,
@@ -1808,13 +1690,12 @@
       "Sp. Attack": 100,
       "Sp. Defense": 85,
       "Speed": 115
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/starmie.png"
   },
   {
     "id": 122,
-    "name": {
-      "english": "Mr. Mime"
-    },
+    "name": "Mr. Mime",
     "type": ["Psychic", "Fairy"],
     "base": {
       "HP": 40,
@@ -1823,13 +1704,12 @@
       "Sp. Attack": 100,
       "Sp. Defense": 120,
       "Speed": 90
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/mrmime.png"
   },
   {
     "id": 123,
-    "name": {
-      "english": "Scyther"
-    },
+    "name": "Scyther",
     "type": ["Bug", "Flying"],
     "base": {
       "HP": 70,
@@ -1838,13 +1718,12 @@
       "Sp. Attack": 55,
       "Sp. Defense": 80,
       "Speed": 105
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/scyther.png"
   },
   {
     "id": 124,
-    "name": {
-      "english": "Jynx"
-    },
+    "name": "Jynx",
     "type": ["Ice", "Psychic"],
     "base": {
       "HP": 65,
@@ -1853,13 +1732,12 @@
       "Sp. Attack": 115,
       "Sp. Defense": 95,
       "Speed": 95
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/jynx.png"
   },
   {
     "id": 125,
-    "name": {
-      "english": "Electabuzz"
-    },
+    "name": "Electabuzz",
     "type": ["Electric"],
     "base": {
       "HP": 65,
@@ -1868,13 +1746,12 @@
       "Sp. Attack": 95,
       "Sp. Defense": 85,
       "Speed": 105
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/electabuzz.png"
   },
   {
     "id": 126,
-    "name": {
-      "english": "Magmar"
-    },
+    "name": "Magmar",
     "type": ["Fire"],
     "base": {
       "HP": 65,
@@ -1883,13 +1760,12 @@
       "Sp. Attack": 100,
       "Sp. Defense": 85,
       "Speed": 93
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/magmar.png"
   },
   {
     "id": 127,
-    "name": {
-      "english": "Pinsir"
-    },
+    "name": "Pinsir",
     "type": ["Bug"],
     "base": {
       "HP": 65,
@@ -1898,13 +1774,12 @@
       "Sp. Attack": 55,
       "Sp. Defense": 70,
       "Speed": 85
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/pinsir.png"
   },
   {
     "id": 128,
-    "name": {
-      "english": "Tauros"
-    },
+    "name": "Tauros",
     "type": ["Normal"],
     "base": {
       "HP": 75,
@@ -1913,13 +1788,12 @@
       "Sp. Attack": 40,
       "Sp. Defense": 70,
       "Speed": 110
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/tauros.png"
   },
   {
     "id": 129,
-    "name": {
-      "english": "Magikarp"
-    },
+    "name": "Magikarp",
     "type": ["Water"],
     "base": {
       "HP": 20,
@@ -1928,13 +1802,12 @@
       "Sp. Attack": 15,
       "Sp. Defense": 20,
       "Speed": 80
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/magikarp.png"
   },
   {
     "id": 130,
-    "name": {
-      "english": "Gyarados"
-    },
+    "name": "Gyarados",
     "type": ["Water", "Flying"],
     "base": {
       "HP": 95,
@@ -1943,13 +1816,12 @@
       "Sp. Attack": 60,
       "Sp. Defense": 100,
       "Speed": 81
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/gyarados.png"
   },
   {
     "id": 131,
-    "name": {
-      "english": "Lapras"
-    },
+    "name": "Lapras",
     "type": ["Water", "Ice"],
     "base": {
       "HP": 130,
@@ -1958,13 +1830,12 @@
       "Sp. Attack": 85,
       "Sp. Defense": 95,
       "Speed": 60
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/lapras.png"
   },
   {
     "id": 132,
-    "name": {
-      "english": "Ditto"
-    },
+    "name": "Ditto",
     "type": ["Normal"],
     "base": {
       "HP": 48,
@@ -1973,13 +1844,12 @@
       "Sp. Attack": 48,
       "Sp. Defense": 48,
       "Speed": 48
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/ditto.png"
   },
   {
     "id": 133,
-    "name": {
-      "english": "Eevee"
-    },
+    "name": "Eevee",
     "type": ["Normal"],
     "base": {
       "HP": 55,
@@ -1988,13 +1858,12 @@
       "Sp. Attack": 45,
       "Sp. Defense": 65,
       "Speed": 55
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/eevee.png"
   },
   {
     "id": 134,
-    "name": {
-      "english": "Vaporeon"
-    },
+    "name": "Vaporeon",
     "type": ["Water"],
     "base": {
       "HP": 130,
@@ -2003,13 +1872,12 @@
       "Sp. Attack": 110,
       "Sp. Defense": 95,
       "Speed": 65
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/vaporeon.png"
   },
   {
     "id": 135,
-    "name": {
-      "english": "Jolteon"
-    },
+    "name": "Jolteon",
     "type": ["Electric"],
     "base": {
       "HP": 65,
@@ -2018,13 +1886,12 @@
       "Sp. Attack": 110,
       "Sp. Defense": 95,
       "Speed": 130
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/jolteon.png"
   },
   {
     "id": 136,
-    "name": {
-      "english": "Flareon"
-    },
+    "name": "Flareon",
     "type": ["Fire"],
     "base": {
       "HP": 65,
@@ -2033,13 +1900,12 @@
       "Sp. Attack": 95,
       "Sp. Defense": 110,
       "Speed": 65
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/flareon.png"
   },
   {
     "id": 137,
-    "name": {
-      "english": "Porygon"
-    },
+    "name": "Porygon",
     "type": ["Normal"],
     "base": {
       "HP": 65,
@@ -2048,13 +1914,12 @@
       "Sp. Attack": 85,
       "Sp. Defense": 75,
       "Speed": 40
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/porygon.png"
   },
   {
     "id": 138,
-    "name": {
-      "english": "Omanyte"
-    },
+    "name": "Omanyte",
     "type": ["Rock", "Water"],
     "base": {
       "HP": 35,
@@ -2063,13 +1928,12 @@
       "Sp. Attack": 90,
       "Sp. Defense": 55,
       "Speed": 35
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/omanyte.png"
   },
   {
     "id": 139,
-    "name": {
-      "english": "Omastar"
-    },
+    "name": "Omastar",
     "type": ["Rock", "Water"],
     "base": {
       "HP": 70,
@@ -2078,13 +1942,12 @@
       "Sp. Attack": 115,
       "Sp. Defense": 70,
       "Speed": 55
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/omastar.png"
   },
   {
     "id": 140,
-    "name": {
-      "english": "Kabuto"
-    },
+    "name": "Kabuto",
     "type": ["Rock", "Water"],
     "base": {
       "HP": 30,
@@ -2093,13 +1956,12 @@
       "Sp. Attack": 55,
       "Sp. Defense": 45,
       "Speed": 55
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/kabuto.png"
   },
   {
     "id": 141,
-    "name": {
-      "english": "Kabutops"
-    },
+    "name": "Kabutops",
     "type": ["Rock", "Water"],
     "base": {
       "HP": 60,
@@ -2108,13 +1970,12 @@
       "Sp. Attack": 65,
       "Sp. Defense": 70,
       "Speed": 80
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/kabutops.png"
   },
   {
     "id": 142,
-    "name": {
-      "english": "Aerodactyl"
-    },
+    "name": "Aerodactyl",
     "type": ["Rock", "Flying"],
     "base": {
       "HP": 80,
@@ -2123,13 +1984,12 @@
       "Sp. Attack": 60,
       "Sp. Defense": 75,
       "Speed": 130
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/aerodactyl.png"
   },
   {
     "id": 143,
-    "name": {
-      "english": "Snorlax"
-    },
+    "name": "Snorlax",
     "type": ["Normal"],
     "base": {
       "HP": 160,
@@ -2138,13 +1998,12 @@
       "Sp. Attack": 65,
       "Sp. Defense": 110,
       "Speed": 30
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/snorlax.png"
   },
   {
     "id": 144,
-    "name": {
-      "english": "Articuno"
-    },
+    "name": "Articuno",
     "type": ["Ice", "Flying"],
     "base": {
       "HP": 90,
@@ -2153,13 +2012,12 @@
       "Sp. Attack": 95,
       "Sp. Defense": 125,
       "Speed": 85
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/articuno.png"
   },
   {
     "id": 145,
-    "name": {
-      "english": "Zapdos"
-    },
+    "name": "Zapdos",
     "type": ["Electric", "Flying"],
     "base": {
       "HP": 90,
@@ -2168,13 +2026,12 @@
       "Sp. Attack": 125,
       "Sp. Defense": 90,
       "Speed": 100
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/zapdos.png"
   },
   {
     "id": 146,
-    "name": {
-      "english": "Moltres"
-    },
+    "name": "Moltres",
     "type": ["Fire", "Flying"],
     "base": {
       "HP": 90,
@@ -2183,13 +2040,12 @@
       "Sp. Attack": 125,
       "Sp. Defense": 85,
       "Speed": 90
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/moltres.png"
   },
   {
     "id": 147,
-    "name": {
-      "english": "Dratini"
-    },
+    "name": "Dratini",
     "type": ["Dragon"],
     "base": {
       "HP": 41,
@@ -2198,13 +2054,12 @@
       "Sp. Attack": 50,
       "Sp. Defense": 50,
       "Speed": 50
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/dratini.png"
   },
   {
     "id": 148,
-    "name": {
-      "english": "Dragonair"
-    },
+    "name": "Dragonair",
     "type": ["Dragon"],
     "base": {
       "HP": 61,
@@ -2213,13 +2068,12 @@
       "Sp. Attack": 70,
       "Sp. Defense": 70,
       "Speed": 70
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/dragonair.png"
   },
   {
     "id": 149,
-    "name": {
-      "english": "Dragonite"
-    },
+    "name": "Dragonite",
     "type": ["Dragon", "Flying"],
     "base": {
       "HP": 91,
@@ -2228,13 +2082,12 @@
       "Sp. Attack": 100,
       "Sp. Defense": 100,
       "Speed": 80
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/dragonite.png"
   },
   {
     "id": 150,
-    "name": {
-      "english": "Mewtwo"
-    },
+    "name": "Mewtwo",
     "type": ["Psychic"],
     "base": {
       "HP": 106,
@@ -2243,13 +2096,12 @@
       "Sp. Attack": 154,
       "Sp. Defense": 90,
       "Speed": 130
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/mewtwo.png"
   },
   {
     "id": 151,
-    "name": {
-      "english": "Mew"
-    },
+    "name": "Mew",
     "type": ["Psychic"],
     "base": {
       "HP": 100,
@@ -2258,6 +2110,7 @@
       "Sp. Attack": 100,
       "Sp. Defense": 100,
       "Speed": 100
-    }
+    },
+    "img": "/images/pokemon/gen1/sprites/mew.png"
   }
 ]

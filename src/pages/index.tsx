@@ -1,9 +1,28 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import { trpc } from '../utils/trpc';
+import { useEffect, useState } from 'react';
+
+// https://github.com/fanzeyi/pokemon.json/blob/master/moves.json
 
 const Home: NextPage = () => {
   const hello = trpc.useQuery(['example.hello', { text: 'from tRPC' }]);
+
+  const [pokemon, setPokemon] = useState([]);
+
+  const pokeSearch = async () => {
+    await fetch('/json/gen1.json')
+      .then((res) => {
+        return res.json();
+      })
+      .then((data) => {
+        setPokemon(data);
+      });
+  };
+
+  useEffect(() => {
+    pokeSearch();
+  }, []);
 
   return (
     <>
@@ -54,7 +73,15 @@ const Home: NextPage = () => {
           />
         </div>
         <div className='flex w-full items-center justify-center pt-6 text-2xl text-blue-500'>
-          {hello.data ? <p>{hello.data.greeting}</p> : <p>Loading..</p>}
+          {/* {hello.data ? <p>{hello.data.greeting}</p> : <p>Loading..</p>} */}
+          <ul>
+            {pokemon.map((mon: any, i: number) => (
+              <div>
+                <li key={i}>{mon.name}</li>
+                <img src={mon.img} />
+              </div>
+            ))}
+          </ul>
         </div>
       </main>
     </>
