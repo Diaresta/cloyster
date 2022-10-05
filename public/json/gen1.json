@@ -11,7 +11,8 @@
       "Sp. Defense": 65,
       "Speed": 45
     },
-    "img": "/images/pokemon/gen1/sprites/bulbasaur.png"
+    "sprite": "/images/pokemon/gen1/sprites/bulbasaur.png",
+    "icon": "/images/pokemon/gen1/icons/1.png"
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
       "Sp. Defense": 80,
       "Speed": 60
     },
-    "img": "/images/pokemon/gen1/sprites/ivysaur.png"
+    "sprite": "/images/pokemon/gen1/sprites/ivysaur.png",
+    "icon": "/images/pokemon/gen1/icons/2.png"
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@
       "Sp. Defense": 100,
       "Speed": 80
     },
-    "img": "/images/pokemon/gen1/sprites/venusaur.png"
+    "sprite": "/images/pokemon/gen1/sprites/venusaur.png",
+    "icon": "/images/pokemon/gen1/icons/3.png"
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@
       "Sp. Defense": 50,
       "Speed": 65
     },
-    "img": "/images/pokemon/gen1/sprites/charmander.png"
+    "sprite": "/images/pokemon/gen1/sprites/charmander.png",
+    "icon": "/images/pokemon/gen1/icons/4.png"
   },
   {
     "id": 5,
@@ -67,7 +71,8 @@
       "Sp. Defense": 65,
       "Speed": 80
     },
-    "img": "/images/pokemon/gen1/sprites/charmeleon.png"
+    "sprite": "/images/pokemon/gen1/sprites/charmeleon.png",
+    "icon": "/images/pokemon/gen1/icons/5.png"
   },
   {
     "id": 6,
@@ -81,7 +86,8 @@
       "Sp. Defense": 85,
       "Speed": 100
     },
-    "img": "/images/pokemon/gen1/sprites/charizard.png"
+    "sprite": "/images/pokemon/gen1/sprites/charizard.png",
+    "icon": "/images/pokemon/gen1/icons/6.png"
   },
   {
     "id": 7,
@@ -95,7 +101,8 @@
       "Sp. Defense": 64,
       "Speed": 43
     },
-    "img": "/images/pokemon/gen1/sprites/squirtle.png"
+    "sprite": "/images/pokemon/gen1/sprites/squirtle.png",
+    "icon": "/images/pokemon/gen1/icons/7.png"
   },
   {
     "id": 8,
@@ -109,7 +116,8 @@
       "Sp. Defense": 80,
       "Speed": 58
     },
-    "img": "/images/pokemon/gen1/sprites/wartortle.png"
+    "sprite": "/images/pokemon/gen1/sprites/wartortle.png",
+    "icon": "/images/pokemon/gen1/icons/8.png"
   },
   {
     "id": 9,
@@ -123,7 +131,8 @@
       "Sp. Defense": 105,
       "Speed": 78
     },
-    "img": "/images/pokemon/gen1/sprites/blastoise.png"
+    "sprite": "/images/pokemon/gen1/sprites/blastoise.png",
+    "icon": "/images/pokemon/gen1/icons/9.png"
   },
   {
     "id": 10,
@@ -137,7 +146,8 @@
       "Sp. Defense": 20,
       "Speed": 45
     },
-    "img": "/images/pokemon/gen1/sprites/caterpie.png"
+    "sprite": "/images/pokemon/gen1/sprites/caterpie.png",
+    "icon": "/images/pokemon/gen1/icons/10.png"
   },
   {
     "id": 11,
@@ -151,7 +161,8 @@
       "Sp. Defense": 25,
       "Speed": 30
     },
-    "img": "/images/pokemon/gen1/sprites/metapod.png"
+    "sprite": "/images/pokemon/gen1/sprites/metapod.png",
+    "icon": "/images/pokemon/gen1/icons/11.png"
   },
   {
     "id": 12,
@@ -165,7 +176,8 @@
       "Sp. Defense": 80,
       "Speed": 70
     },
-    "img": "/images/pokemon/gen1/sprites/butterfree.png"
+    "sprite": "/images/pokemon/gen1/sprites/butterfree.png",
+    "icon": "/images/pokemon/gen1/icons/12.png"
   },
   {
     "id": 13,
@@ -179,7 +191,8 @@
       "Sp. Defense": 20,
       "Speed": 50
     },
-    "img": "/images/pokemon/gen1/sprites/weedle.png"
+    "sprite": "/images/pokemon/gen1/sprites/weedle.png",
+    "icon": "/images/pokemon/gen1/icons/13.png"
   },
   {
     "id": 14,
@@ -193,7 +206,8 @@
       "Sp. Defense": 25,
       "Speed": 35
     },
-    "img": "/images/pokemon/gen1/sprites/kakuna.png"
+    "sprite": "/images/pokemon/gen1/sprites/kakuna.png",
+    "icon": "/images/pokemon/gen1/icons/14.png"
   },
   {
     "id": 15,
@@ -207,7 +221,8 @@
       "Sp. Defense": 80,
       "Speed": 75
     },
-    "img": "/images/pokemon/gen1/sprites/beedrill.png"
+    "sprite": "/images/pokemon/gen1/sprites/beedrill.png",
+    "icon": "/images/pokemon/gen1/icons/15.png"
   },
   {
     "id": 16,
@@ -221,7 +236,8 @@
       "Sp. Defense": 35,
       "Speed": 56
     },
-    "img": "/images/pokemon/gen1/sprites/pidgey.png"
+    "sprite": "/images/pokemon/gen1/sprites/pidgey.png",
+    "icon": "/images/pokemon/gen1/icons/16.png"
   },
   {
     "id": 17,
@@ -235,7 +251,8 @@
       "Sp. Defense": 50,
       "Speed": 71
     },
-    "img": "/images/pokemon/gen1/sprites/pidgeotto.png"
+    "sprite": "/images/pokemon/gen1/sprites/pidgeotto.png",
+    "icon": "/images/pokemon/gen1/icons/17.png"
   },
   {
     "id": 18,
@@ -249,7 +266,8 @@
       "Sp. Defense": 70,
       "Speed": 101
     },
-    "img": "/images/pokemon/gen1/sprites/pidgeot.png"
+    "sprite": "/images/pokemon/gen1/sprites/pidgeot.png",
+    "icon": "/images/pokemon/gen1/icons/18.png"
   },
   {
     "id": 19,
@@ -263,7 +281,8 @@
       "Sp. Defense": 35,
       "Speed": 72
     },
-    "img": "/images/pokemon/gen1/sprites/rattata.png"
+    "sprite": "/images/pokemon/gen1/sprites/rattata.png",
+    "icon": "/images/pokemon/gen1/icons/19.png"
   },
   {
     "id": 20,
@@ -277,7 +296,8 @@
       "Sp. Defense": 70,
       "Speed": 97
     },
-    "img": "/images/pokemon/gen1/sprites/raticate.png"
+    "sprite": "/images/pokemon/gen1/sprites/raticate.png",
+    "icon": "/images/pokemon/gen1/icons/20.png"
   },
   {
     "id": 21,
@@ -291,7 +311,8 @@
       "Sp. Defense": 31,
       "Speed": 70
     },
-    "img": "/images/pokemon/gen1/sprites/spearow.png"
+    "sprite": "/images/pokemon/gen1/sprites/spearow.png",
+    "icon": "/images/pokemon/gen1/icons/21.png"
   },
   {
     "id": 22,
@@ -305,7 +326,8 @@
       "Sp. Defense": 61,
       "Speed": 100
     },
-    "img": "/images/pokemon/gen1/sprites/fearow.png"
+    "sprite": "/images/pokemon/gen1/sprites/fearow.png",
+    "icon": "/images/pokemon/gen1/icons/22.png"
   },
   {
     "id": 23,
@@ -319,7 +341,8 @@
       "Sp. Defense": 54,
       "Speed": 55
     },
-    "img": "/images/pokemon/gen1/sprites/ekans.png"
+    "sprite": "/images/pokemon/gen1/sprites/ekans.png",
+    "icon": "/images/pokemon/gen1/icons/23.png"
   },
   {
     "id": 24,
@@ -333,7 +356,8 @@
       "Sp. Defense": 79,
       "Speed": 80
     },
-    "img": "/images/pokemon/gen1/sprites/arbok.png"
+    "sprite": "/images/pokemon/gen1/sprites/arbok.png",
+    "icon": "/images/pokemon/gen1/icons/24.png"
   },
   {
     "id": 25,
@@ -347,7 +371,8 @@
       "Sp. Defense": 50,
       "Speed": 90
     },
-    "img": "/images/pokemon/gen1/sprites/pikachu.png"
+    "sprite": "/images/pokemon/gen1/sprites/pikachu.png",
+    "icon": "/images/pokemon/gen1/icons/25.png"
   },
   {
     "id": 26,
@@ -361,7 +386,8 @@
       "Sp. Defense": 80,
       "Speed": 110
     },
-    "img": "/images/pokemon/gen1/sprites/raichu.png"
+    "sprite": "/images/pokemon/gen1/sprites/raichu.png",
+    "icon": "/images/pokemon/gen1/icons/26.png"
   },
   {
     "id": 27,
@@ -375,7 +401,8 @@
       "Sp. Defense": 30,
       "Speed": 40
     },
-    "img": "/images/pokemon/gen1/sprites/sandshrew.png"
+    "sprite": "/images/pokemon/gen1/sprites/sandshrew.png",
+    "icon": "/images/pokemon/gen1/icons/27.png"
   },
   {
     "id": 28,
@@ -389,7 +416,8 @@
       "Sp. Defense": 55,
       "Speed": 65
     },
-    "img": "/images/pokemon/gen1/sprites/sandslash.png"
+    "sprite": "/images/pokemon/gen1/sprites/sandslash.png",
+    "icon": "/images/pokemon/gen1/icons/28.png"
   },
   {
     "id": 29,
@@ -403,7 +431,8 @@
       "Sp. Defense": 40,
       "Speed": 41
     },
-    "img": "/images/pokemon/gen1/sprites/nidoranf.png"
+    "sprite": "/images/pokemon/gen1/sprites/nidoranf.png",
+    "icon": "/images/pokemon/gen1/icons/29.png"
   },
   {
     "id": 30,
@@ -417,7 +446,8 @@
       "Sp. Defense": 55,
       "Speed": 56
     },
-    "img": "/images/pokemon/gen1/sprites/nidorina.png"
+    "sprite": "/images/pokemon/gen1/sprites/nidorina.png",
+    "icon": "/images/pokemon/gen1/icons/30.png"
   },
   {
     "id": 31,
@@ -431,7 +461,8 @@
       "Sp. Defense": 85,
       "Speed": 76
     },
-    "img": "/images/pokemon/gen1/sprites/nidoqueen.png"
+    "sprite": "/images/pokemon/gen1/sprites/nidoqueen.png",
+    "icon": "/images/pokemon/gen1/icons/31.png"
   },
   {
     "id": 32,
@@ -445,7 +476,8 @@
       "Sp. Defense": 40,
       "Speed": 50
     },
-    "img": "/images/pokemon/gen1/sprites/nidoranm.png"
+    "sprite": "/images/pokemon/gen1/sprites/nidoranm.png",
+    "icon": "/images/pokemon/gen1/icons/32.png"
   },
   {
     "id": 33,
@@ -459,7 +491,8 @@
       "Sp. Defense": 55,
       "Speed": 65
     },
-    "img": "/images/pokemon/gen1/sprites/nidorino.png"
+    "sprite": "/images/pokemon/gen1/sprites/nidorino.png",
+    "icon": "/images/pokemon/gen1/icons/33.png"
   },
   {
     "id": 34,
@@ -473,7 +506,8 @@
       "Sp. Defense": 75,
       "Speed": 85
     },
-    "img": "/images/pokemon/gen1/sprites/nidoking.png"
+    "sprite": "/images/pokemon/gen1/sprites/nidoking.png",
+    "icon": "/images/pokemon/gen1/icons/34.png"
   },
   {
     "id": 35,
@@ -487,7 +521,8 @@
       "Sp. Defense": 65,
       "Speed": 35
     },
-    "img": "/images/pokemon/gen1/sprites/clefairy.png"
+    "sprite": "/images/pokemon/gen1/sprites/clefairy.png",
+    "icon": "/images/pokemon/gen1/icons/35.png"
   },
   {
     "id": 36,
@@ -501,7 +536,8 @@
       "Sp. Defense": 90,
       "Speed": 60
     },
-    "img": "/images/pokemon/gen1/sprites/clefable.png"
+    "sprite": "/images/pokemon/gen1/sprites/clefable.png",
+    "icon": "/images/pokemon/gen1/icons/36.png"
   },
   {
     "id": 37,
@@ -515,7 +551,8 @@
       "Sp. Defense": 65,
       "Speed": 65
     },
-    "img": "/images/pokemon/gen1/sprites/vulpix.png"
+    "sprite": "/images/pokemon/gen1/sprites/vulpix.png",
+    "icon": "/images/pokemon/gen1/icons/37.png"
   },
   {
     "id": 38,
@@ -529,7 +566,8 @@
       "Sp. Defense": 100,
       "Speed": 100
     },
-    "img": "/images/pokemon/gen1/sprites/ninetales.png"
+    "sprite": "/images/pokemon/gen1/sprites/ninetales.png",
+    "icon": "/images/pokemon/gen1/icons/38.png"
   },
   {
     "id": 39,
@@ -543,7 +581,8 @@
       "Sp. Defense": 25,
       "Speed": 20
     },
-    "img": "/images/pokemon/gen1/sprites/jigglypuff.png"
+    "sprite": "/images/pokemon/gen1/sprites/jigglypuff.png",
+    "icon": "/images/pokemon/gen1/icons/39.png"
   },
   {
     "id": 40,
@@ -557,7 +596,8 @@
       "Sp. Defense": 50,
       "Speed": 45
     },
-    "img": "/images/pokemon/gen1/sprites/wigglytuff.png"
+    "sprite": "/images/pokemon/gen1/sprites/wigglytuff.png",
+    "icon": "/images/pokemon/gen1/icons/40.png"
   },
   {
     "id": 41,
@@ -571,7 +611,8 @@
       "Sp. Defense": 40,
       "Speed": 55
     },
-    "img": "/images/pokemon/gen1/sprites/zubat.png"
+    "sprite": "/images/pokemon/gen1/sprites/zubat.png",
+    "icon": "/images/pokemon/gen1/icons/41.png"
   },
   {
     "id": 42,
@@ -585,7 +626,8 @@
       "Sp. Defense": 75,
       "Speed": 90
     },
-    "img": "/images/pokemon/gen1/sprites/golbat.png"
+    "sprite": "/images/pokemon/gen1/sprites/golbat.png",
+    "icon": "/images/pokemon/gen1/icons/42.png"
   },
   {
     "id": 43,
@@ -599,7 +641,8 @@
       "Sp. Defense": 65,
       "Speed": 30
     },
-    "img": "/images/pokemon/gen1/sprites/oddish.png"
+    "sprite": "/images/pokemon/gen1/sprites/oddish.png",
+    "icon": "/images/pokemon/gen1/icons/43.png"
   },
   {
     "id": 44,
@@ -613,7 +656,8 @@
       "Sp. Defense": 75,
       "Speed": 40
     },
-    "img": "/images/pokemon/gen1/sprites/gloom.png"
+    "sprite": "/images/pokemon/gen1/sprites/gloom.png",
+    "icon": "/images/pokemon/gen1/icons/44.png"
   },
   {
     "id": 45,
@@ -627,7 +671,8 @@
       "Sp. Defense": 90,
       "Speed": 50
     },
-    "img": "/images/pokemon/gen1/sprites/vileplume.png"
+    "sprite": "/images/pokemon/gen1/sprites/vileplume.png",
+    "icon": "/images/pokemon/gen1/icons/45.png"
   },
   {
     "id": 46,
@@ -641,7 +686,8 @@
       "Sp. Defense": 55,
       "Speed": 25
     },
-    "img": "/images/pokemon/gen1/sprites/paras.png"
+    "sprite": "/images/pokemon/gen1/sprites/paras.png",
+    "icon": "/images/pokemon/gen1/icons/46.png"
   },
   {
     "id": 47,
@@ -655,7 +701,8 @@
       "Sp. Defense": 80,
       "Speed": 30
     },
-    "img": "/images/pokemon/gen1/sprites/parasect.png"
+    "sprite": "/images/pokemon/gen1/sprites/parasect.png",
+    "icon": "/images/pokemon/gen1/icons/47.png"
   },
   {
     "id": 48,
@@ -669,7 +716,8 @@
       "Sp. Defense": 55,
       "Speed": 45
     },
-    "img": "/images/pokemon/gen1/sprites/venonat.png"
+    "sprite": "/images/pokemon/gen1/sprites/venonat.png",
+    "icon": "/images/pokemon/gen1/icons/48.png"
   },
   {
     "id": 49,
@@ -683,7 +731,8 @@
       "Sp. Defense": 75,
       "Speed": 90
     },
-    "img": "/images/pokemon/gen1/sprites/venomoth.png"
+    "sprite": "/images/pokemon/gen1/sprites/venomoth.png",
+    "icon": "/images/pokemon/gen1/icons/49.png"
   },
   {
     "id": 50,
@@ -697,7 +746,8 @@
       "Sp. Defense": 45,
       "Speed": 95
     },
-    "img": "/images/pokemon/gen1/sprites/diglett.png"
+    "sprite": "/images/pokemon/gen1/sprites/diglett.png",
+    "icon": "/images/pokemon/gen1/icons/50.png"
   },
   {
     "id": 51,
@@ -711,7 +761,8 @@
       "Sp. Defense": 70,
       "Speed": 120
     },
-    "img": "/images/pokemon/gen1/sprites/dugtrio.png"
+    "sprite": "/images/pokemon/gen1/sprites/dugtrio.png",
+    "icon": "/images/pokemon/gen1/icons/51.png"
   },
   {
     "id": 52,
@@ -725,7 +776,8 @@
       "Sp. Defense": 40,
       "Speed": 90
     },
-    "img": "/images/pokemon/gen1/sprites/meowth.png"
+    "sprite": "/images/pokemon/gen1/sprites/meowth.png",
+    "icon": "/images/pokemon/gen1/icons/52.png"
   },
   {
     "id": 53,
@@ -739,7 +791,8 @@
       "Sp. Defense": 65,
       "Speed": 115
     },
-    "img": "/images/pokemon/gen1/sprites/persian.png"
+    "sprite": "/images/pokemon/gen1/sprites/persian.png",
+    "icon": "/images/pokemon/gen1/icons/53.png"
   },
   {
     "id": 54,
@@ -753,7 +806,8 @@
       "Sp. Defense": 50,
       "Speed": 55
     },
-    "img": "/images/pokemon/gen1/sprites/psyduck.png"
+    "sprite": "/images/pokemon/gen1/sprites/psyduck.png",
+    "icon": "/images/pokemon/gen1/icons/54.png"
   },
   {
     "id": 55,
@@ -767,7 +821,8 @@
       "Sp. Defense": 80,
       "Speed": 85
     },
-    "img": "/images/pokemon/gen1/sprites/golduck.png"
+    "sprite": "/images/pokemon/gen1/sprites/golduck.png",
+    "icon": "/images/pokemon/gen1/icons/55.png"
   },
   {
     "id": 56,
@@ -781,7 +836,8 @@
       "Sp. Defense": 45,
       "Speed": 70
     },
-    "img": "/images/pokemon/gen1/sprites/mankey.png"
+    "sprite": "/images/pokemon/gen1/sprites/mankey.png",
+    "icon": "/images/pokemon/gen1/icons/56.png"
   },
   {
     "id": 57,
@@ -795,7 +851,8 @@
       "Sp. Defense": 70,
       "Speed": 95
     },
-    "img": "/images/pokemon/gen1/sprites/primeape.png"
+    "sprite": "/images/pokemon/gen1/sprites/primeape.png",
+    "icon": "/images/pokemon/gen1/icons/57.png"
   },
   {
     "id": 58,
@@ -809,7 +866,8 @@
       "Sp. Defense": 50,
       "Speed": 60
     },
-    "img": "/images/pokemon/gen1/sprites/growlithe.png"
+    "sprite": "/images/pokemon/gen1/sprites/growlithe.png",
+    "icon": "/images/pokemon/gen1/icons/58.png"
   },
   {
     "id": 59,
@@ -823,7 +881,8 @@
       "Sp. Defense": 80,
       "Speed": 95
     },
-    "img": "/images/pokemon/gen1/sprites/arcanine.png"
+    "sprite": "/images/pokemon/gen1/sprites/arcanine.png",
+    "icon": "/images/pokemon/gen1/icons/59.png"
   },
   {
     "id": 60,
@@ -837,7 +896,8 @@
       "Sp. Defense": 40,
       "Speed": 90
     },
-    "img": "/images/pokemon/gen1/sprites/poliwag.png"
+    "sprite": "/images/pokemon/gen1/sprites/poliwag.png",
+    "icon": "/images/pokemon/gen1/icons/60.png"
   },
   {
     "id": 61,
@@ -851,7 +911,8 @@
       "Sp. Defense": 50,
       "Speed": 90
     },
-    "img": "/images/pokemon/gen1/sprites/poliwhirl.png"
+    "sprite": "/images/pokemon/gen1/sprites/poliwhirl.png",
+    "icon": "/images/pokemon/gen1/icons/61.png"
   },
   {
     "id": 62,
@@ -865,7 +926,8 @@
       "Sp. Defense": 90,
       "Speed": 70
     },
-    "img": "/images/pokemon/gen1/sprites/poliwrath.png"
+    "sprite": "/images/pokemon/gen1/sprites/poliwrath.png",
+    "icon": "/images/pokemon/gen1/icons/62.png"
   },
   {
     "id": 63,
@@ -879,7 +941,8 @@
       "Sp. Defense": 55,
       "Speed": 90
     },
-    "img": "/images/pokemon/gen1/sprites/abra.png"
+    "sprite": "/images/pokemon/gen1/sprites/abra.png",
+    "icon": "/images/pokemon/gen1/icons/63.png"
   },
   {
     "id": 64,
@@ -893,7 +956,8 @@
       "Sp. Defense": 70,
       "Speed": 105
     },
-    "img": "/images/pokemon/gen1/sprites/kadabra.png"
+    "sprite": "/images/pokemon/gen1/sprites/kadabra.png",
+    "icon": "/images/pokemon/gen1/icons/64.png"
   },
   {
     "id": 65,
@@ -907,7 +971,8 @@
       "Sp. Defense": 95,
       "Speed": 120
     },
-    "img": "/images/pokemon/gen1/sprites/alakazam.png"
+    "sprite": "/images/pokemon/gen1/sprites/alakazam.png",
+    "icon": "/images/pokemon/gen1/icons/65.png"
   },
   {
     "id": 66,
@@ -921,7 +986,8 @@
       "Sp. Defense": 35,
       "Speed": 35
     },
-    "img": "/images/pokemon/gen1/sprites/machop.png"
+    "sprite": "/images/pokemon/gen1/sprites/machop.png",
+    "icon": "/images/pokemon/gen1/icons/66.png"
   },
   {
     "id": 67,
@@ -935,7 +1001,8 @@
       "Sp. Defense": 60,
       "Speed": 45
     },
-    "img": "/images/pokemon/gen1/sprites/machoke.png"
+    "sprite": "/images/pokemon/gen1/sprites/machoke.png",
+    "icon": "/images/pokemon/gen1/icons/67.png"
   },
   {
     "id": 68,
@@ -949,7 +1016,8 @@
       "Sp. Defense": 85,
       "Speed": 55
     },
-    "img": "/images/pokemon/gen1/sprites/machamp.png"
+    "sprite": "/images/pokemon/gen1/sprites/machamp.png",
+    "icon": "/images/pokemon/gen1/icons/68.png"
   },
   {
     "id": 69,
@@ -963,7 +1031,8 @@
       "Sp. Defense": 30,
       "Speed": 40
     },
-    "img": "/images/pokemon/gen1/sprites/bellsprout.png"
+    "sprite": "/images/pokemon/gen1/sprites/bellsprout.png",
+    "icon": "/images/pokemon/gen1/icons/69.png"
   },
   {
     "id": 70,
@@ -977,7 +1046,8 @@
       "Sp. Defense": 45,
       "Speed": 55
     },
-    "img": "/images/pokemon/gen1/sprites/weepinbell.png"
+    "sprite": "/images/pokemon/gen1/sprites/weepinbell.png",
+    "icon": "/images/pokemon/gen1/icons/70.png"
   },
   {
     "id": 71,
@@ -991,7 +1061,8 @@
       "Sp. Defense": 70,
       "Speed": 70
     },
-    "img": "/images/pokemon/gen1/sprites/victreebel.png"
+    "sprite": "/images/pokemon/gen1/sprites/victreebel.png",
+    "icon": "/images/pokemon/gen1/icons/71.png"
   },
   {
     "id": 72,
@@ -1005,7 +1076,8 @@
       "Sp. Defense": 100,
       "Speed": 70
     },
-    "img": "/images/pokemon/gen1/sprites/tentacool.png"
+    "sprite": "/images/pokemon/gen1/sprites/tentacool.png",
+    "icon": "/images/pokemon/gen1/icons/72.png"
   },
   {
     "id": 73,
@@ -1019,7 +1091,8 @@
       "Sp. Defense": 120,
       "Speed": 100
     },
-    "img": "/images/pokemon/gen1/sprites/tentacruel.png"
+    "sprite": "/images/pokemon/gen1/sprites/tentacruel.png",
+    "icon": "/images/pokemon/gen1/icons/73.png"
   },
   {
     "id": 74,
@@ -1033,7 +1106,8 @@
       "Sp. Defense": 30,
       "Speed": 20
     },
-    "img": "/images/pokemon/gen1/sprites/geodude.png"
+    "sprite": "/images/pokemon/gen1/sprites/geodude.png",
+    "icon": "/images/pokemon/gen1/icons/74.png"
   },
   {
     "id": 75,
@@ -1047,7 +1121,8 @@
       "Sp. Defense": 45,
       "Speed": 35
     },
-    "img": "/images/pokemon/gen1/sprites/graveler.png"
+    "sprite": "/images/pokemon/gen1/sprites/graveler.png",
+    "icon": "/images/pokemon/gen1/icons/75.png"
   },
   {
     "id": 76,
@@ -1061,7 +1136,8 @@
       "Sp. Defense": 65,
       "Speed": 45
     },
-    "img": "/images/pokemon/gen1/sprites/golem.png"
+    "sprite": "/images/pokemon/gen1/sprites/golem.png",
+    "icon": "/images/pokemon/gen1/icons/76.png"
   },
   {
     "id": 77,
@@ -1075,7 +1151,8 @@
       "Sp. Defense": 65,
       "Speed": 90
     },
-    "img": "/images/pokemon/gen1/sprites/ponyta.png"
+    "sprite": "/images/pokemon/gen1/sprites/ponyta.png",
+    "icon": "/images/pokemon/gen1/icons/77.png"
   },
   {
     "id": 78,
@@ -1089,7 +1166,8 @@
       "Sp. Defense": 80,
       "Speed": 105
     },
-    "img": "/images/pokemon/gen1/sprites/rapidash.png"
+    "sprite": "/images/pokemon/gen1/sprites/rapidash.png",
+    "icon": "/images/pokemon/gen1/icons/78.png"
   },
   {
     "id": 79,
@@ -1103,7 +1181,8 @@
       "Sp. Defense": 40,
       "Speed": 15
     },
-    "img": "/images/pokemon/gen1/sprites/slowpoke.png"
+    "sprite": "/images/pokemon/gen1/sprites/slowpoke.png",
+    "icon": "/images/pokemon/gen1/icons/79.png"
   },
   {
     "id": 80,
@@ -1117,7 +1196,8 @@
       "Sp. Defense": 80,
       "Speed": 30
     },
-    "img": "/images/pokemon/gen1/sprites/slowbro.png"
+    "sprite": "/images/pokemon/gen1/sprites/slowbro.png",
+    "icon": "/images/pokemon/gen1/icons/80.png"
   },
   {
     "id": 81,
@@ -1131,7 +1211,8 @@
       "Sp. Defense": 55,
       "Speed": 45
     },
-    "img": "/images/pokemon/gen1/sprites/magnemite.png"
+    "sprite": "/images/pokemon/gen1/sprites/magnemite.png",
+    "icon": "/images/pokemon/gen1/icons/81.png"
   },
   {
     "id": 82,
@@ -1145,7 +1226,8 @@
       "Sp. Defense": 70,
       "Speed": 70
     },
-    "img": "/images/pokemon/gen1/sprites/magneton.png"
+    "sprite": "/images/pokemon/gen1/sprites/magneton.png",
+    "icon": "/images/pokemon/gen1/icons/82.png"
   },
   {
     "id": 83,
@@ -1159,7 +1241,8 @@
       "Sp. Defense": 62,
       "Speed": 60
     },
-    "img": "/images/pokemon/gen1/sprites/farfetchd.png"
+    "sprite": "/images/pokemon/gen1/sprites/farfetchd.png",
+    "icon": "/images/pokemon/gen1/icons/83.png"
   },
   {
     "id": 84,
@@ -1173,7 +1256,8 @@
       "Sp. Defense": 35,
       "Speed": 75
     },
-    "img": "/images/pokemon/gen1/sprites/doduo.png"
+    "sprite": "/images/pokemon/gen1/sprites/doduo.png",
+    "icon": "/images/pokemon/gen1/icons/84.png"
   },
   {
     "id": 85,
@@ -1187,7 +1271,8 @@
       "Sp. Defense": 60,
       "Speed": 110
     },
-    "img": "/images/pokemon/gen1/sprites/dodrio.png"
+    "sprite": "/images/pokemon/gen1/sprites/dodrio.png",
+    "icon": "/images/pokemon/gen1/icons/85.png"
   },
   {
     "id": 86,
@@ -1201,7 +1286,8 @@
       "Sp. Defense": 70,
       "Speed": 45
     },
-    "img": "/images/pokemon/gen1/sprites/seel.png"
+    "sprite": "/images/pokemon/gen1/sprites/seel.png",
+    "icon": "/images/pokemon/gen1/icons/86.png"
   },
   {
     "id": 87,
@@ -1215,7 +1301,8 @@
       "Sp. Defense": 95,
       "Speed": 70
     },
-    "img": "/images/pokemon/gen1/sprites/dewgong.png"
+    "sprite": "/images/pokemon/gen1/sprites/dewgong.png",
+    "icon": "/images/pokemon/gen1/icons/87.png"
   },
   {
     "id": 88,
@@ -1229,7 +1316,8 @@
       "Sp. Defense": 50,
       "Speed": 25
     },
-    "img": "/images/pokemon/gen1/sprites/grimer.png"
+    "sprite": "/images/pokemon/gen1/sprites/grimer.png",
+    "icon": "/images/pokemon/gen1/icons/88.png"
   },
   {
     "id": 89,
@@ -1243,7 +1331,8 @@
       "Sp. Defense": 100,
       "Speed": 50
     },
-    "img": "/images/pokemon/gen1/sprites/muk.png"
+    "sprite": "/images/pokemon/gen1/sprites/muk.png",
+    "icon": "/images/pokemon/gen1/icons/89.png"
   },
   {
     "id": 90,
@@ -1257,7 +1346,8 @@
       "Sp. Defense": 25,
       "Speed": 40
     },
-    "img": "/images/pokemon/gen1/sprites/shellder.png"
+    "sprite": "/images/pokemon/gen1/sprites/shellder.png",
+    "icon": "/images/pokemon/gen1/icons/90.png"
   },
   {
     "id": 91,
@@ -1271,7 +1361,8 @@
       "Sp. Defense": 45,
       "Speed": 70
     },
-    "img": "/images/pokemon/gen1/sprites/cloyster.png"
+    "sprite": "/images/pokemon/gen1/sprites/cloyster.png",
+    "icon": "/images/pokemon/gen1/icons/91.png"
   },
   {
     "id": 92,
@@ -1285,7 +1376,8 @@
       "Sp. Defense": 35,
       "Speed": 80
     },
-    "img": "/images/pokemon/gen1/sprites/gastly.png"
+    "sprite": "/images/pokemon/gen1/sprites/gastly.png",
+    "icon": "/images/pokemon/gen1/icons/92.png"
   },
   {
     "id": 93,
@@ -1299,7 +1391,8 @@
       "Sp. Defense": 55,
       "Speed": 95
     },
-    "img": "/images/pokemon/gen1/sprites/haunter.png"
+    "sprite": "/images/pokemon/gen1/sprites/haunter.png",
+    "icon": "/images/pokemon/gen1/icons/93.png"
   },
   {
     "id": 94,
@@ -1313,7 +1406,8 @@
       "Sp. Defense": 75,
       "Speed": 110
     },
-    "img": "/images/pokemon/gen1/sprites/gengar.png"
+    "sprite": "/images/pokemon/gen1/sprites/gengar.png",
+    "icon": "/images/pokemon/gen1/icons/94.png"
   },
   {
     "id": 95,
@@ -1327,7 +1421,8 @@
       "Sp. Defense": 45,
       "Speed": 70
     },
-    "img": "/images/pokemon/gen1/sprites/onix.png"
+    "sprite": "/images/pokemon/gen1/sprites/onix.png",
+    "icon": "/images/pokemon/gen1/icons/95.png"
   },
   {
     "id": 96,
@@ -1341,7 +1436,8 @@
       "Sp. Defense": 90,
       "Speed": 42
     },
-    "img": "/images/pokemon/gen1/sprites/drowzee.png"
+    "sprite": "/images/pokemon/gen1/sprites/drowzee.png",
+    "icon": "/images/pokemon/gen1/icons/96.png"
   },
   {
     "id": 97,
@@ -1355,7 +1451,8 @@
       "Sp. Defense": 115,
       "Speed": 67
     },
-    "img": "/images/pokemon/gen1/sprites/hypno.png"
+    "sprite": "/images/pokemon/gen1/sprites/hypno.png",
+    "icon": "/images/pokemon/gen1/icons/97.png"
   },
   {
     "id": 98,
@@ -1369,7 +1466,8 @@
       "Sp. Defense": 25,
       "Speed": 50
     },
-    "img": "/images/pokemon/gen1/sprites/krabby.png"
+    "sprite": "/images/pokemon/gen1/sprites/krabby.png",
+    "icon": "/images/pokemon/gen1/icons/98.png"
   },
   {
     "id": 99,
@@ -1383,7 +1481,8 @@
       "Sp. Defense": 50,
       "Speed": 75
     },
-    "img": "/images/pokemon/gen1/sprites/kingler.png"
+    "sprite": "/images/pokemon/gen1/sprites/kingler.png",
+    "icon": "/images/pokemon/gen1/icons/99.png"
   },
   {
     "id": 100,
@@ -1397,7 +1496,8 @@
       "Sp. Defense": 55,
       "Speed": 100
     },
-    "img": "/images/pokemon/gen1/sprites/voltorb.png"
+    "sprite": "/images/pokemon/gen1/sprites/voltorb.png",
+    "icon": "/images/pokemon/gen1/icons/100.png"
   },
   {
     "id": 101,
@@ -1411,7 +1511,8 @@
       "Sp. Defense": 80,
       "Speed": 150
     },
-    "img": "/images/pokemon/gen1/sprites/electrode.png"
+    "sprite": "/images/pokemon/gen1/sprites/electrode.png",
+    "icon": "/images/pokemon/gen1/icons/101.png"
   },
   {
     "id": 102,
@@ -1425,7 +1526,8 @@
       "Sp. Defense": 45,
       "Speed": 40
     },
-    "img": "/images/pokemon/gen1/sprites/exeggcute.png"
+    "sprite": "/images/pokemon/gen1/sprites/exeggcute.png",
+    "icon": "/images/pokemon/gen1/icons/102.png"
   },
   {
     "id": 103,
@@ -1439,7 +1541,8 @@
       "Sp. Defense": 75,
       "Speed": 55
     },
-    "img": "/images/pokemon/gen1/sprites/exeggutor.png"
+    "sprite": "/images/pokemon/gen1/sprites/exeggutor.png",
+    "icon": "/images/pokemon/gen1/icons/103.png"
   },
   {
     "id": 104,
@@ -1453,7 +1556,8 @@
       "Sp. Defense": 50,
       "Speed": 35
     },
-    "img": "/images/pokemon/gen1/sprites/cubone.png"
+    "sprite": "/images/pokemon/gen1/sprites/cubone.png",
+    "icon": "/images/pokemon/gen1/icons/104.png"
   },
   {
     "id": 105,
@@ -1467,7 +1571,8 @@
       "Sp. Defense": 80,
       "Speed": 45
     },
-    "img": "/images/pokemon/gen1/sprites/marowak.png"
+    "sprite": "/images/pokemon/gen1/sprites/marowak.png",
+    "icon": "/images/pokemon/gen1/icons/105.png"
   },
   {
     "id": 106,
@@ -1481,7 +1586,8 @@
       "Sp. Defense": 110,
       "Speed": 87
     },
-    "img": "/images/pokemon/gen1/sprites/hitmonlee.png"
+    "sprite": "/images/pokemon/gen1/sprites/hitmonlee.png",
+    "icon": "/images/pokemon/gen1/icons/106.png"
   },
   {
     "id": 107,
@@ -1495,7 +1601,8 @@
       "Sp. Defense": 110,
       "Speed": 76
     },
-    "img": "/images/pokemon/gen1/sprites/hitmonchan.png"
+    "sprite": "/images/pokemon/gen1/sprites/hitmonchan.png",
+    "icon": "/images/pokemon/gen1/icons/107.png"
   },
   {
     "id": 108,
@@ -1509,7 +1616,8 @@
       "Sp. Defense": 75,
       "Speed": 30
     },
-    "img": "/images/pokemon/gen1/sprites/lickitung.png"
+    "sprite": "/images/pokemon/gen1/sprites/lickitung.png",
+    "icon": "/images/pokemon/gen1/icons/108.png"
   },
   {
     "id": 109,
@@ -1523,7 +1631,8 @@
       "Sp. Defense": 45,
       "Speed": 35
     },
-    "img": "/images/pokemon/gen1/sprites/koffing.png"
+    "sprite": "/images/pokemon/gen1/sprites/koffing.png",
+    "icon": "/images/pokemon/gen1/icons/109.png"
   },
   {
     "id": 110,
@@ -1537,7 +1646,8 @@
       "Sp. Defense": 70,
       "Speed": 60
     },
-    "img": "/images/pokemon/gen1/sprites/weezing.png"
+    "sprite": "/images/pokemon/gen1/sprites/weezing.png",
+    "icon": "/images/pokemon/gen1/icons/110.png"
   },
   {
     "id": 111,
@@ -1551,7 +1661,8 @@
       "Sp. Defense": 30,
       "Speed": 25
     },
-    "img": "/images/pokemon/gen1/sprites/rhyhorn.png"
+    "sprite": "/images/pokemon/gen1/sprites/rhyhorn.png",
+    "icon": "/images/pokemon/gen1/icons/111.png"
   },
   {
     "id": 112,
@@ -1565,7 +1676,8 @@
       "Sp. Defense": 45,
       "Speed": 40
     },
-    "img": "/images/pokemon/gen1/sprites/rhydon.png"
+    "sprite": "/images/pokemon/gen1/sprites/rhydon.png",
+    "icon": "/images/pokemon/gen1/icons/112.png"
   },
   {
     "id": 113,
@@ -1579,7 +1691,8 @@
       "Sp. Defense": 105,
       "Speed": 50
     },
-    "img": "/images/pokemon/gen1/sprites/chansey.png"
+    "sprite": "/images/pokemon/gen1/sprites/chansey.png",
+    "icon": "/images/pokemon/gen1/icons/113.png"
   },
   {
     "id": 114,
@@ -1593,7 +1706,8 @@
       "Sp. Defense": 40,
       "Speed": 60
     },
-    "img": "/images/pokemon/gen1/sprites/tangela.png"
+    "sprite": "/images/pokemon/gen1/sprites/tangela.png",
+    "icon": "/images/pokemon/gen1/icons/114.png"
   },
   {
     "id": 115,
@@ -1607,7 +1721,8 @@
       "Sp. Defense": 80,
       "Speed": 90
     },
-    "img": "/images/pokemon/gen1/sprites/kangaskhan.png"
+    "sprite": "/images/pokemon/gen1/sprites/kangaskhan.png",
+    "icon": "/images/pokemon/gen1/icons/115.png"
   },
   {
     "id": 116,
@@ -1621,7 +1736,8 @@
       "Sp. Defense": 25,
       "Speed": 60
     },
-    "img": "/images/pokemon/gen1/sprites/horsea.png"
+    "sprite": "/images/pokemon/gen1/sprites/horsea.png",
+    "icon": "/images/pokemon/gen1/icons/116.png"
   },
   {
     "id": 117,
@@ -1635,7 +1751,8 @@
       "Sp. Defense": 45,
       "Speed": 85
     },
-    "img": "/images/pokemon/gen1/sprites/seadra.png"
+    "sprite": "/images/pokemon/gen1/sprites/seadra.png",
+    "icon": "/images/pokemon/gen1/icons/117.png"
   },
   {
     "id": 118,
@@ -1649,7 +1766,8 @@
       "Sp. Defense": 50,
       "Speed": 63
     },
-    "img": "/images/pokemon/gen1/sprites/goldeen.png"
+    "sprite": "/images/pokemon/gen1/sprites/goldeen.png",
+    "icon": "/images/pokemon/gen1/icons/118.png"
   },
   {
     "id": 119,
@@ -1663,7 +1781,8 @@
       "Sp. Defense": 80,
       "Speed": 68
     },
-    "img": "/images/pokemon/gen1/sprites/seaking.png"
+    "sprite": "/images/pokemon/gen1/sprites/seaking.png",
+    "icon": "/images/pokemon/gen1/icons/119.png"
   },
   {
     "id": 120,
@@ -1677,7 +1796,8 @@
       "Sp. Defense": 55,
       "Speed": 85
     },
-    "img": "/images/pokemon/gen1/sprites/staryu.png"
+    "sprite": "/images/pokemon/gen1/sprites/staryu.png",
+    "icon": "/images/pokemon/gen1/icons/120.png"
   },
   {
     "id": 121,
@@ -1691,7 +1811,8 @@
       "Sp. Defense": 85,
       "Speed": 115
     },
-    "img": "/images/pokemon/gen1/sprites/starmie.png"
+    "sprite": "/images/pokemon/gen1/sprites/starmie.png",
+    "icon": "/images/pokemon/gen1/icons/121.png"
   },
   {
     "id": 122,
@@ -1705,7 +1826,8 @@
       "Sp. Defense": 120,
       "Speed": 90
     },
-    "img": "/images/pokemon/gen1/sprites/mrmime.png"
+    "sprite": "/images/pokemon/gen1/sprites/mrmime.png",
+    "icon": "/images/pokemon/gen1/icons/122.png"
   },
   {
     "id": 123,
@@ -1719,7 +1841,8 @@
       "Sp. Defense": 80,
       "Speed": 105
     },
-    "img": "/images/pokemon/gen1/sprites/scyther.png"
+    "sprite": "/images/pokemon/gen1/sprites/scyther.png",
+    "icon": "/images/pokemon/gen1/icons/123.png"
   },
   {
     "id": 124,
@@ -1733,7 +1856,8 @@
       "Sp. Defense": 95,
       "Speed": 95
     },
-    "img": "/images/pokemon/gen1/sprites/jynx.png"
+    "sprite": "/images/pokemon/gen1/sprites/jynx.png",
+    "icon": "/images/pokemon/gen1/icons/124.png"
   },
   {
     "id": 125,
@@ -1747,7 +1871,8 @@
       "Sp. Defense": 85,
       "Speed": 105
     },
-    "img": "/images/pokemon/gen1/sprites/electabuzz.png"
+    "sprite": "/images/pokemon/gen1/sprites/electabuzz.png",
+    "icon": "/images/pokemon/gen1/icons/125.png"
   },
   {
     "id": 126,
@@ -1761,7 +1886,8 @@
       "Sp. Defense": 85,
       "Speed": 93
     },
-    "img": "/images/pokemon/gen1/sprites/magmar.png"
+    "sprite": "/images/pokemon/gen1/sprites/magmar.png",
+    "icon": "/images/pokemon/gen1/icons/126.png"
   },
   {
     "id": 127,
@@ -1775,7 +1901,8 @@
       "Sp. Defense": 70,
       "Speed": 85
     },
-    "img": "/images/pokemon/gen1/sprites/pinsir.png"
+    "sprite": "/images/pokemon/gen1/sprites/pinsir.png",
+    "icon": "/images/pokemon/gen1/icons/127.png"
   },
   {
     "id": 128,
@@ -1789,7 +1916,8 @@
       "Sp. Defense": 70,
       "Speed": 110
     },
-    "img": "/images/pokemon/gen1/sprites/tauros.png"
+    "sprite": "/images/pokemon/gen1/sprites/tauros.png",
+    "icon": "/images/pokemon/gen1/icons/128.png"
   },
   {
     "id": 129,
@@ -1803,7 +1931,8 @@
       "Sp. Defense": 20,
       "Speed": 80
     },
-    "img": "/images/pokemon/gen1/sprites/magikarp.png"
+    "sprite": "/images/pokemon/gen1/sprites/magikarp.png",
+    "icon": "/images/pokemon/gen1/icons/129.png"
   },
   {
     "id": 130,
@@ -1817,7 +1946,8 @@
       "Sp. Defense": 100,
       "Speed": 81
     },
-    "img": "/images/pokemon/gen1/sprites/gyarados.png"
+    "sprite": "/images/pokemon/gen1/sprites/gyarados.png",
+    "icon": "/images/pokemon/gen1/icons/130.png"
   },
   {
     "id": 131,
@@ -1831,7 +1961,8 @@
       "Sp. Defense": 95,
       "Speed": 60
     },
-    "img": "/images/pokemon/gen1/sprites/lapras.png"
+    "sprite": "/images/pokemon/gen1/sprites/lapras.png",
+    "icon": "/images/pokemon/gen1/icons/131.png"
   },
   {
     "id": 132,
@@ -1845,7 +1976,8 @@
       "Sp. Defense": 48,
       "Speed": 48
     },
-    "img": "/images/pokemon/gen1/sprites/ditto.png"
+    "sprite": "/images/pokemon/gen1/sprites/ditto.png",
+    "icon": "/images/pokemon/gen1/icons/132.png"
   },
   {
     "id": 133,
@@ -1859,7 +1991,8 @@
       "Sp. Defense": 65,
       "Speed": 55
     },
-    "img": "/images/pokemon/gen1/sprites/eevee.png"
+    "sprite": "/images/pokemon/gen1/sprites/eevee.png",
+    "icon": "/images/pokemon/gen1/icons/133.png"
   },
   {
     "id": 134,
@@ -1873,7 +2006,8 @@
       "Sp. Defense": 95,
       "Speed": 65
     },
-    "img": "/images/pokemon/gen1/sprites/vaporeon.png"
+    "sprite": "/images/pokemon/gen1/sprites/vaporeon.png",
+    "icon": "/images/pokemon/gen1/icons/134.png"
   },
   {
     "id": 135,
@@ -1887,7 +2021,8 @@
       "Sp. Defense": 95,
       "Speed": 130
     },
-    "img": "/images/pokemon/gen1/sprites/jolteon.png"
+    "sprite": "/images/pokemon/gen1/sprites/jolteon.png",
+    "icon": "/images/pokemon/gen1/icons/135.png"
   },
   {
     "id": 136,
@@ -1901,7 +2036,8 @@
       "Sp. Defense": 110,
       "Speed": 65
     },
-    "img": "/images/pokemon/gen1/sprites/flareon.png"
+    "sprite": "/images/pokemon/gen1/sprites/flareon.png",
+    "icon": "/images/pokemon/gen1/icons/136.png"
   },
   {
     "id": 137,
@@ -1915,7 +2051,8 @@
       "Sp. Defense": 75,
       "Speed": 40
     },
-    "img": "/images/pokemon/gen1/sprites/porygon.png"
+    "sprite": "/images/pokemon/gen1/sprites/porygon.png",
+    "icon": "/images/pokemon/gen1/icons/137.png"
   },
   {
     "id": 138,
@@ -1929,7 +2066,8 @@
       "Sp. Defense": 55,
       "Speed": 35
     },
-    "img": "/images/pokemon/gen1/sprites/omanyte.png"
+    "sprite": "/images/pokemon/gen1/sprites/omanyte.png",
+    "icon": "/images/pokemon/gen1/icons/138.png"
   },
   {
     "id": 139,
@@ -1943,7 +2081,8 @@
       "Sp. Defense": 70,
       "Speed": 55
     },
-    "img": "/images/pokemon/gen1/sprites/omastar.png"
+    "sprite": "/images/pokemon/gen1/sprites/omastar.png",
+    "icon": "/images/pokemon/gen1/icons/139.png"
   },
   {
     "id": 140,
@@ -1957,7 +2096,8 @@
       "Sp. Defense": 45,
       "Speed": 55
     },
-    "img": "/images/pokemon/gen1/sprites/kabuto.png"
+    "sprite": "/images/pokemon/gen1/sprites/kabuto.png",
+    "icon": "/images/pokemon/gen1/icons/140.png"
   },
   {
     "id": 141,
@@ -1971,7 +2111,8 @@
       "Sp. Defense": 70,
       "Speed": 80
     },
-    "img": "/images/pokemon/gen1/sprites/kabutops.png"
+    "sprite": "/images/pokemon/gen1/sprites/kabutops.png",
+    "icon": "/images/pokemon/gen1/icons/141.png"
   },
   {
     "id": 142,
@@ -1985,7 +2126,8 @@
       "Sp. Defense": 75,
       "Speed": 130
     },
-    "img": "/images/pokemon/gen1/sprites/aerodactyl.png"
+    "sprite": "/images/pokemon/gen1/sprites/aerodactyl.png",
+    "icon": "/images/pokemon/gen1/icons/142.png"
   },
   {
     "id": 143,
@@ -1999,7 +2141,8 @@
       "Sp. Defense": 110,
       "Speed": 30
     },
-    "img": "/images/pokemon/gen1/sprites/snorlax.png"
+    "sprite": "/images/pokemon/gen1/sprites/snorlax.png",
+    "icon": "/images/pokemon/gen1/icons/143.png"
   },
   {
     "id": 144,
@@ -2013,7 +2156,8 @@
       "Sp. Defense": 125,
       "Speed": 85
     },
-    "img": "/images/pokemon/gen1/sprites/articuno.png"
+    "sprite": "/images/pokemon/gen1/sprites/articuno.png",
+    "icon": "/images/pokemon/gen1/icons/144.png"
   },
   {
     "id": 145,
@@ -2027,7 +2171,8 @@
       "Sp. Defense": 90,
       "Speed": 100
     },
-    "img": "/images/pokemon/gen1/sprites/zapdos.png"
+    "sprite": "/images/pokemon/gen1/sprites/zapdos.png",
+    "icon": "/images/pokemon/gen1/icons/145.png"
   },
   {
     "id": 146,
@@ -2041,7 +2186,8 @@
       "Sp. Defense": 85,
       "Speed": 90
     },
-    "img": "/images/pokemon/gen1/sprites/moltres.png"
+    "sprite": "/images/pokemon/gen1/sprites/moltres.png",
+    "icon": "/images/pokemon/gen1/icons/146.png"
   },
   {
     "id": 147,
@@ -2055,7 +2201,8 @@
       "Sp. Defense": 50,
       "Speed": 50
     },
-    "img": "/images/pokemon/gen1/sprites/dratini.png"
+    "sprite": "/images/pokemon/gen1/sprites/dratini.png",
+    "icon": "/images/pokemon/gen1/icons/147.png"
   },
   {
     "id": 148,
@@ -2069,7 +2216,8 @@
       "Sp. Defense": 70,
       "Speed": 70
     },
-    "img": "/images/pokemon/gen1/sprites/dragonair.png"
+    "sprite": "/images/pokemon/gen1/sprites/dragonair.png",
+    "icon": "/images/pokemon/gen1/icons/148.png"
   },
   {
     "id": 149,
@@ -2083,7 +2231,8 @@
       "Sp. Defense": 100,
       "Speed": 80
     },
-    "img": "/images/pokemon/gen1/sprites/dragonite.png"
+    "sprite": "/images/pokemon/gen1/sprites/dragonite.png",
+    "icon": "/images/pokemon/gen1/icons/149.png"
   },
   {
     "id": 150,
@@ -2097,7 +2246,8 @@
       "Sp. Defense": 90,
       "Speed": 130
     },
-    "img": "/images/pokemon/gen1/sprites/mewtwo.png"
+    "sprite": "/images/pokemon/gen1/sprites/mewtwo.png",
+    "icon": "/images/pokemon/gen1/icons/150.png"
   },
   {
     "id": 151,
@@ -2111,6 +2261,7 @@
       "Sp. Defense": 100,
       "Speed": 100
     },
-    "img": "/images/pokemon/gen1/sprites/mew.png"
+    "sprite": "/images/pokemon/gen1/sprites/mew.png",
+    "icon": "/images/pokemon/gen1/icons/151.png"
   }
 ]

@@ -78,7 +78,8 @@ const Home: NextPage = () => {
             {pokemon.map((mon: any, i: number) => (
               <div>
                 <li key={i}>{mon.name}</li>
-                <img src={mon.img} />
+                <img src={mon.sprite} />
+                <img src={mon.icon} />
               </div>
             ))}
           </ul>
