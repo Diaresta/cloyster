@@ -104,7 +104,7 @@
     "power": 60,
     "accuracy": 1,
     "pp": 25,
-    "effect": ["30% chance to flinch the target."]
+    "effect": "30% chance to flinch the target."
   },
   {
     "name": "blizzard",
@@ -113,7 +113,7 @@
     "power": 120,
     "accuracy": 0.9,
     "pp": 5,
-    "effect": ["10% chance to freeze the target."]
+    "effect": "10% chance to freeze the target."
   },
   {
     "name": "body slam",
@@ -122,7 +122,7 @@
     "power": 85,
     "accuracy": 1,
     "pp": 15,
-    "effect": ["30% chance to paralyze the target."]
+    "effect": "30% chance to paralyze the target."
   },
   {
     "name": "bone club",
@@ -131,7 +131,7 @@
     "power": 65,
     "accuracy": 0.85,
     "pp": 20,
-    "effect": ["30% chance to flinch the target."]
+    "effect": "30% chance to flinch the target."
   },
   {
     "name": "bonemerang",
@@ -182,7 +182,7 @@
     "power": null,
     "accuracy": 1,
     "pp": 10,
-    "effect": ["Confuses the target."]
+    "effect": "Confuses the target."
   },
   {
     "name": "confusion",
@@ -191,7 +191,7 @@
     "power": 50,
     "accuracy": 1,
     "pp": 25,
-    "effect": ["10% chance to confuse the target."]
+    "effect": "10% chance to confuse the target."
   },
   {
     "name": "constrict",
@@ -355,7 +355,7 @@
     "power": 40,
     "accuracy": 1,
     "pp": 25,
-    "effect": ["10% chance to burn the target."]
+    "effect": "10% chance to burn the target."
   },
   {
     "name": "explosion",
@@ -372,7 +372,7 @@
     "power": 120,
     "accuracy": 0.85,
     "pp": 5,
-    "effect": ["10% chance to burn the target."]
+    "effect": "10% chance to burn the target."
   },
   {
     "name": "fire punch",
@@ -381,7 +381,7 @@
     "power": 75,
     "accuracy": 1,
     "pp": 15,
-    "effect": ["10% chance to burn the target."]
+    "effect": "10% chance to burn the target."
   },
   {
     "name": "fire spin",
@@ -406,7 +406,7 @@
     "power": 95,
     "accuracy": 1,
     "pp": 15,
-    "effect": ["10% chance to burn the target."]
+    "effect": "10% chance to burn the target."
   },
   {
     "name": "flash",
@@ -460,7 +460,7 @@
     "power": null,
     "accuracy": 0.75,
     "pp": 30,
-    "effect": ["30% chance to paralyze the target."]
+    "effect": "30% chance to paralyze the target."
   },
   {
     "name": "growl",
@@ -529,7 +529,7 @@
     "power": 70,
     "accuracy": 1,
     "pp": 15,
-    "effect": ["30% chance to flinch the target."]
+    "effect": "30% chance to flinch the target."
   },
   {
     "name": "high jump kick",
@@ -578,7 +578,7 @@
     "power": 80,
     "accuracy": 0.9,
     "pp": 15,
-    "effect": ["10% chance to flinch the target."]
+    "effect": "10% chance to flinch the target."
   },
   {
     "name": "hypnosis",
@@ -587,7 +587,7 @@
     "power": null,
     "accuracy": 0.6,
     "pp": 20,
-    "effect": ["Causes the target to fall asleep."]
+    "effect": "Causes the target to fall asleep."
   },
   {
     "name": "ice beam",
@@ -596,7 +596,7 @@
     "power": 95,
     "accuracy": 1,
     "pp": 10,
-    "effect": ["10% chance to freeze the target."]
+    "effect": "10% chance to freeze the target."
   },
   {
     "name": "ice punch",
@@ -605,7 +605,7 @@
     "power": 75,
     "accuracy": 1,
     "pp": 15,
-    "effect": ["10% chance to freeze the target."]
+    "effect": "10% chance to freeze the target."
   },
   {
     "name": "jump kick",
@@ -672,7 +672,7 @@
     "accuracy": 1,
     "pp": 30,
 
-    "effect": ["30% chance to paralyze the target."]
+    "effect": "30% chance to paralyze the target."
   },
   {
     "name": "light screen",
@@ -689,7 +689,7 @@
     "power": null,
     "accuracy": 0.75,
     "pp": 10,
-    "effect": ["Causes the target to fall asleep."]
+    "effect": "Causes the target to fall asleep."
   },
   {
     "name": "low kick",
@@ -698,7 +698,7 @@
     "power": 50,
     "accuracy": 0.9,
     "pp": 20,
-    "effect": ["30% chance to flinch the target."]
+    "effect": "30% chance to flinch the target."
   },
   {
     "name": "meditate",
@@ -827,7 +827,7 @@
     "power": null,
     "accuracy": 0.55,
     "pp": 40,
-    "effect": ["Poisons the target."]
+    "effect": "Poisons the target."
   },
   {
     "name": "poison powder",
@@ -837,7 +837,7 @@
     "accuracy": 0.75,
     "pp": 35,
 
-    "effect": ["Poisons the target."]
+    "effect": "Poisons the target."
   },
   {
     "name": "poison sting",
@@ -846,7 +846,7 @@
     "power": 15,
     "accuracy": 1,
     "pp": 35,
-    "effect": ["30% chance to poison the target."]
+    "effect": "30% chance to poison the target."
   },
   {
     "name": "pound",
@@ -863,7 +863,7 @@
     "power": 65,
     "accuracy": 1,
     "pp": 20,
-    "effect": ["10% chance to confuse the target."]
+    "effect": "10% chance to confuse the target."
   },
   {
     "name": "psychic",
@@ -955,7 +955,7 @@
     "power": 75,
     "accuracy": 0.9,
     "pp": 10,
-    "effect": ["30% chance to flinch the target."]
+    "effect": "30% chance to flinch the target."
   },
   {
     "name": "rock throw",
@@ -972,7 +972,7 @@
     "power": 60,
     "accuracy": 0.85,
     "pp": 15,
-    "effect": ["30% chance to flinch the target."]
+    "effect": "30% chance to flinch the target."
   },
   {
     "name": "sand attack",
@@ -1041,7 +1041,7 @@
     "power": null,
     "accuracy": 0.55,
     "pp": 15,
-    "effect": ["Causes the target to fall asleep."]
+    "effect": "Causes the target to fall asleep."
   },
   {
     "name": "skull bash",
@@ -1083,7 +1083,7 @@
     "power": null,
     "accuracy": 0.75,
     "pp": 15,
-    "effect": ["Causes the target to fall asleep."]
+    "effect": "Causes the target to fall asleep."
   },
   {
     "name": "sludge",
@@ -1092,7 +1092,7 @@
     "power": 65,
     "accuracy": 1,
     "pp": 20,
-    "effect": ["30% chance to poison the target."]
+    "effect": "30% chance to poison the target."
   },
   {
     "name": "smog",
@@ -1101,7 +1101,7 @@
     "power": 20,
     "accuracy": 0.7,
     "pp": 20,
-    "effect": ["40% chance to poison the target."]
+    "effect": "40% chance to poison the target."
   },
   {
     "name": "smokescreen",
@@ -1162,7 +1162,7 @@
     "power": null,
     "accuracy": 1,
     "pp": 15,
-    "effect": ["Causes the target to fall asleep."]
+    "effect": "Causes the target to fall asleep."
   },
   {
     "name": "stomp",
@@ -1171,7 +1171,7 @@
     "power": 65,
     "accuracy": 1,
     "pp": 20,
-    "effect": ["30% chance to flinch the target."]
+    "effect": "30% chance to flinch the target."
   },
   {
     "name": "strength",
@@ -1208,7 +1208,7 @@
     "power": null,
     "accuracy": 0.75,
     "pp": 30,
-    "effect": ["Paralyzes the target."]
+    "effect": "Paralyzes the target."
   },
   {
     "name": "submission",
@@ -1241,7 +1241,7 @@
     "power": null,
     "accuracy": 0.55,
     "pp": 20,
-    "effect": ["Confuses the target."]
+    "effect": "Confuses the target."
   },
   {
     "name": "surf",
@@ -1322,7 +1322,7 @@
     "power": 120,
     "accuracy": 0.7,
     "pp": 10,
-    "effect": ["10% chance to paralyze the target."]
+    "effect": "10% chance to paralyze the target."
   },
   {
     "name": "thunder punch",
@@ -1331,7 +1331,7 @@
     "power": 75,
     "accuracy": 1,
     "pp": 15,
-    "effect": ["10% chance to paralyze the target."]
+    "effect": "10% chance to paralyze the target."
   },
   {
     "name": "thunder shock",
@@ -1340,7 +1340,7 @@
     "power": 40,
     "accuracy": 1,
     "pp": 30,
-    "effect": ["10% chance to paralyze the target."]
+    "effect": "10% chance to paralyze the target."
   },
   {
     "name": "thunder wave",
@@ -1349,7 +1349,7 @@
     "power": null,
     "accuracy": 1,
     "pp": 20,
-    "effect": ["Paralyzes the target."]
+    "effect": "Paralyzes the target."
   },
   {
     "name": "thunderbolt",
@@ -1358,7 +1358,7 @@
     "power": 95,
     "accuracy": 1,
     "pp": 15,
-    "effect": ["10% chance to paralyze the target."]
+    "effect": "10% chance to paralyze the target."
   },
   {
     "name": "toxic",
@@ -1367,7 +1367,7 @@
     "power": null,
     "accuracy": 0.85,
     "pp": 10,
-    "effect": ["Badly poisons the target."]
+    "effect": "Badly poisons the target."
   },
   {
     "name": "transform",
