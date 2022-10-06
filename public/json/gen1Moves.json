@@ -23,10 +23,7 @@
     "power": null,
     "accuracy": null,
     "pp": 40,
-    "effect": {
-      "stat": "defense",
-      "stages": 2
-    }
+    "effect": "Raises user's defense by 2."
   },
   {
     "name": "agility",
@@ -35,10 +32,7 @@
     "power": null,
     "accuracy": null,
     "pp": 30,
-    "effect": {
-      "stat": "speed",
-      "stages": 2
-    }
+    "effect": "Raises user's speed by 2."
   },
   {
     "name": "amnesia",
@@ -47,10 +41,7 @@
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "effect": {
-      "stat": "special",
-      "stages": 2
-    }
+    "effect": "Raises user's special by 2."
   },
   {
     "name": "aurora beam",
@@ -76,10 +67,7 @@
     "power": null,
     "accuracy": null,
     "pp": 30,
-    "effect": {
-      "stat": "defense",
-      "stages": 2
-    }
+    "effect": "Raises user's defense by 2."
   },
   {
     "name": "bide",
@@ -243,10 +231,7 @@
     "power": null,
     "accuracy": null,
     "pp": 40,
-    "effect": {
-      "stat": "defense",
-      "stages": 1
-    }
+    "effect": "Raises user's defense by 1."
   },
   {
     "name": "dig",
@@ -295,10 +280,7 @@
     "power": null,
     "accuracy": null,
     "pp": 15,
-    "effect": {
-      "stat": "evasiveness",
-      "stages": 1
-    }
+    "effect": "Raises user's evasiveness by 1."
   },
   {
     "name": "double-edge",
@@ -415,10 +397,7 @@
     "power": null,
     "accuracy": 0.7,
     "pp": 20,
-    "effect": {
-      "stat": "accuracy",
-      "stages": -1
-    }
+    "effect": "Lowers user's accuracy by 1."
   },
   {
     "name": "fly",
@@ -469,10 +448,7 @@
     "power": null,
     "accuracy": 1,
     "pp": 40,
-    "effect": {
-      "stat": "attack",
-      "stages": -1
-    }
+    "effect": "Lowers user's attack by 1."
   },
   {
     "name": "growth",
@@ -481,10 +457,7 @@
     "power": null,
     "accuracy": null,
     "pp": 40,
-    "effect": {
-      "stat": "special",
-      "stages": 1
-    }
+    "effect": "Raises user's special by 1."
   },
   {
     "name": "guillotine",
@@ -509,10 +482,7 @@
     "power": null,
     "accuracy": null,
     "pp": 30,
-    "effect": {
-      "stat": "defense",
-      "stages": 1
-    }
+    "effect": "Raises user's defense by 1."
   },
   {
     "name": "haze",
@@ -631,10 +601,7 @@
     "power": null,
     "accuracy": 0.8,
     "pp": 15,
-    "effect": {
-      "stat": "accuracy",
-      "stages": -1
-    }
+    "effect": "Lowers user's accuracy by 1."
   },
   {
     "name": "leech life",
@@ -659,10 +626,7 @@
     "power": null,
     "accuracy": 1,
     "pp": 30,
-    "effect": {
-      "stat": "defense",
-      "stages": -1
-    }
+    "effect": "Lowers user's defense by 1."
   },
   {
     "name": "lick",
@@ -671,7 +635,6 @@
     "power": 20,
     "accuracy": 1,
     "pp": 30,
-
     "effect": "30% chance to paralyze the target."
   },
   {
@@ -707,10 +670,7 @@
     "power": null,
     "accuracy": null,
     "pp": 40,
-    "effect": {
-      "stat": "attack",
-      "stages": 1
-    }
+    "effect": "Raises user's attack by 1."
   },
   {
     "name": "mega drain",
@@ -759,10 +719,7 @@
     "power": null,
     "accuracy": null,
     "pp": 20,
-    "effect": {
-      "stat": "evasiveness",
-      "stages": 1
-    }
+    "effect": "Raises user's evasiveness by 1."
   },
   {
     "name": "mirror move",
@@ -836,7 +793,6 @@
     "power": null,
     "accuracy": 0.75,
     "pp": 35,
-
     "effect": "Poisons the target."
   },
   {
@@ -981,10 +937,7 @@
     "power": null,
     "accuracy": 1,
     "pp": 15,
-    "effect": {
-      "stat": "accuracy",
-      "stages": -1
-    }
+    "effect": "Lowers user's accuracy by 1."
   },
   {
     "name": "scratch",
@@ -1001,10 +954,7 @@
     "power": null,
     "accuracy": 0.85,
     "pp": 40,
-    "effect": {
-      "stat": "defense",
-      "stages": -2
-    }
+    "effect": "Lowers user's defense by 2."
   },
   {
     "name": "seismic toss",
@@ -1029,10 +979,7 @@
     "power": null,
     "accuracy": null,
     "pp": 30,
-    "effect": {
-      "stat": "attack",
-      "stages": 1
-    }
+    "effect": "Raises user's attack by 1."
   },
   {
     "name": "sing",
@@ -1110,10 +1057,7 @@
     "power": null,
     "accuracy": 1,
     "pp": 20,
-    "effect": {
-      "stat": "accuracy",
-      "stages": -1
-    }
+    "effect": "Lowers user's accuracy by 1."
   },
   {
     "name": "soft-boiled",
@@ -1188,10 +1132,7 @@
     "power": null,
     "accuracy": 0.95,
     "pp": 40,
-    "effect": {
-      "stat": "speed",
-      "stages": -1
-    }
+    "effect": "Lowers user's speed by 1."
   },
   {
     "name": "struggle",
@@ -1266,10 +1207,7 @@
     "power": null,
     "accuracy": null,
     "pp": 30,
-    "effect": {
-      "stat": "attack",
-      "stages": 2
-    }
+    "effect": "Raises user's attack by 2."
   },
   {
     "name": "tackle",
@@ -1286,10 +1224,7 @@
     "power": null,
     "accuracy": 1,
     "pp": 30,
-    "effect": {
-      "stat": "defense",
-      "stages": -1
-    }
+    "effect": "Lowers user's defense by 1."
   },
   {
     "name": "take down",
@@ -1448,10 +1383,7 @@
     "power": null,
     "accuracy": null,
     "pp": 40,
-    "effect": {
-      "stat": "defense",
-      "stages": 1
-    }
+    "effect": "Raises user's defense by 1."
   },
   {
     "name": "wrap",
