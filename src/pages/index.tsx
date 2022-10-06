@@ -31,12 +31,13 @@ const Home: NextPage = () => {
         <meta name='description' content='Pokémon Team Builder' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-
-      <main className='container mx-auto flex min-h-screen flex-col items-center justify-center p-4'>
+      <header className='w-100 flex border-b-2 border-slate-600 bg-slate-900'>
         <div>
-          <h1 className='text-5xl font-extrabold leading-normal text-gray-700 md:text-[5rem]'>
+          <h1 className='text-4xl font-bold leading-normal text-slate-50 text-gray-700'>
             Closyer
           </h1>
+        </div>
+        <div>
           <img
             className='cursor-pointer'
             src={`/images/pokemon/cloyster.${logoHover}`}
@@ -50,6 +51,10 @@ const Home: NextPage = () => {
             title='Home'
           />
         </div>
+      </header>
+
+      <main className='container mx-auto flex min-h-screen flex-col items-center justify-center p-4'>
+        <div></div>
         <p className='text-2xl text-gray-700'>This stack uses:</p>
         <div className='mt-3 grid gap-3 pt-3 text-center md:grid-cols-2 lg:w-2/3'>
           <TechnologyCard
