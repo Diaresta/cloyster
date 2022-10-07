@@ -30,25 +30,40 @@ const Home: NextPage = () => {
         <title>Cloyster: Pokémon Team Builder</title>
         <meta name='description' content='Pokémon Team Builder' />
         <link rel='icon' href='/favicon.ico' />
+        <script
+          src='https://kit.fontawesome.com/dca6bdf503.js'
+          crossOrigin='anonymous'
+        />
       </Head>
-      <header className='w-100 flex border-b-2 border-slate-600 bg-slate-900'>
-        <div>
-          <h1 className='text-4xl font-bold leading-normal text-slate-50 text-gray-700'>
-            Closyer
-          </h1>
+
+      <header className='w-100 flex border-b-2 border-slate-600 bg-slate-900 px-5 py-1 text-slate-50'>
+        <div className='h-100 flex w-2/4 items-center'>
+          <div>
+            <img
+              className='h-5/6 w-5/6 cursor-pointer'
+              src={`/images/pokemon/cloyster.${logoHover}`}
+              onMouseOver={() => {
+                setLogoHover('gif');
+              }}
+              onMouseLeave={() => {
+                setLogoHover('png');
+              }}
+              alt='Cloyster Logo'
+              title='Home'
+            />
+          </div>
+
+          <div>
+            <h1 className='align-middle text-2xl font-bold leading-normal text-slate-50'>
+              Closyer
+            </h1>
+          </div>
         </div>
-        <div>
+        <div className='h-100 flex w-2/4 items-center justify-end'>
           <img
-            className='cursor-pointer'
-            src={`/images/pokemon/cloyster.${logoHover}`}
-            onMouseOver={() => {
-              setLogoHover('gif');
-            }}
-            onMouseLeave={() => {
-              setLogoHover('png');
-            }}
-            alt='Cloyster Logo'
-            title='Home'
+            className='cursor-pointer hover:opacity-70'
+            src='/images/utils/search.svg'
+            alt='Magnifying glass search'
           />
         </div>
       </header>
