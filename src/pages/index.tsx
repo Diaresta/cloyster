@@ -59,12 +59,23 @@ const Home: NextPage = () => {
             </h1>
           </div>
         </div>
-        <div className='h-100 flex w-2/4 items-center justify-end'>
-          <img
-            className='cursor-pointer hover:opacity-70'
-            src='/images/utils/search.svg'
-            alt='Magnifying glass search'
-          />
+        <div className='h-100 flex w-2/4 items-center justify-end text-gray-700'>
+          <div className='relative'>
+            <img
+              className='cursor-pointer hover:opacity-70'
+              src='/images/utils/search.svg'
+              alt='Magnifying glass search'
+            />
+          </div>
+          <div className='relative rounded-md shadow-sm'>
+            <input
+              type='text'
+              name='ID Search'
+              className='ml-2 block w-full rounded border-gray-300 px-3 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm'
+              placeholder='Search teams by ID...'
+              onSubmit={() => {}}
+            />
+          </div>
         </div>
       </header>
 
