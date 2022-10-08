@@ -36,7 +36,7 @@ const Home: NextPage = () => {
         />
       </Head>
 
-      <header className='w-100 flex border-b-2 border-slate-600 bg-slate-900 px-5 py-1 text-slate-50'>
+      <header className='w-100 flex border-b-2 border-slate-600 bg-slate-900 px-6 py-1 text-slate-50'>
         <div className='h-100 flex w-2/4 items-center'>
           <div>
             <img
@@ -60,22 +60,25 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className='h-100 flex w-2/4 items-center justify-end text-gray-700'>
-          <div className='relative'>
-            <img
-              className='cursor-pointer hover:opacity-70'
-              src='/images/utils/search.svg'
-              alt='Magnifying glass search'
-            />
-          </div>
-          <div className='relative rounded-md shadow-sm'>
-            <input
-              type='text'
-              name='ID Search'
-              className='ml-2 block w-full rounded border-gray-300 px-3 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm'
-              placeholder='Search teams by ID...'
-              onSubmit={() => {}}
-            />
-          </div>
+          <form>
+            <div className='relative rounded-md shadow-sm'>
+              <div className='pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3'>
+                <img
+                  className=''
+                  src='/images/utils/search.svg'
+                  alt='Magnifying glass search'
+                />
+              </div>
+              <input
+                type='text'
+                name='ID Search'
+                className='ml-2 block w-full rounded border-gray-300 pr-3 pl-6 focus:border-fuchsia-500 focus:ring-fuchsia-500 sm:text-sm'
+                placeholder='Search teams by ID...'
+                onSubmit={() => {}}
+                required
+              />
+            </div>
+          </form>
         </div>
       </header>
 
