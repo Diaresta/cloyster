@@ -71,7 +71,7 @@ const Home: NextPage = () => {
               </div>
               <input
                 type='text'
-                name='ID Search'
+                name='team'
                 className='ml-2 block w-full rounded border-gray-300 pr-3 pl-6 focus:border-fuchsia-500 focus:ring-fuchsia-500 sm:text-sm'
                 placeholder='Search teams by ID...'
                 onSubmit={() => {}}
@@ -82,16 +82,100 @@ const Home: NextPage = () => {
         </div>
       </header>
 
-      <main className='container mx-auto flex min-h-screen flex-col items-center justify-center p-4'>
-        <div></div>
-        <p className='text-2xl text-gray-700'>This stack uses:</p>
-        <div className='mt-3 grid gap-3 pt-3 text-center md:grid-cols-2 lg:w-2/3'>
-          <TechnologyCard
-            name='NextJS'
-            description='The React framework for production'
-            documentation='https://nextjs.org/'
+      <main className='container mx-auto flex items-center justify-center p-4'>
+        <div className='mt-3 grid w-full gap-3 pt-3 text-center md:grid-cols-2'>
+          <PokemonCard
+            id={121}
+            name='Starmie'
+            type={['Water', 'Psychic']}
+            base={{
+              HP: 60,
+              Attack: 75,
+              Defense: 85,
+              'Sp. Attack': 100,
+              'Sp. Defense': 85,
+              Speed: 115,
+            }}
+            sprite='/images/pokemon/gen1/sprites/starmie.png'
+            icon='/images/pokemon/gen1/icons/121.png'
           />
-          <TechnologyCard
+          <PokemonCard
+            id={145}
+            name='Zapdos'
+            type={['Electric', 'Flying']}
+            base={{
+              HP: 90,
+              Attack: 90,
+              Defense: 85,
+              'Sp. Attack': 125,
+              'Sp. Defense': 90,
+              Speed: 100,
+            }}
+            sprite='/images/pokemon/gen1/sprites/zapdos.png'
+            icon='/images/pokemon/gen1/icons/145.png'
+          />
+          <PokemonCard
+            id={112}
+            name='Rhydon'
+            type={['Ground', 'Rock']}
+            base={{
+              HP: 105,
+              Attack: 130,
+              Defense: 120,
+              'Sp. Attack': 45,
+              'Sp. Defense': 45,
+              Speed: 40,
+            }}
+            sprite='/images/pokemon/gen1/sprites/Rhydon.png'
+            icon='/images/pokemon/gen1/icons/112.png'
+          />
+          <PokemonCard
+            id={128}
+            name='Tauros'
+            type={['Normal']}
+            base={{
+              HP: 75,
+              Attack: 100,
+              Defense: 95,
+              'Sp. Attack': 40,
+              'Sp. Defense': 70,
+              Speed: 110,
+            }}
+            sprite='/images/pokemon/gen1/sprites/tauros.png'
+            icon='/images/pokemon/gen1/icons/128.png'
+          />
+          <PokemonCard
+            id={143}
+            name='Snorlax'
+            type={['Normal']}
+            base={{
+              HP: 160,
+              Attack: 110,
+              Defense: 65,
+              'Sp. Attack': 65,
+              'Sp. Defense': 110,
+              Speed: 30,
+            }}
+            sprite='/images/pokemon/gen1/sprites/snorlax.png'
+            icon='/images/pokemon/gen1/icons/143.png'
+          />
+          <PokemonCard
+            id={103}
+            name='Exeggutor'
+            type={['Grass', 'Psychic']}
+            base={{
+              HP: 95,
+              Attack: 95,
+              Defense: 85,
+              'Sp. Attack': 125,
+              'Sp. Defense': 75,
+              Speed: 55,
+            }}
+            sprite='/images/pokemon/gen1/sprites/Exeggutor.png'
+            icon='/images/pokemon/gen1/icons/103.png'
+          />
+
+          {/* <TechnologyCard
             name='TypeScript'
             description='Strongly typed programming language that builds on JavaScript, giving you better tooling at any scale'
             documentation='https://www.typescriptlang.org/'
@@ -115,10 +199,9 @@ const Home: NextPage = () => {
             name='Prisma'
             description='Build data-driven JavaScript & TypeScript apps in less time'
             documentation='https://www.prisma.io/docs/'
-          />
+          /> */}
         </div>
-        <div className='flex w-full items-center justify-center pt-6 text-2xl text-blue-500'>
-          {/* {hello.data ? <p>{hello.data.greeting}</p> : <p>Loading..</p>} */}
+        {/* <div className='flex w-full items-center justify-center pt-6 text-2xl text-blue-500'>
           <ul>
             {pokemon.map((mon: any, i: number) => (
               <div>
@@ -128,7 +211,7 @@ const Home: NextPage = () => {
               </div>
             ))}
           </ul>
-        </div>
+        </div> */}
       </main>
     </>
   );
@@ -162,3 +245,148 @@ const TechnologyCard = ({
     </section>
   );
 };
+
+type pokemonCardProps = {
+  id: number;
+  name: string;
+  type: string[];
+  base: object;
+  sprite: string;
+  icon: string;
+};
+
+const PokemonCard = ({
+  id,
+  name,
+  type,
+  base,
+  sprite,
+  icon,
+}: pokemonCardProps) => {
+  return (
+    <section className='flex w-full flex-col justify-center rounded border-2 border-gray-500 p-2 shadow-xl'>
+      <div className='flex w-full justify-between'>
+        {/* <h2>{name}</h2> */}
+        <div className='flex flex-col text-left'>
+          <label
+            className='mb-2 justify-start text-xs font-bold uppercase tracking-wide'
+            htmlFor='pkmn-name'
+          >
+            Pokémon
+          </label>
+          <input
+            type='text'
+            id='pkmn-name'
+            placeholder='Pokémon name...'
+            className='ml-2 rounded border-2 border-gray-300 focus:border-fuchsia-500 focus:ring-fuchsia-500 sm:text-sm'
+            required
+          />
+        </div>
+        <div className='flex flex-col text-left'>
+          <label
+            className='mb-2 justify-start text-xs font-bold uppercase tracking-wide'
+            htmlFor='pkmn-type'
+          >
+            Type
+          </label>
+          <ul id='pkmn-type' className='flex flex-row'>
+            {type.map((type, i) => (
+              <li key={i}>{type}</li>
+            ))}
+          </ul>
+        </div>
+        <div className='flex flex-col text-left'>
+          <label
+            className='mb-2 justify-start text-xs font-bold uppercase tracking-wide'
+            htmlFor='pkmn-level'
+          >
+            Level
+          </label>
+          <input
+            type='text'
+            id='pkmn-level'
+            placeholder='Pokémon Level...'
+            className='ml-2 rounded border-2 border-gray-300 focus:border-fuchsia-500 focus:ring-fuchsia-500 sm:text-sm'
+            required
+          />
+        </div>
+      </div>
+      <div className='flex flex-row justify-evenly'>
+        <div>
+          <img src={sprite} />
+        </div>
+        <div>
+          <ul>
+            <li>Surf</li>
+            <li>Blizzard</li>
+            <li>Thunderbolt</li>
+            <li>Thunder Wave</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            {Object.keys(base).map((stat, i) => (
+              <li key={i}>{stat}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+      {/* <img src={sprite} /> */}
+      {/* <img src={icon} /> */}
+    </section>
+  );
+};
+
+type teamPokemon = {
+  id: number;
+  name: string;
+  type: string[];
+  base: object;
+  sprite: string;
+  icon: string;
+  level: number;
+  moves: object[];
+};
+
+class Pokemon {
+  pID: number;
+  pName: string;
+  pType: string[];
+  pBase: object;
+  pSprite: string;
+  pIcon: string;
+  pLevel: number;
+  pMoves: object[];
+  constructor(
+    id: number,
+    name: string,
+    type: string[],
+    base: object,
+    sprite: string,
+    icon: string,
+    level: number,
+    moves: object[]
+  ) {
+    this.pID = id;
+    this.pName = name;
+    this.pType = type;
+    this.pBase = base;
+    this.pSprite = sprite;
+    this.pIcon = icon;
+    this.pLevel = level;
+    this.pMoves = moves;
+  }
+}
+
+// const asd = (
+//   id: number,
+//   name: string,
+//   type: string[],
+//   base: object,
+//   sprite: string,
+//   icon: string,
+//   level: number,
+//   moves: object[]
+// ) => {
+//   // this.pokeID = id;
+// };
