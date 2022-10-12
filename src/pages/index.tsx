@@ -83,7 +83,7 @@ const Home: NextPage = () => {
       </header>
 
       <main className='container mx-auto flex items-center justify-center p-4'>
-        <div className='mt-3 grid w-full gap-3 pt-3 text-center md:grid-cols-2'>
+        <div className='mt-3 grid w-full gap-3 pt-3 text-center lg:grid-cols-2'>
           <PokemonCard
             id={121}
             name='Starmie'
@@ -92,8 +92,7 @@ const Home: NextPage = () => {
               HP: 60,
               Attack: 75,
               Defense: 85,
-              'Sp. Attack': 100,
-              'Sp. Defense': 85,
+              Special: 100,
               Speed: 115,
             }}
             sprite='/images/pokemon/gen1/sprites/starmie.png'
@@ -107,8 +106,7 @@ const Home: NextPage = () => {
               HP: 90,
               Attack: 90,
               Defense: 85,
-              'Sp. Attack': 125,
-              'Sp. Defense': 90,
+              Special: 125,
               Speed: 100,
             }}
             sprite='/images/pokemon/gen1/sprites/zapdos.png'
@@ -122,8 +120,7 @@ const Home: NextPage = () => {
               HP: 105,
               Attack: 130,
               Defense: 120,
-              'Sp. Attack': 45,
-              'Sp. Defense': 45,
+              Special: 45,
               Speed: 40,
             }}
             sprite='/images/pokemon/gen1/sprites/Rhydon.png'
@@ -137,8 +134,7 @@ const Home: NextPage = () => {
               HP: 75,
               Attack: 100,
               Defense: 95,
-              'Sp. Attack': 40,
-              'Sp. Defense': 70,
+              Special: 40,
               Speed: 110,
             }}
             sprite='/images/pokemon/gen1/sprites/tauros.png'
@@ -152,8 +148,7 @@ const Home: NextPage = () => {
               HP: 160,
               Attack: 110,
               Defense: 65,
-              'Sp. Attack': 65,
-              'Sp. Defense': 110,
+              Special: 65,
               Speed: 30,
             }}
             sprite='/images/pokemon/gen1/sprites/snorlax.png'
@@ -167,8 +162,7 @@ const Home: NextPage = () => {
               HP: 95,
               Attack: 95,
               Defense: 85,
-              'Sp. Attack': 125,
-              'Sp. Defense': 75,
+              Special: 125,
               Speed: 55,
             }}
             sprite='/images/pokemon/gen1/sprites/Exeggutor.png'
@@ -269,7 +263,7 @@ const PokemonCard = ({
         {/* <h2>{name}</h2> */}
         <div className='flex flex-col text-left'>
           <label
-            className='mb-2 justify-start text-xs font-bold uppercase tracking-wide'
+            className='justify-start text-xs font-bold uppercase tracking-wide'
             htmlFor='pkmn-name'
           >
             Pokémon
@@ -278,13 +272,13 @@ const PokemonCard = ({
             type='text'
             id='pkmn-name'
             placeholder='Pokémon name...'
-            className='ml-2 rounded border-2 border-gray-300 focus:border-fuchsia-500 focus:ring-fuchsia-500 sm:text-sm'
+            className='rounded border-2 border-gray-300 focus:ring-fuchsia-500 sm:text-sm'
             required
           />
         </div>
         <div className='flex flex-col text-left'>
           <label
-            className='mb-2 justify-start text-xs font-bold uppercase tracking-wide'
+            className='justify-start text-xs font-bold uppercase tracking-wide'
             htmlFor='pkmn-type'
           >
             Type
@@ -297,7 +291,7 @@ const PokemonCard = ({
         </div>
         <div className='flex flex-col text-left'>
           <label
-            className='mb-2 justify-start text-xs font-bold uppercase tracking-wide'
+            className='justify-start text-xs font-bold uppercase tracking-wide'
             htmlFor='pkmn-level'
           >
             Level
@@ -306,33 +300,94 @@ const PokemonCard = ({
             type='text'
             id='pkmn-level'
             placeholder='Pokémon Level...'
-            className='ml-2 rounded border-2 border-gray-300 focus:border-fuchsia-500 focus:ring-fuchsia-500 sm:text-sm'
+            className='rounded border-2 border-gray-300 focus:ring-fuchsia-500 sm:text-sm'
             required
           />
         </div>
       </div>
       <div className='flex flex-row justify-evenly'>
-        <div>
+        <div className='w-full'>
           <img src={sprite} />
         </div>
-        <div>
+        <div className='w-full text-left'>
           <ul>
-            <li>Surf</li>
-            <li>Blizzard</li>
-            <li>Thunderbolt</li>
-            <li>Thunder Wave</li>
+            <li>
+              <input
+                type='text'
+                name='move'
+                className='mb-1 rounded border-2 border-gray-300 focus:ring-fuchsia-500 sm:text-sm'
+                placeholder='Move 1...'
+                onSubmit={() => {}}
+                required
+              />
+            </li>
+            <li>
+              <input
+                type='text'
+                name='move'
+                className='mb-1 rounded border-2 border-gray-300 focus:ring-fuchsia-500 sm:text-sm'
+                placeholder='Move 2...'
+                onSubmit={() => {}}
+                required
+              />
+            </li>
+            <li>
+              <input
+                type='text'
+                name='move'
+                className='mb-1 rounded border-2 border-gray-300 focus:ring-fuchsia-500 sm:text-sm'
+                placeholder='Move 3...'
+                onSubmit={() => {}}
+                required
+              />
+            </li>
+            <li>
+              <input
+                type='text'
+                name='move'
+                className='mb-1 rounded border-2 border-gray-300 focus:ring-fuchsia-500 sm:text-sm'
+                placeholder='Move 4...'
+                onSubmit={() => {}}
+                required
+              />
+            </li>
           </ul>
         </div>
-        <div>
-          <ul>
-            {Object.keys(base).map((stat, i) => (
-              <li key={i}>{stat}</li>
-            ))}
-          </ul>
+        <div className='flex w-full flex-row'>
+          <div className='w-full'>
+            <ul>
+              {Object.keys(base).map((keyName, i) => (
+                <div className='flex flex-row'>
+                  <div className='w-1/2'>
+                    <li key={i}>{keyName}</li>
+                    {/* <li>{base[keyName]}</li> */}
+                  </div>
+                  <div className='m-auto flex h-2.5 w-1/2 rounded-full bg-gray-700'>
+                    <span
+                      className='h-2.5 w-3/6 rounded-full bg-blue-600'
+                      style={{ width: 45 }}
+                    ></span>
+                  </div>
+                </div>
+              ))}
+            </ul>
+          </div>
+          {/* <div className='w-full'>
+            <ul className='flex flex-col'>
+              {Object.keys(base).map((stat, i) => (
+                <div className='mb-1 h-4 w-full rounded-full bg-red-700'>
+                  <li>
+                    <span
+                      key={i}
+                      className='h-2.5 w-full rounded-full bg-red-700'
+                    ></span>
+                  </li>
+                </div>
+              ))}
+            </ul>
+          </div> */}
         </div>
       </div>
-      {/* <img src={sprite} /> */}
-      {/* <img src={icon} /> */}
     </section>
   );
 };
