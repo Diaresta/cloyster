@@ -7,8 +7,7 @@
       "HP": 45,
       "Attack": 49,
       "Defense": 49,
-      "Sp. Attack": 65,
-      "Sp. Defense": 65,
+      "Special": 65,
       "Speed": 45
     },
     "sprite": "/images/pokemon/gen1/sprites/bulbasaur.png",
@@ -22,8 +21,7 @@
       "HP": 60,
       "Attack": 62,
       "Defense": 63,
-      "Sp. Attack": 80,
-      "Sp. Defense": 80,
+      "Special": 80,
       "Speed": 60
     },
     "sprite": "/images/pokemon/gen1/sprites/ivysaur.png",
@@ -37,8 +35,7 @@
       "HP": 80,
       "Attack": 82,
       "Defense": 83,
-      "Sp. Attack": 100,
-      "Sp. Defense": 100,
+      "Special": 100,
       "Speed": 80
     },
     "sprite": "/images/pokemon/gen1/sprites/venusaur.png",
@@ -52,8 +49,7 @@
       "HP": 39,
       "Attack": 52,
       "Defense": 43,
-      "Sp. Attack": 60,
-      "Sp. Defense": 50,
+      "Special": 50,
       "Speed": 65
     },
     "sprite": "/images/pokemon/gen1/sprites/charmander.png",
@@ -67,8 +63,7 @@
       "HP": 58,
       "Attack": 64,
       "Defense": 58,
-      "Sp. Attack": 80,
-      "Sp. Defense": 65,
+      "Special": 65,
       "Speed": 80
     },
     "sprite": "/images/pokemon/gen1/sprites/charmeleon.png",
@@ -82,8 +77,7 @@
       "HP": 78,
       "Attack": 84,
       "Defense": 78,
-      "Sp. Attack": 109,
-      "Sp. Defense": 85,
+      "Special": 85,
       "Speed": 100
     },
     "sprite": "/images/pokemon/gen1/sprites/charizard.png",
@@ -97,8 +91,7 @@
       "HP": 44,
       "Attack": 48,
       "Defense": 65,
-      "Sp. Attack": 50,
-      "Sp. Defense": 64,
+      "Special": 50,
       "Speed": 43
     },
     "sprite": "/images/pokemon/gen1/sprites/squirtle.png",
@@ -112,8 +105,7 @@
       "HP": 59,
       "Attack": 63,
       "Defense": 80,
-      "Sp. Attack": 65,
-      "Sp. Defense": 80,
+      "Special": 65,
       "Speed": 58
     },
     "sprite": "/images/pokemon/gen1/sprites/wartortle.png",
@@ -127,8 +119,7 @@
       "HP": 79,
       "Attack": 83,
       "Defense": 100,
-      "Sp. Attack": 85,
-      "Sp. Defense": 105,
+      "Special": 85,
       "Speed": 78
     },
     "sprite": "/images/pokemon/gen1/sprites/blastoise.png",
@@ -142,8 +133,7 @@
       "HP": 45,
       "Attack": 30,
       "Defense": 35,
-      "Sp. Attack": 20,
-      "Sp. Defense": 20,
+      "Special": 20,
       "Speed": 45
     },
     "sprite": "/images/pokemon/gen1/sprites/caterpie.png",
@@ -157,8 +147,7 @@
       "HP": 50,
       "Attack": 20,
       "Defense": 55,
-      "Sp. Attack": 25,
-      "Sp. Defense": 25,
+      "Special": 25,
       "Speed": 30
     },
     "sprite": "/images/pokemon/gen1/sprites/metapod.png",
@@ -172,8 +161,7 @@
       "HP": 60,
       "Attack": 45,
       "Defense": 50,
-      "Sp. Attack": 90,
-      "Sp. Defense": 80,
+      "Special": 80,
       "Speed": 70
     },
     "sprite": "/images/pokemon/gen1/sprites/butterfree.png",
@@ -187,8 +175,7 @@
       "HP": 40,
       "Attack": 35,
       "Defense": 30,
-      "Sp. Attack": 20,
-      "Sp. Defense": 20,
+      "Special": 20,
       "Speed": 50
     },
     "sprite": "/images/pokemon/gen1/sprites/weedle.png",
@@ -202,8 +189,7 @@
       "HP": 45,
       "Attack": 25,
       "Defense": 50,
-      "Sp. Attack": 25,
-      "Sp. Defense": 25,
+      "Special": 25,
       "Speed": 35
     },
     "sprite": "/images/pokemon/gen1/sprites/kakuna.png",
@@ -217,8 +203,7 @@
       "HP": 65,
       "Attack": 90,
       "Defense": 40,
-      "Sp. Attack": 45,
-      "Sp. Defense": 80,
+      "Special": 45,
       "Speed": 75
     },
     "sprite": "/images/pokemon/gen1/sprites/beedrill.png",
@@ -232,8 +217,7 @@
       "HP": 40,
       "Attack": 45,
       "Defense": 40,
-      "Sp. Attack": 35,
-      "Sp. Defense": 35,
+      "Special": 35,
       "Speed": 56
     },
     "sprite": "/images/pokemon/gen1/sprites/pidgey.png",
@@ -247,8 +231,7 @@
       "HP": 63,
       "Attack": 60,
       "Defense": 55,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
+      "Special": 50,
       "Speed": 71
     },
     "sprite": "/images/pokemon/gen1/sprites/pidgeotto.png",
@@ -262,8 +245,7 @@
       "HP": 83,
       "Attack": 80,
       "Defense": 75,
-      "Sp. Attack": 70,
-      "Sp. Defense": 70,
+      "Special": 70,
       "Speed": 101
     },
     "sprite": "/images/pokemon/gen1/sprites/pidgeot.png",
@@ -277,8 +259,7 @@
       "HP": 30,
       "Attack": 56,
       "Defense": 35,
-      "Sp. Attack": 25,
-      "Sp. Defense": 35,
+      "Special": 25,
       "Speed": 72
     },
     "sprite": "/images/pokemon/gen1/sprites/rattata.png",
@@ -292,8 +273,7 @@
       "HP": 55,
       "Attack": 81,
       "Defense": 60,
-      "Sp. Attack": 50,
-      "Sp. Defense": 70,
+      "Special": 50,
       "Speed": 97
     },
     "sprite": "/images/pokemon/gen1/sprites/raticate.png",
@@ -307,8 +287,7 @@
       "HP": 40,
       "Attack": 60,
       "Defense": 30,
-      "Sp. Attack": 31,
-      "Sp. Defense": 31,
+      "Special": 31,
       "Speed": 70
     },
     "sprite": "/images/pokemon/gen1/sprites/spearow.png",
@@ -322,8 +301,7 @@
       "HP": 65,
       "Attack": 90,
       "Defense": 65,
-      "Sp. Attack": 61,
-      "Sp. Defense": 61,
+      "Special": 61,
       "Speed": 100
     },
     "sprite": "/images/pokemon/gen1/sprites/fearow.png",
@@ -337,8 +315,7 @@
       "HP": 35,
       "Attack": 60,
       "Defense": 44,
-      "Sp. Attack": 40,
-      "Sp. Defense": 54,
+      "Special": 40,
       "Speed": 55
     },
     "sprite": "/images/pokemon/gen1/sprites/ekans.png",
@@ -352,8 +329,7 @@
       "HP": 60,
       "Attack": 95,
       "Defense": 69,
-      "Sp. Attack": 65,
-      "Sp. Defense": 79,
+      "Special": 65,
       "Speed": 80
     },
     "sprite": "/images/pokemon/gen1/sprites/arbok.png",
@@ -367,8 +343,7 @@
       "HP": 35,
       "Attack": 55,
       "Defense": 40,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
+      "Special": 50,
       "Speed": 90
     },
     "sprite": "/images/pokemon/gen1/sprites/pikachu.png",
@@ -382,8 +357,7 @@
       "HP": 60,
       "Attack": 90,
       "Defense": 55,
-      "Sp. Attack": 90,
-      "Sp. Defense": 80,
+      "Special": 90,
       "Speed": 110
     },
     "sprite": "/images/pokemon/gen1/sprites/raichu.png",
@@ -397,8 +371,7 @@
       "HP": 50,
       "Attack": 75,
       "Defense": 85,
-      "Sp. Attack": 20,
-      "Sp. Defense": 30,
+      "Special": 30,
       "Speed": 40
     },
     "sprite": "/images/pokemon/gen1/sprites/sandshrew.png",
@@ -412,8 +385,7 @@
       "HP": 75,
       "Attack": 100,
       "Defense": 110,
-      "Sp. Attack": 45,
-      "Sp. Defense": 55,
+      "Special": 55,
       "Speed": 65
     },
     "sprite": "/images/pokemon/gen1/sprites/sandslash.png",
@@ -427,8 +399,7 @@
       "HP": 55,
       "Attack": 47,
       "Defense": 52,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
+      "Special": 40,
       "Speed": 41
     },
     "sprite": "/images/pokemon/gen1/sprites/nidoranf.png",
@@ -442,8 +413,7 @@
       "HP": 70,
       "Attack": 62,
       "Defense": 67,
-      "Sp. Attack": 55,
-      "Sp. Defense": 55,
+      "Special": 55,
       "Speed": 56
     },
     "sprite": "/images/pokemon/gen1/sprites/nidorina.png",
@@ -457,8 +427,7 @@
       "HP": 90,
       "Attack": 92,
       "Defense": 87,
-      "Sp. Attack": 75,
-      "Sp. Defense": 85,
+      "Special": 75,
       "Speed": 76
     },
     "sprite": "/images/pokemon/gen1/sprites/nidoqueen.png",
@@ -472,8 +441,7 @@
       "HP": 46,
       "Attack": 57,
       "Defense": 40,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
+      "Special": 40,
       "Speed": 50
     },
     "sprite": "/images/pokemon/gen1/sprites/nidoranm.png",
@@ -487,8 +455,7 @@
       "HP": 61,
       "Attack": 72,
       "Defense": 57,
-      "Sp. Attack": 55,
-      "Sp. Defense": 55,
+      "Special": 55,
       "Speed": 65
     },
     "sprite": "/images/pokemon/gen1/sprites/nidorino.png",
@@ -502,8 +469,7 @@
       "HP": 81,
       "Attack": 102,
       "Defense": 77,
-      "Sp. Attack": 85,
-      "Sp. Defense": 75,
+      "Special": 75,
       "Speed": 85
     },
     "sprite": "/images/pokemon/gen1/sprites/nidoking.png",
@@ -512,13 +478,12 @@
   {
     "id": 35,
     "name": "Clefairy",
-    "type": ["Fairy"],
+    "type": ["Normal"],
     "base": {
       "HP": 70,
       "Attack": 45,
       "Defense": 48,
-      "Sp. Attack": 60,
-      "Sp. Defense": 65,
+      "Special": 60,
       "Speed": 35
     },
     "sprite": "/images/pokemon/gen1/sprites/clefairy.png",
@@ -527,13 +492,12 @@
   {
     "id": 36,
     "name": "Clefable",
-    "type": ["Fairy"],
+    "type": ["Normal"],
     "base": {
       "HP": 95,
       "Attack": 70,
       "Defense": 73,
-      "Sp. Attack": 95,
-      "Sp. Defense": 90,
+      "Special": 85,
       "Speed": 60
     },
     "sprite": "/images/pokemon/gen1/sprites/clefable.png",
@@ -547,8 +511,7 @@
       "HP": 38,
       "Attack": 41,
       "Defense": 40,
-      "Sp. Attack": 50,
-      "Sp. Defense": 65,
+      "Special": 65,
       "Speed": 65
     },
     "sprite": "/images/pokemon/gen1/sprites/vulpix.png",
@@ -562,8 +525,7 @@
       "HP": 73,
       "Attack": 76,
       "Defense": 75,
-      "Sp. Attack": 81,
-      "Sp. Defense": 100,
+      "Special": 100,
       "Speed": 100
     },
     "sprite": "/images/pokemon/gen1/sprites/ninetales.png",
@@ -572,13 +534,12 @@
   {
     "id": 39,
     "name": "Jigglypuff",
-    "type": ["Normal", "Fairy"],
+    "type": ["Normal"],
     "base": {
       "HP": 115,
       "Attack": 45,
       "Defense": 20,
-      "Sp. Attack": 45,
-      "Sp. Defense": 25,
+      "Special": 25,
       "Speed": 20
     },
     "sprite": "/images/pokemon/gen1/sprites/jigglypuff.png",
@@ -587,13 +548,12 @@
   {
     "id": 40,
     "name": "Wigglytuff",
-    "type": ["Normal", "Fairy"],
+    "type": ["Normal"],
     "base": {
       "HP": 140,
       "Attack": 70,
       "Defense": 45,
-      "Sp. Attack": 85,
-      "Sp. Defense": 50,
+      "Special": 50,
       "Speed": 45
     },
     "sprite": "/images/pokemon/gen1/sprites/wigglytuff.png",
@@ -607,8 +567,7 @@
       "HP": 40,
       "Attack": 45,
       "Defense": 35,
-      "Sp. Attack": 30,
-      "Sp. Defense": 40,
+      "Special": 40,
       "Speed": 55
     },
     "sprite": "/images/pokemon/gen1/sprites/zubat.png",
@@ -622,8 +581,7 @@
       "HP": 75,
       "Attack": 80,
       "Defense": 70,
-      "Sp. Attack": 65,
-      "Sp. Defense": 75,
+      "Special": 75,
       "Speed": 90
     },
     "sprite": "/images/pokemon/gen1/sprites/golbat.png",
@@ -637,8 +595,7 @@
       "HP": 45,
       "Attack": 50,
       "Defense": 55,
-      "Sp. Attack": 75,
-      "Sp. Defense": 65,
+      "Special": 75,
       "Speed": 30
     },
     "sprite": "/images/pokemon/gen1/sprites/oddish.png",
@@ -652,8 +609,7 @@
       "HP": 60,
       "Attack": 65,
       "Defense": 70,
-      "Sp. Attack": 85,
-      "Sp. Defense": 75,
+      "Special": 85,
       "Speed": 40
     },
     "sprite": "/images/pokemon/gen1/sprites/gloom.png",
@@ -667,8 +623,7 @@
       "HP": 75,
       "Attack": 80,
       "Defense": 85,
-      "Sp. Attack": 110,
-      "Sp. Defense": 90,
+      "Special": 100,
       "Speed": 50
     },
     "sprite": "/images/pokemon/gen1/sprites/vileplume.png",
@@ -682,8 +637,7 @@
       "HP": 35,
       "Attack": 70,
       "Defense": 55,
-      "Sp. Attack": 45,
-      "Sp. Defense": 55,
+      "Special": 55,
       "Speed": 25
     },
     "sprite": "/images/pokemon/gen1/sprites/paras.png",
@@ -697,8 +651,7 @@
       "HP": 60,
       "Attack": 95,
       "Defense": 80,
-      "Sp. Attack": 60,
-      "Sp. Defense": 80,
+      "Special": 80,
       "Speed": 30
     },
     "sprite": "/images/pokemon/gen1/sprites/parasect.png",
@@ -712,8 +665,7 @@
       "HP": 60,
       "Attack": 55,
       "Defense": 50,
-      "Sp. Attack": 40,
-      "Sp. Defense": 55,
+      "Special": 40,
       "Speed": 45
     },
     "sprite": "/images/pokemon/gen1/sprites/venonat.png",
@@ -727,8 +679,7 @@
       "HP": 70,
       "Attack": 65,
       "Defense": 60,
-      "Sp. Attack": 90,
-      "Sp. Defense": 75,
+      "Special": 90,
       "Speed": 90
     },
     "sprite": "/images/pokemon/gen1/sprites/venomoth.png",
@@ -742,8 +693,7 @@
       "HP": 10,
       "Attack": 55,
       "Defense": 25,
-      "Sp. Attack": 35,
-      "Sp. Defense": 45,
+      "Special": 45,
       "Speed": 95
     },
     "sprite": "/images/pokemon/gen1/sprites/diglett.png",
@@ -757,8 +707,7 @@
       "HP": 35,
       "Attack": 100,
       "Defense": 50,
-      "Sp. Attack": 50,
-      "Sp. Defense": 70,
+      "Special": 70,
       "Speed": 120
     },
     "sprite": "/images/pokemon/gen1/sprites/dugtrio.png",
@@ -772,8 +721,7 @@
       "HP": 40,
       "Attack": 45,
       "Defense": 35,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
+      "Special": 40,
       "Speed": 90
     },
     "sprite": "/images/pokemon/gen1/sprites/meowth.png",
@@ -787,8 +735,7 @@
       "HP": 65,
       "Attack": 70,
       "Defense": 60,
-      "Sp. Attack": 65,
-      "Sp. Defense": 65,
+      "Special": 65,
       "Speed": 115
     },
     "sprite": "/images/pokemon/gen1/sprites/persian.png",
@@ -802,8 +749,7 @@
       "HP": 50,
       "Attack": 52,
       "Defense": 48,
-      "Sp. Attack": 65,
-      "Sp. Defense": 50,
+      "Special": 50,
       "Speed": 55
     },
     "sprite": "/images/pokemon/gen1/sprites/psyduck.png",
@@ -817,8 +763,7 @@
       "HP": 80,
       "Attack": 82,
       "Defense": 78,
-      "Sp. Attack": 95,
-      "Sp. Defense": 80,
+      "Special": 80,
       "Speed": 85
     },
     "sprite": "/images/pokemon/gen1/sprites/golduck.png",
@@ -832,8 +777,7 @@
       "HP": 40,
       "Attack": 80,
       "Defense": 35,
-      "Sp. Attack": 35,
-      "Sp. Defense": 45,
+      "Special": 35,
       "Speed": 70
     },
     "sprite": "/images/pokemon/gen1/sprites/mankey.png",
@@ -847,8 +791,7 @@
       "HP": 65,
       "Attack": 105,
       "Defense": 60,
-      "Sp. Attack": 60,
-      "Sp. Defense": 70,
+      "Special": 60,
       "Speed": 95
     },
     "sprite": "/images/pokemon/gen1/sprites/primeape.png",
@@ -862,8 +805,7 @@
       "HP": 55,
       "Attack": 70,
       "Defense": 45,
-      "Sp. Attack": 70,
-      "Sp. Defense": 50,
+      "Special": 50,
       "Speed": 60
     },
     "sprite": "/images/pokemon/gen1/sprites/growlithe.png",
@@ -877,8 +819,7 @@
       "HP": 90,
       "Attack": 110,
       "Defense": 80,
-      "Sp. Attack": 100,
-      "Sp. Defense": 80,
+      "Special": 80,
       "Speed": 95
     },
     "sprite": "/images/pokemon/gen1/sprites/arcanine.png",
@@ -892,8 +833,7 @@
       "HP": 40,
       "Attack": 50,
       "Defense": 40,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
+      "Special": 40,
       "Speed": 90
     },
     "sprite": "/images/pokemon/gen1/sprites/poliwag.png",
@@ -907,8 +847,7 @@
       "HP": 65,
       "Attack": 65,
       "Defense": 65,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
+      "Special": 50,
       "Speed": 90
     },
     "sprite": "/images/pokemon/gen1/sprites/poliwhirl.png",
@@ -922,8 +861,7 @@
       "HP": 90,
       "Attack": 95,
       "Defense": 95,
-      "Sp. Attack": 70,
-      "Sp. Defense": 90,
+      "Special": 70,
       "Speed": 70
     },
     "sprite": "/images/pokemon/gen1/sprites/poliwrath.png",
@@ -937,8 +875,7 @@
       "HP": 25,
       "Attack": 20,
       "Defense": 15,
-      "Sp. Attack": 105,
-      "Sp. Defense": 55,
+      "Special": 105,
       "Speed": 90
     },
     "sprite": "/images/pokemon/gen1/sprites/abra.png",
@@ -952,8 +889,7 @@
       "HP": 40,
       "Attack": 35,
       "Defense": 30,
-      "Sp. Attack": 120,
-      "Sp. Defense": 70,
+      "Special": 120,
       "Speed": 105
     },
     "sprite": "/images/pokemon/gen1/sprites/kadabra.png",
@@ -967,8 +903,7 @@
       "HP": 55,
       "Attack": 50,
       "Defense": 45,
-      "Sp. Attack": 135,
-      "Sp. Defense": 95,
+      "Special": 135,
       "Speed": 120
     },
     "sprite": "/images/pokemon/gen1/sprites/alakazam.png",
@@ -982,8 +917,7 @@
       "HP": 70,
       "Attack": 80,
       "Defense": 50,
-      "Sp. Attack": 35,
-      "Sp. Defense": 35,
+      "Special": 35,
       "Speed": 35
     },
     "sprite": "/images/pokemon/gen1/sprites/machop.png",
@@ -997,8 +931,7 @@
       "HP": 80,
       "Attack": 100,
       "Defense": 70,
-      "Sp. Attack": 50,
-      "Sp. Defense": 60,
+      "Special": 50,
       "Speed": 45
     },
     "sprite": "/images/pokemon/gen1/sprites/machoke.png",
@@ -1012,8 +945,7 @@
       "HP": 90,
       "Attack": 130,
       "Defense": 80,
-      "Sp. Attack": 65,
-      "Sp. Defense": 85,
+      "Special": 65,
       "Speed": 55
     },
     "sprite": "/images/pokemon/gen1/sprites/machamp.png",
@@ -1027,8 +959,7 @@
       "HP": 50,
       "Attack": 75,
       "Defense": 35,
-      "Sp. Attack": 70,
-      "Sp. Defense": 30,
+      "Special": 70,
       "Speed": 40
     },
     "sprite": "/images/pokemon/gen1/sprites/bellsprout.png",
@@ -1042,8 +973,7 @@
       "HP": 65,
       "Attack": 90,
       "Defense": 50,
-      "Sp. Attack": 85,
-      "Sp. Defense": 45,
+      "Special": 85,
       "Speed": 55
     },
     "sprite": "/images/pokemon/gen1/sprites/weepinbell.png",
@@ -1057,8 +987,7 @@
       "HP": 80,
       "Attack": 105,
       "Defense": 65,
-      "Sp. Attack": 100,
-      "Sp. Defense": 70,
+      "Special": 100,
       "Speed": 70
     },
     "sprite": "/images/pokemon/gen1/sprites/victreebel.png",
@@ -1072,8 +1001,7 @@
       "HP": 40,
       "Attack": 40,
       "Defense": 35,
-      "Sp. Attack": 50,
-      "Sp. Defense": 100,
+      "Special": 100,
       "Speed": 70
     },
     "sprite": "/images/pokemon/gen1/sprites/tentacool.png",
@@ -1087,8 +1015,7 @@
       "HP": 80,
       "Attack": 70,
       "Defense": 65,
-      "Sp. Attack": 80,
-      "Sp. Defense": 120,
+      "Special": 120,
       "Speed": 100
     },
     "sprite": "/images/pokemon/gen1/sprites/tentacruel.png",
@@ -1102,8 +1029,7 @@
       "HP": 40,
       "Attack": 80,
       "Defense": 100,
-      "Sp. Attack": 30,
-      "Sp. Defense": 30,
+      "Special": 30,
       "Speed": 20
     },
     "sprite": "/images/pokemon/gen1/sprites/geodude.png",
@@ -1117,8 +1043,7 @@
       "HP": 55,
       "Attack": 95,
       "Defense": 115,
-      "Sp. Attack": 45,
-      "Sp. Defense": 45,
+      "Special": 45,
       "Speed": 35
     },
     "sprite": "/images/pokemon/gen1/sprites/graveler.png",
@@ -1132,8 +1057,7 @@
       "HP": 80,
       "Attack": 120,
       "Defense": 130,
-      "Sp. Attack": 55,
-      "Sp. Defense": 65,
+      "Special": 55,
       "Speed": 45
     },
     "sprite": "/images/pokemon/gen1/sprites/golem.png",
@@ -1147,8 +1071,7 @@
       "HP": 50,
       "Attack": 85,
       "Defense": 55,
-      "Sp. Attack": 65,
-      "Sp. Defense": 65,
+      "Special": 65,
       "Speed": 90
     },
     "sprite": "/images/pokemon/gen1/sprites/ponyta.png",
@@ -1162,8 +1085,7 @@
       "HP": 65,
       "Attack": 100,
       "Defense": 70,
-      "Sp. Attack": 80,
-      "Sp. Defense": 80,
+      "Special": 80,
       "Speed": 105
     },
     "sprite": "/images/pokemon/gen1/sprites/rapidash.png",
@@ -1177,8 +1099,7 @@
       "HP": 90,
       "Attack": 65,
       "Defense": 65,
-      "Sp. Attack": 40,
-      "Sp. Defense": 40,
+      "Special": 40,
       "Speed": 15
     },
     "sprite": "/images/pokemon/gen1/sprites/slowpoke.png",
@@ -1192,8 +1113,7 @@
       "HP": 95,
       "Attack": 75,
       "Defense": 110,
-      "Sp. Attack": 100,
-      "Sp. Defense": 80,
+      "Special": 80,
       "Speed": 30
     },
     "sprite": "/images/pokemon/gen1/sprites/slowbro.png",
@@ -1202,13 +1122,12 @@
   {
     "id": 81,
     "name": "Magnemite",
-    "type": ["Electric", "Steel"],
+    "type": ["Electric"],
     "base": {
       "HP": 25,
       "Attack": 35,
       "Defense": 70,
-      "Sp. Attack": 95,
-      "Sp. Defense": 55,
+      "Special": 95,
       "Speed": 45
     },
     "sprite": "/images/pokemon/gen1/sprites/magnemite.png",
@@ -1217,13 +1136,12 @@
   {
     "id": 82,
     "name": "Magneton",
-    "type": ["Electric", "Steel"],
+    "type": ["Electric"],
     "base": {
       "HP": 50,
       "Attack": 60,
       "Defense": 95,
-      "Sp. Attack": 120,
-      "Sp. Defense": 70,
+      "Special": 120,
       "Speed": 70
     },
     "sprite": "/images/pokemon/gen1/sprites/magneton.png",
@@ -1237,8 +1155,7 @@
       "HP": 52,
       "Attack": 90,
       "Defense": 55,
-      "Sp. Attack": 58,
-      "Sp. Defense": 62,
+      "Special": 58,
       "Speed": 60
     },
     "sprite": "/images/pokemon/gen1/sprites/farfetchd.png",
@@ -1252,8 +1169,7 @@
       "HP": 35,
       "Attack": 85,
       "Defense": 45,
-      "Sp. Attack": 35,
-      "Sp. Defense": 35,
+      "Special": 35,
       "Speed": 75
     },
     "sprite": "/images/pokemon/gen1/sprites/doduo.png",
@@ -1267,8 +1183,7 @@
       "HP": 60,
       "Attack": 110,
       "Defense": 70,
-      "Sp. Attack": 60,
-      "Sp. Defense": 60,
+      "Special": 60,
       "Speed": 110
     },
     "sprite": "/images/pokemon/gen1/sprites/dodrio.png",
@@ -1282,8 +1197,7 @@
       "HP": 65,
       "Attack": 45,
       "Defense": 55,
-      "Sp. Attack": 45,
-      "Sp. Defense": 70,
+      "Special": 70,
       "Speed": 45
     },
     "sprite": "/images/pokemon/gen1/sprites/seel.png",
@@ -1297,8 +1211,7 @@
       "HP": 90,
       "Attack": 70,
       "Defense": 80,
-      "Sp. Attack": 70,
-      "Sp. Defense": 95,
+      "Special": 95,
       "Speed": 70
     },
     "sprite": "/images/pokemon/gen1/sprites/dewgong.png",
@@ -1312,8 +1225,7 @@
       "HP": 80,
       "Attack": 80,
       "Defense": 50,
-      "Sp. Attack": 40,
-      "Sp. Defense": 50,
+      "Special": 40,
       "Speed": 25
     },
     "sprite": "/images/pokemon/gen1/sprites/grimer.png",
@@ -1327,8 +1239,7 @@
       "HP": 105,
       "Attack": 105,
       "Defense": 75,
-      "Sp. Attack": 65,
-      "Sp. Defense": 100,
+      "Special": 65,
       "Speed": 50
     },
     "sprite": "/images/pokemon/gen1/sprites/muk.png",
@@ -1342,8 +1253,7 @@
       "HP": 30,
       "Attack": 65,
       "Defense": 100,
-      "Sp. Attack": 45,
-      "Sp. Defense": 25,
+      "Special": 45,
       "Speed": 40
     },
     "sprite": "/images/pokemon/gen1/sprites/shellder.png",
@@ -1357,8 +1267,7 @@
       "HP": 50,
       "Attack": 95,
       "Defense": 180,
-      "Sp. Attack": 85,
-      "Sp. Defense": 45,
+      "Special": 85,
       "Speed": 70
     },
     "sprite": "/images/pokemon/gen1/sprites/cloyster.png",
@@ -1372,8 +1281,7 @@
       "HP": 30,
       "Attack": 35,
       "Defense": 30,
-      "Sp. Attack": 100,
-      "Sp. Defense": 35,
+      "Special": 100,
       "Speed": 80
     },
     "sprite": "/images/pokemon/gen1/sprites/gastly.png",
@@ -1387,8 +1295,7 @@
       "HP": 45,
       "Attack": 50,
       "Defense": 45,
-      "Sp. Attack": 115,
-      "Sp. Defense": 55,
+      "Special": 115,
       "Speed": 95
     },
     "sprite": "/images/pokemon/gen1/sprites/haunter.png",
@@ -1402,8 +1309,7 @@
       "HP": 60,
       "Attack": 65,
       "Defense": 60,
-      "Sp. Attack": 130,
-      "Sp. Defense": 75,
+      "Special": 130,
       "Speed": 110
     },
     "sprite": "/images/pokemon/gen1/sprites/gengar.png",
@@ -1417,8 +1323,7 @@
       "HP": 35,
       "Attack": 45,
       "Defense": 160,
-      "Sp. Attack": 30,
-      "Sp. Defense": 45,
+      "Special": 30,
       "Speed": 70
     },
     "sprite": "/images/pokemon/gen1/sprites/onix.png",
@@ -1432,8 +1337,7 @@
       "HP": 60,
       "Attack": 48,
       "Defense": 45,
-      "Sp. Attack": 43,
-      "Sp. Defense": 90,
+      "Special": 90,
       "Speed": 42
     },
     "sprite": "/images/pokemon/gen1/sprites/drowzee.png",
@@ -1447,8 +1351,7 @@
       "HP": 85,
       "Attack": 73,
       "Defense": 70,
-      "Sp. Attack": 73,
-      "Sp. Defense": 115,
+      "Special": 115,
       "Speed": 67
     },
     "sprite": "/images/pokemon/gen1/sprites/hypno.png",
@@ -1462,8 +1365,7 @@
       "HP": 30,
       "Attack": 105,
       "Defense": 90,
-      "Sp. Attack": 25,
-      "Sp. Defense": 25,
+      "Special": 25,
       "Speed": 50
     },
     "sprite": "/images/pokemon/gen1/sprites/krabby.png",
@@ -1477,8 +1379,7 @@
       "HP": 55,
       "Attack": 130,
       "Defense": 115,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
+      "Special": 50,
       "Speed": 75
     },
     "sprite": "/images/pokemon/gen1/sprites/kingler.png",
@@ -1492,8 +1393,7 @@
       "HP": 40,
       "Attack": 30,
       "Defense": 50,
-      "Sp. Attack": 55,
-      "Sp. Defense": 55,
+      "Special": 55,
       "Speed": 100
     },
     "sprite": "/images/pokemon/gen1/sprites/voltorb.png",
@@ -1507,8 +1407,7 @@
       "HP": 60,
       "Attack": 50,
       "Defense": 70,
-      "Sp. Attack": 80,
-      "Sp. Defense": 80,
+      "Special": 80,
       "Speed": 150
     },
     "sprite": "/images/pokemon/gen1/sprites/electrode.png",
@@ -1522,8 +1421,7 @@
       "HP": 60,
       "Attack": 40,
       "Defense": 80,
-      "Sp. Attack": 60,
-      "Sp. Defense": 45,
+      "Special": 60,
       "Speed": 40
     },
     "sprite": "/images/pokemon/gen1/sprites/exeggcute.png",
@@ -1537,8 +1435,7 @@
       "HP": 95,
       "Attack": 95,
       "Defense": 85,
-      "Sp. Attack": 125,
-      "Sp. Defense": 75,
+      "Special": 125,
       "Speed": 55
     },
     "sprite": "/images/pokemon/gen1/sprites/exeggutor.png",
@@ -1552,8 +1449,7 @@
       "HP": 50,
       "Attack": 50,
       "Defense": 95,
-      "Sp. Attack": 40,
-      "Sp. Defense": 50,
+      "Special": 40,
       "Speed": 35
     },
     "sprite": "/images/pokemon/gen1/sprites/cubone.png",
@@ -1567,8 +1463,7 @@
       "HP": 60,
       "Attack": 80,
       "Defense": 110,
-      "Sp. Attack": 50,
-      "Sp. Defense": 80,
+      "Special": 50,
       "Speed": 45
     },
     "sprite": "/images/pokemon/gen1/sprites/marowak.png",
@@ -1582,8 +1477,7 @@
       "HP": 50,
       "Attack": 120,
       "Defense": 53,
-      "Sp. Attack": 35,
-      "Sp. Defense": 110,
+      "Special": 35,
       "Speed": 87
     },
     "sprite": "/images/pokemon/gen1/sprites/hitmonlee.png",
@@ -1597,8 +1491,7 @@
       "HP": 50,
       "Attack": 105,
       "Defense": 79,
-      "Sp. Attack": 35,
-      "Sp. Defense": 110,
+      "Special": 35,
       "Speed": 76
     },
     "sprite": "/images/pokemon/gen1/sprites/hitmonchan.png",
@@ -1612,8 +1505,7 @@
       "HP": 90,
       "Attack": 55,
       "Defense": 75,
-      "Sp. Attack": 60,
-      "Sp. Defense": 75,
+      "Special": 60,
       "Speed": 30
     },
     "sprite": "/images/pokemon/gen1/sprites/lickitung.png",
@@ -1627,8 +1519,7 @@
       "HP": 40,
       "Attack": 65,
       "Defense": 95,
-      "Sp. Attack": 60,
-      "Sp. Defense": 45,
+      "Special": 60,
       "Speed": 35
     },
     "sprite": "/images/pokemon/gen1/sprites/koffing.png",
@@ -1642,8 +1533,7 @@
       "HP": 65,
       "Attack": 90,
       "Defense": 120,
-      "Sp. Attack": 85,
-      "Sp. Defense": 70,
+      "Special": 85,
       "Speed": 60
     },
     "sprite": "/images/pokemon/gen1/sprites/weezing.png",
@@ -1657,8 +1547,7 @@
       "HP": 80,
       "Attack": 85,
       "Defense": 95,
-      "Sp. Attack": 30,
-      "Sp. Defense": 30,
+      "Special": 30,
       "Speed": 25
     },
     "sprite": "/images/pokemon/gen1/sprites/rhyhorn.png",
@@ -1672,8 +1561,7 @@
       "HP": 105,
       "Attack": 130,
       "Defense": 120,
-      "Sp. Attack": 45,
-      "Sp. Defense": 45,
+      "Special": 45,
       "Speed": 40
     },
     "sprite": "/images/pokemon/gen1/sprites/rhydon.png",
@@ -1687,8 +1575,7 @@
       "HP": 250,
       "Attack": 5,
       "Defense": 5,
-      "Sp. Attack": 35,
-      "Sp. Defense": 105,
+      "Special": 105,
       "Speed": 50
     },
     "sprite": "/images/pokemon/gen1/sprites/chansey.png",
@@ -1702,8 +1589,7 @@
       "HP": 65,
       "Attack": 55,
       "Defense": 115,
-      "Sp. Attack": 100,
-      "Sp. Defense": 40,
+      "Special": 100,
       "Speed": 60
     },
     "sprite": "/images/pokemon/gen1/sprites/tangela.png",
@@ -1717,8 +1603,7 @@
       "HP": 105,
       "Attack": 95,
       "Defense": 80,
-      "Sp. Attack": 40,
-      "Sp. Defense": 80,
+      "Special": 40,
       "Speed": 90
     },
     "sprite": "/images/pokemon/gen1/sprites/kangaskhan.png",
@@ -1732,8 +1617,7 @@
       "HP": 30,
       "Attack": 40,
       "Defense": 70,
-      "Sp. Attack": 70,
-      "Sp. Defense": 25,
+      "Special": 70,
       "Speed": 60
     },
     "sprite": "/images/pokemon/gen1/sprites/horsea.png",
@@ -1747,8 +1631,7 @@
       "HP": 55,
       "Attack": 65,
       "Defense": 95,
-      "Sp. Attack": 95,
-      "Sp. Defense": 45,
+      "Special": 95,
       "Speed": 85
     },
     "sprite": "/images/pokemon/gen1/sprites/seadra.png",
@@ -1762,8 +1645,7 @@
       "HP": 45,
       "Attack": 67,
       "Defense": 60,
-      "Sp. Attack": 35,
-      "Sp. Defense": 50,
+      "Special": 50,
       "Speed": 63
     },
     "sprite": "/images/pokemon/gen1/sprites/goldeen.png",
@@ -1777,8 +1659,7 @@
       "HP": 80,
       "Attack": 92,
       "Defense": 65,
-      "Sp. Attack": 65,
-      "Sp. Defense": 80,
+      "Special": 80,
       "Speed": 68
     },
     "sprite": "/images/pokemon/gen1/sprites/seaking.png",
@@ -1792,8 +1673,7 @@
       "HP": 30,
       "Attack": 45,
       "Defense": 55,
-      "Sp. Attack": 70,
-      "Sp. Defense": 55,
+      "Special": 70,
       "Speed": 85
     },
     "sprite": "/images/pokemon/gen1/sprites/staryu.png",
@@ -1807,8 +1687,7 @@
       "HP": 60,
       "Attack": 75,
       "Defense": 85,
-      "Sp. Attack": 100,
-      "Sp. Defense": 85,
+      "Special": 100,
       "Speed": 115
     },
     "sprite": "/images/pokemon/gen1/sprites/starmie.png",
@@ -1817,13 +1696,12 @@
   {
     "id": 122,
     "name": "Mr. Mime",
-    "type": ["Psychic", "Fairy"],
+    "type": ["Psychic"],
     "base": {
       "HP": 40,
       "Attack": 45,
       "Defense": 65,
-      "Sp. Attack": 100,
-      "Sp. Defense": 120,
+      "Special": 100,
       "Speed": 90
     },
     "sprite": "/images/pokemon/gen1/sprites/mrmime.png",
@@ -1837,8 +1715,7 @@
       "HP": 70,
       "Attack": 110,
       "Defense": 80,
-      "Sp. Attack": 55,
-      "Sp. Defense": 80,
+      "Special": 55,
       "Speed": 105
     },
     "sprite": "/images/pokemon/gen1/sprites/scyther.png",
@@ -1852,8 +1729,7 @@
       "HP": 65,
       "Attack": 50,
       "Defense": 35,
-      "Sp. Attack": 115,
-      "Sp. Defense": 95,
+      "Special": 95,
       "Speed": 95
     },
     "sprite": "/images/pokemon/gen1/sprites/jynx.png",
@@ -1867,8 +1743,7 @@
       "HP": 65,
       "Attack": 83,
       "Defense": 57,
-      "Sp. Attack": 95,
-      "Sp. Defense": 85,
+      "Special": 85,
       "Speed": 105
     },
     "sprite": "/images/pokemon/gen1/sprites/electabuzz.png",
@@ -1882,8 +1757,7 @@
       "HP": 65,
       "Attack": 95,
       "Defense": 57,
-      "Sp. Attack": 100,
-      "Sp. Defense": 85,
+      "Special": 85,
       "Speed": 93
     },
     "sprite": "/images/pokemon/gen1/sprites/magmar.png",
@@ -1897,8 +1771,7 @@
       "HP": 65,
       "Attack": 125,
       "Defense": 100,
-      "Sp. Attack": 55,
-      "Sp. Defense": 70,
+      "Special": 55,
       "Speed": 85
     },
     "sprite": "/images/pokemon/gen1/sprites/pinsir.png",
@@ -1912,8 +1785,7 @@
       "HP": 75,
       "Attack": 100,
       "Defense": 95,
-      "Sp. Attack": 40,
-      "Sp. Defense": 70,
+      "Special": 70,
       "Speed": 110
     },
     "sprite": "/images/pokemon/gen1/sprites/tauros.png",
@@ -1927,8 +1799,7 @@
       "HP": 20,
       "Attack": 10,
       "Defense": 55,
-      "Sp. Attack": 15,
-      "Sp. Defense": 20,
+      "Special": 20,
       "Speed": 80
     },
     "sprite": "/images/pokemon/gen1/sprites/magikarp.png",
@@ -1942,8 +1813,7 @@
       "HP": 95,
       "Attack": 125,
       "Defense": 79,
-      "Sp. Attack": 60,
-      "Sp. Defense": 100,
+      "Special": 100,
       "Speed": 81
     },
     "sprite": "/images/pokemon/gen1/sprites/gyarados.png",
@@ -1957,8 +1827,7 @@
       "HP": 130,
       "Attack": 85,
       "Defense": 80,
-      "Sp. Attack": 85,
-      "Sp. Defense": 95,
+      "Special": 95,
       "Speed": 60
     },
     "sprite": "/images/pokemon/gen1/sprites/lapras.png",
@@ -1972,8 +1841,7 @@
       "HP": 48,
       "Attack": 48,
       "Defense": 48,
-      "Sp. Attack": 48,
-      "Sp. Defense": 48,
+      "Special": 48,
       "Speed": 48
     },
     "sprite": "/images/pokemon/gen1/sprites/ditto.png",
@@ -1987,8 +1855,7 @@
       "HP": 55,
       "Attack": 55,
       "Defense": 50,
-      "Sp. Attack": 45,
-      "Sp. Defense": 65,
+      "Special": 65,
       "Speed": 55
     },
     "sprite": "/images/pokemon/gen1/sprites/eevee.png",
@@ -2002,8 +1869,7 @@
       "HP": 130,
       "Attack": 65,
       "Defense": 60,
-      "Sp. Attack": 110,
-      "Sp. Defense": 95,
+      "Special": 110,
       "Speed": 65
     },
     "sprite": "/images/pokemon/gen1/sprites/vaporeon.png",
@@ -2017,8 +1883,7 @@
       "HP": 65,
       "Attack": 65,
       "Defense": 60,
-      "Sp. Attack": 110,
-      "Sp. Defense": 95,
+      "Special": 110,
       "Speed": 130
     },
     "sprite": "/images/pokemon/gen1/sprites/jolteon.png",
@@ -2032,8 +1897,7 @@
       "HP": 65,
       "Attack": 130,
       "Defense": 60,
-      "Sp. Attack": 95,
-      "Sp. Defense": 110,
+      "Special": 110,
       "Speed": 65
     },
     "sprite": "/images/pokemon/gen1/sprites/flareon.png",
@@ -2047,8 +1911,7 @@
       "HP": 65,
       "Attack": 60,
       "Defense": 70,
-      "Sp. Attack": 85,
-      "Sp. Defense": 75,
+      "Special": 75,
       "Speed": 40
     },
     "sprite": "/images/pokemon/gen1/sprites/porygon.png",
@@ -2062,8 +1925,7 @@
       "HP": 35,
       "Attack": 40,
       "Defense": 100,
-      "Sp. Attack": 90,
-      "Sp. Defense": 55,
+      "Special": 90,
       "Speed": 35
     },
     "sprite": "/images/pokemon/gen1/sprites/omanyte.png",
@@ -2077,8 +1939,7 @@
       "HP": 70,
       "Attack": 60,
       "Defense": 125,
-      "Sp. Attack": 115,
-      "Sp. Defense": 70,
+      "Special": 115,
       "Speed": 55
     },
     "sprite": "/images/pokemon/gen1/sprites/omastar.png",
@@ -2092,8 +1953,7 @@
       "HP": 30,
       "Attack": 80,
       "Defense": 90,
-      "Sp. Attack": 55,
-      "Sp. Defense": 45,
+      "Special": 45,
       "Speed": 55
     },
     "sprite": "/images/pokemon/gen1/sprites/kabuto.png",
@@ -2107,8 +1967,7 @@
       "HP": 60,
       "Attack": 115,
       "Defense": 105,
-      "Sp. Attack": 65,
-      "Sp. Defense": 70,
+      "Special": 70,
       "Speed": 80
     },
     "sprite": "/images/pokemon/gen1/sprites/kabutops.png",
@@ -2122,8 +1981,7 @@
       "HP": 80,
       "Attack": 105,
       "Defense": 65,
-      "Sp. Attack": 60,
-      "Sp. Defense": 75,
+      "Special": 60,
       "Speed": 130
     },
     "sprite": "/images/pokemon/gen1/sprites/aerodactyl.png",
@@ -2137,8 +1995,7 @@
       "HP": 160,
       "Attack": 110,
       "Defense": 65,
-      "Sp. Attack": 65,
-      "Sp. Defense": 110,
+      "Special": 65,
       "Speed": 30
     },
     "sprite": "/images/pokemon/gen1/sprites/snorlax.png",
@@ -2152,8 +2009,7 @@
       "HP": 90,
       "Attack": 85,
       "Defense": 100,
-      "Sp. Attack": 95,
-      "Sp. Defense": 125,
+      "Special": 125,
       "Speed": 85
     },
     "sprite": "/images/pokemon/gen1/sprites/articuno.png",
@@ -2167,8 +2023,7 @@
       "HP": 90,
       "Attack": 90,
       "Defense": 85,
-      "Sp. Attack": 125,
-      "Sp. Defense": 90,
+      "Special": 125,
       "Speed": 100
     },
     "sprite": "/images/pokemon/gen1/sprites/zapdos.png",
@@ -2182,8 +2037,7 @@
       "HP": 90,
       "Attack": 100,
       "Defense": 90,
-      "Sp. Attack": 125,
-      "Sp. Defense": 85,
+      "Special": 125,
       "Speed": 90
     },
     "sprite": "/images/pokemon/gen1/sprites/moltres.png",
@@ -2197,8 +2051,7 @@
       "HP": 41,
       "Attack": 64,
       "Defense": 45,
-      "Sp. Attack": 50,
-      "Sp. Defense": 50,
+      "Special": 50,
       "Speed": 50
     },
     "sprite": "/images/pokemon/gen1/sprites/dratini.png",
@@ -2212,8 +2065,7 @@
       "HP": 61,
       "Attack": 84,
       "Defense": 65,
-      "Sp. Attack": 70,
-      "Sp. Defense": 70,
+      "Special": 70,
       "Speed": 70
     },
     "sprite": "/images/pokemon/gen1/sprites/dragonair.png",
@@ -2227,8 +2079,7 @@
       "HP": 91,
       "Attack": 134,
       "Defense": 95,
-      "Sp. Attack": 100,
-      "Sp. Defense": 100,
+      "Special": 100,
       "Speed": 80
     },
     "sprite": "/images/pokemon/gen1/sprites/dragonite.png",
@@ -2242,8 +2093,7 @@
       "HP": 106,
       "Attack": 110,
       "Defense": 90,
-      "Sp. Attack": 154,
-      "Sp. Defense": 90,
+      "Special": 154,
       "Speed": 130
     },
     "sprite": "/images/pokemon/gen1/sprites/mewtwo.png",
@@ -2257,8 +2107,7 @@
       "HP": 100,
       "Attack": 100,
       "Defense": 100,
-      "Sp. Attack": 100,
-      "Sp. Defense": 100,
+      "Special": 100,
       "Speed": 100
     },
     "sprite": "/images/pokemon/gen1/sprites/mew.png",
