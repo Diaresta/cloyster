@@ -4,6 +4,13 @@ import { trpc } from '../utils/trpc';
 import { useEffect, useState } from 'react';
 
 // https://github.com/fanzeyi/pokemon.json/blob/master/moves.json
+
+const formatBase = (baseStat: any) => {
+  let stat = (baseStat / 255) * 100;
+
+  return stat;
+};
+
 const Home: NextPage = () => {
   const hello = trpc.useQuery(['example.hello', { text: 'from tRPC' }]);
 
@@ -362,10 +369,12 @@ const PokemonCard = ({
                     <li key={i}>{keyName}</li>
                     {/* <li>{base[keyName]}</li> */}
                   </div>
-                  <div className='m-auto flex h-2.5 w-1/2 rounded-full bg-gray-700'>
+                  {/* <div className='m-auto flex h-2.5 w-1/2 rounded-full bg-gray-700'> */}
+                  <div className='my-auto flex'>
+                    {/* <p>{base[keyName]}</p> */}
                     <span
-                      className='h-2.5 w-3/6 rounded-full bg-blue-600'
-                      style={{ width: 45 }}
+                      className='my-auto flex h-2.5 rounded-full bg-blue-600'
+                      // style={{ width: formatBase(base[keyName]) }}
                     ></span>
                   </div>
                 </div>
