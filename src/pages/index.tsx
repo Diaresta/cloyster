@@ -251,7 +251,7 @@ type pokemonCardProps = {
   id: number;
   name: string;
   type: string[];
-  base: object;
+  base: any;
   sprite: string;
   icon: string;
 };
@@ -290,7 +290,10 @@ const PokemonCard = ({
           >
             Type
           </label>
-          <ul id='pkmn-type' className='flex flex-row'>
+          <ul
+            id='pkmn-type'
+            className='flex flex-row text-xs font-bold uppercase tracking-wide'
+          >
             {type.map((type, i) => (
               <li key={i}>{type}</li>
             ))}
@@ -360,27 +363,25 @@ const PokemonCard = ({
             </li>
           </ul>
         </div>
-        <div className='flex w-full flex-row'>
-          <div className='w-full'>
-            <ul>
-              {Object.keys(base).map((keyName, i) => (
-                <div className='flex flex-row'>
-                  <div className='w-1/2'>
-                    <li key={i}>{keyName}</li>
-                    {/* <li>{base[keyName]}</li> */}
-                  </div>
-                  {/* <div className='m-auto flex h-2.5 w-1/2 rounded-full bg-gray-700'> */}
-                  <div className='my-auto flex'>
-                    {/* <p>{base[keyName]}</p> */}
-                    <span
-                      className='my-auto flex h-2.5 rounded-full bg-blue-600'
-                      // style={{ width: formatBase(base[keyName]) }}
-                    ></span>
-                  </div>
+        <div className='flex w-full flex-row text-sm font-bold'>
+          <ul className='my-auto w-full'>
+            {Object.keys(base).map((keyName, i) => (
+              <div className='flex flex-row justify-evenly'>
+                <div className='flex w-1/2 flex-row justify-evenly'>
+                  <li key={i}>{keyName}</li>
+                  <li>{base[keyName]}</li>
                 </div>
-              ))}
-            </ul>
-          </div>
+                {/* <div className='m-auto flex h-2.5 w-1/2 rounded-full bg-gray-700'> */}
+                <div className='flex flex-row space-x-3'>
+                  <span
+                    className='my-auto flex h-2.5 items-start rounded-full bg-blue-600'
+                    style={{ width: formatBase(base[keyName]) }}
+                  ></span>
+                </div>
+              </div>
+            ))}
+          </ul>
+
           {/* <div className='w-full'>
             <ul className='flex flex-col'>
               {Object.keys(base).map((stat, i) => (
@@ -405,7 +406,7 @@ type teamPokemon = {
   id: number;
   name: string;
   type: string[];
-  base: object;
+  base: any;
   sprite: string;
   icon: string;
   level: number;
@@ -416,7 +417,7 @@ class Pokemon {
   pID: number;
   pName: string;
   pType: string[];
-  pBase: object;
+  pBase: any;
   pSprite: string;
   pIcon: string;
   pLevel: number;
@@ -425,7 +426,7 @@ class Pokemon {
     id: number,
     name: string,
     type: string[],
-    base: object,
+    base: any,
     sprite: string,
     icon: string,
     level: number,
