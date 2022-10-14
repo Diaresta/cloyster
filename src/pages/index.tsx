@@ -279,7 +279,7 @@ const PokemonCard = ({
             type='text'
             id='pkmn-name'
             placeholder='Pokémon name...'
-            className='rounded border-2 border-gray-300 focus:ring-fuchsia-500 sm:text-sm'
+            className='w-5/6 rounded border-2 border-gray-300 hover:border-gray-400 hover:opacity-80 focus:ring-fuchsia-500 sm:text-sm'
             required
           />
         </div>
@@ -310,7 +310,7 @@ const PokemonCard = ({
             type='text'
             id='pkmn-level'
             placeholder='Pokémon Level...'
-            className='rounded border-2 border-gray-300 focus:ring-fuchsia-500 sm:text-sm'
+            className='w-5/6 rounded border-2 border-gray-300 hover:border-gray-400 hover:opacity-80 focus:ring-fuchsia-500 sm:text-sm'
             required
           />
         </div>
@@ -325,7 +325,7 @@ const PokemonCard = ({
               <input
                 type='text'
                 name='move'
-                className='mb-1 rounded border-2 border-gray-300 focus:ring-fuchsia-500 sm:text-sm'
+                className='mb-1 w-5/6 rounded border-2 border-gray-300 hover:border-gray-400 hover:opacity-80 focus:ring-fuchsia-500 sm:text-sm'
                 placeholder='Move 1...'
                 onSubmit={() => {}}
                 required
@@ -335,7 +335,7 @@ const PokemonCard = ({
               <input
                 type='text'
                 name='move'
-                className='mb-1 rounded border-2 border-gray-300 focus:ring-fuchsia-500 sm:text-sm'
+                className='mb-1 w-5/6 rounded border-2 border-gray-300 hover:border-gray-400 hover:opacity-80 focus:ring-fuchsia-500 sm:text-sm'
                 placeholder='Move 2...'
                 onSubmit={() => {}}
                 required
@@ -345,7 +345,7 @@ const PokemonCard = ({
               <input
                 type='text'
                 name='move'
-                className='mb-1 rounded border-2 border-gray-300 focus:ring-fuchsia-500 sm:text-sm'
+                className='mb-1 w-5/6 rounded border-2 border-gray-300 hover:border-gray-400 hover:opacity-80 focus:ring-fuchsia-500 sm:text-sm'
                 placeholder='Move 3...'
                 onSubmit={() => {}}
                 required
@@ -355,7 +355,7 @@ const PokemonCard = ({
               <input
                 type='text'
                 name='move'
-                className='mb-1 rounded border-2 border-gray-300 focus:ring-fuchsia-500 sm:text-sm'
+                className='mb-1 w-5/6 rounded border-2 border-gray-300 hover:border-gray-400 hover:opacity-80 focus:ring-fuchsia-500 sm:text-sm'
                 placeholder='Move 4...'
                 onSubmit={() => {}}
                 required
