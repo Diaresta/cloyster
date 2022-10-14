@@ -317,7 +317,7 @@ const PokemonCard = ({
       </div>
       <div className='flex flex-row justify-evenly'>
         <div className='w-full'>
-          <img src={sprite} />
+          <img src={sprite} className='my-auto drop-shadow-lg' />
         </div>
         <div className='w-full text-left'>
           <ul>
@@ -366,13 +366,15 @@ const PokemonCard = ({
         <div className='flex w-full flex-row text-sm font-bold'>
           <ul className='my-auto w-full'>
             {Object.keys(base).map((keyName, i) => (
-              <div className='flex flex-row justify-evenly'>
-                <div className='flex w-1/2 flex-row justify-evenly'>
+              <div className='flex flex-row justify-start space-x-3'>
+                <div className='w-full'>
                   <li key={i}>{keyName}</li>
+                </div>
+                <div className='w-full'>
                   <li>{base[keyName]}</li>
                 </div>
                 {/* <div className='m-auto flex h-2.5 w-1/2 rounded-full bg-gray-700'> */}
-                <div className='flex flex-row space-x-3'>
+                <div className='flex w-full'>
                   <span
                     className='my-auto flex h-2.5 items-start rounded-full bg-blue-600'
                     style={{ width: formatBase(base[keyName]) }}
