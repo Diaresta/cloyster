@@ -292,10 +292,12 @@ const PokemonCard = ({
           </label>
           <ul
             id='pkmn-type'
-            className='flex flex-row text-xs font-bold uppercase tracking-wide'
+            className='flex flex-row justify-evenly space-x-1 text-xs font-bold uppercase tracking-wide'
           >
             {type.map((type, i) => (
-              <li key={i}>{type}</li>
+              <li key={i}>
+                <img src={`/images/types/${type}.png`} />
+              </li>
             ))}
           </ul>
         </div>
