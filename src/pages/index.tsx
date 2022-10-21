@@ -68,7 +68,7 @@ const Home: NextPage = () => {
         </div>
         <div className='h-100 flex w-2/4 items-center justify-end text-gray-700'>
           <form>
-            <div className='relative rounded-md shadow-sm'>
+            <div className='relative rounded-md shadow-sm hover:opacity-90'>
               <div className='pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3'>
                 <img
                   className=''
@@ -79,7 +79,7 @@ const Home: NextPage = () => {
               <input
                 type='text'
                 name='team-search'
-                className='ml-2 block w-full rounded border-gray-300 pr-3 pl-6 sm:text-sm'
+                className='ml-2 block w-full rounded border-2 border-gray-300 pr-3 pl-6 hover:border-gray-400 focus:border-gray-500 sm:text-sm'
                 placeholder='Search teams by ID...'
                 onSubmit={() => {}}
                 required
