@@ -1,4 +1,4 @@
-import type { NextPage } from 'next';
+import type { NextPage, GetStaticProps } from 'next';
 import Head from 'next/head';
 import { trpc } from '../utils/trpc';
 import { useEffect, useState } from 'react';
@@ -6,13 +6,20 @@ import Header from './components/header';
 
 // https://github.com/fanzeyi/pokemon.json/blob/master/moves.json
 
-const formatBase = (baseStat: any) => {
+const formatBase = (baseStat: number) => {
   let stat = (baseStat / 255) * 100;
 
   return stat;
 };
 
-const Home: NextPage = () => {
+export const getStaticProps: GetStaticProps<any> = async () => {
+  const res = await fetch('http://localhost:3000/json/gen1.json');
+  const pokemonsList = await res.json();
+
+  return { props: { pokemonsList } };
+};
+
+const Home: NextPage = ({ pokemonsList }: any) => {
   const hello = trpc.useQuery(['example.hello', { text: 'from tRPC' }]);
 
   const [pokemon, setPokemon] = useState([]);
@@ -48,119 +55,57 @@ const Home: NextPage = () => {
       <main className='container mx-auto flex items-center justify-center p-4'>
         <div className='mt-3 grid w-full gap-3 pt-3 text-center lg:grid-cols-2'>
           <PokemonCard
-            id={121}
-            name='Starmie'
-            type={['Water', 'Psychic']}
-            base={{
-              HP: 60,
-              Attack: 75,
-              Defense: 85,
-              Special: 100,
-              Speed: 115,
-            }}
-            sprite='/images/pokemon/gen1/sprites/starmie.png'
-            icon='/images/pokemon/gen1/icons/121.png'
+            id={pokemonsList[120].id}
+            name={pokemonsList[120].name}
+            type={pokemonsList[120].type}
+            base={pokemonsList[120].base}
+            sprite={pokemonsList[120].sprite}
+            icon={pokemonsList[120].icon}
           />
           <PokemonCard
-            id={145}
-            name='Zapdos'
-            type={['Electric', 'Flying']}
-            base={{
-              HP: 90,
-              Attack: 90,
-              Defense: 85,
-              Special: 125,
-              Speed: 100,
-            }}
-            sprite='/images/pokemon/gen1/sprites/zapdos.png'
-            icon='/images/pokemon/gen1/icons/145.png'
+            id={pokemonsList[144].id}
+            name={pokemonsList[144].name}
+            type={pokemonsList[144].type}
+            base={pokemonsList[144].base}
+            sprite={pokemonsList[144].sprite}
+            icon={pokemonsList[144].icon}
           />
           <PokemonCard
-            id={112}
-            name='Rhydon'
-            type={['Ground', 'Rock']}
-            base={{
-              HP: 105,
-              Attack: 130,
-              Defense: 120,
-              Special: 45,
-              Speed: 40,
-            }}
-            sprite='/images/pokemon/gen1/sprites/Rhydon.png'
-            icon='/images/pokemon/gen1/icons/112.png'
+            id={pokemonsList[111].id}
+            name={pokemonsList[111].name}
+            type={pokemonsList[111].type}
+            base={pokemonsList[111].base}
+            sprite={pokemonsList[111].sprite}
+            icon={pokemonsList[111].icon}
           />
           <PokemonCard
-            id={128}
-            name='Tauros'
-            type={['Normal']}
-            base={{
-              HP: 75,
-              Attack: 100,
-              Defense: 95,
-              Special: 40,
-              Speed: 110,
-            }}
-            sprite='/images/pokemon/gen1/sprites/tauros.png'
-            icon='/images/pokemon/gen1/icons/128.png'
+            id={pokemonsList[127].id}
+            name={pokemonsList[127].name}
+            type={pokemonsList[127].type}
+            base={pokemonsList[127].base}
+            sprite={pokemonsList[127].sprite}
+            icon={pokemonsList[127].icon}
           />
           <PokemonCard
-            id={143}
-            name='Snorlax'
-            type={['Normal']}
-            base={{
-              HP: 160,
-              Attack: 110,
-              Defense: 65,
-              Special: 65,
-              Speed: 30,
-            }}
-            sprite='/images/pokemon/gen1/sprites/snorlax.png'
-            icon='/images/pokemon/gen1/icons/143.png'
+            id={pokemonsList[142].id}
+            name={pokemonsList[142].name}
+            type={pokemonsList[142].type}
+            base={pokemonsList[142].base}
+            sprite={pokemonsList[142].sprite}
+            icon={pokemonsList[142].icon}
           />
           <PokemonCard
-            id={103}
-            name='Exeggutor'
-            type={['Grass', 'Psychic']}
-            base={{
-              HP: 95,
-              Attack: 95,
-              Defense: 85,
-              Special: 125,
-              Speed: 55,
-            }}
-            sprite='/images/pokemon/gen1/sprites/Exeggutor.png'
-            icon='/images/pokemon/gen1/icons/103.png'
+            id={pokemonsList[102].id}
+            name={pokemonsList[102].name}
+            type={pokemonsList[102].type}
+            base={pokemonsList[102].base}
+            sprite={pokemonsList[102].sprite}
+            icon={pokemonsList[102].icon}
           />
-
-          {/* <TechnologyCard
-            name='TypeScript'
-            description='Strongly typed programming language that builds on JavaScript, giving you better tooling at any scale'
-            documentation='https://www.typescriptlang.org/'
-          />
-          <TechnologyCard
-            name='TailwindCSS'
-            description='Rapidly build modern websites without ever leaving your HTML'
-            documentation='https://tailwindcss.com/'
-          />
-          <TechnologyCard
-            name='tRPC'
-            description='End-to-end typesafe APIs made easy'
-            documentation='https://trpc.io/'
-          />
-          <TechnologyCard
-            name='Next-Auth'
-            description='Authentication for Next.js'
-            documentation='https://next-auth.js.org/'
-          />
-          <TechnologyCard
-            name='Prisma'
-            description='Build data-driven JavaScript & TypeScript apps in less time'
-            documentation='https://www.prisma.io/docs/'
-          /> */}
         </div>
         {/* <div className='flex w-full items-center justify-center pt-6 text-2xl text-blue-500'>
           <ul>
-            {pokemon.map((mon: any, i: number) => (
+            {pokemonsList.map((mon: any, i: number) => (
               <div>
                 <li key={i}>{mon.name}</li>
                 <img src={mon.sprite} />
@@ -333,7 +278,6 @@ const PokemonCard = ({
                 <div className='w-full'>
                   <li>{base[keyName]}</li>
                 </div>
-                {/* <div className='m-auto flex h-2.5 w-1/2 rounded-full bg-gray-700'> */}
                 <div className='flex w-full'>
                   <span
                     className='my-auto flex h-2.5 items-start rounded-full bg-blue-600'
@@ -343,21 +287,6 @@ const PokemonCard = ({
               </div>
             ))}
           </ul>
-
-          {/* <div className='w-full'>
-            <ul className='flex flex-col'>
-              {Object.keys(base).map((stat, i) => (
-                <div className='mb-1 h-4 w-full rounded-full bg-red-700'>
-                  <li>
-                    <span
-                      key={i}
-                      className='h-2.5 w-full rounded-full bg-red-700'
-                    ></span>
-                  </li>
-                </div>
-              ))}
-            </ul>
-          </div> */}
         </div>
       </div>
     </section>
