@@ -1,10 +1,8 @@
 import type { NextPage, GetStaticProps } from 'next';
 import Link from 'next/link';
-import Head from 'next/head';
 import { trpc } from '../utils/trpc';
 import { useEffect, useState } from 'react';
-import Header from './components/header';
-import TeamBuildHeader from './components/teamBuildHeader';
+import TeamBuildHeader from './components/TeamBuildHeader';
 
 // https://github.com/fanzeyi/pokemon.json/blob/master/moves.json
 
@@ -42,18 +40,6 @@ const Home: NextPage = ({ pokemonsList }: any) => {
 
   return (
     <>
-      <Head>
-        <title>Cloyster: Pokémon Team Builder</title>
-        <meta name='description' content='Pokémon Team Builder' />
-        <link rel='icon' href='/favicon.ico' />
-        <script
-          src='https://kit.fontawesome.com/dca6bdf503.js'
-          crossOrigin='anonymous'
-        />
-      </Head>
-
-      <Header />
-
       {/* <Link href={`/teambuild/`}>
         <a>Build</a>
       </Link> */}

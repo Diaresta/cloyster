@@ -1,7 +1,6 @@
 import { NextPage, GetStaticProps } from 'next';
 import { useEffect, useState } from 'react';
-import Header from '../components/header';
-import TeamBuildHeader from '../components/teamBuildHeader';
+import TeamBuildHeader from '../components/TeamBuildHeader';
 
 const formatBase = (baseStat: any) => {
   let stat = (baseStat / 255) * 100;
@@ -35,8 +34,6 @@ const TeamBuild: NextPage = ({ pokemonsList }: any) => {
 
   return (
     <>
-      <Header />
-
       <main className='container mx-auto flex flex-col items-center justify-center p-4'>
         <TeamBuildHeader />
         <div className='mt-3 grid w-full gap-3 text-center lg:grid-cols-2'>
