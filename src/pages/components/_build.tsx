@@ -1,5 +1,6 @@
 import { NextPage, GetStaticProps } from 'next';
 import { useEffect, useState } from 'react';
+import TeamBuildHeader from './teamBuildHeader';
 
 const formatBase = (baseStat: any) => {
   let stat = (baseStat / 255) * 100;
@@ -33,8 +34,9 @@ const TeamBuild: NextPage = ({ pokemonsList }: any) => {
 
   return (
     <>
-      <main className='container mx-auto flex items-center justify-center p-4'>
-        <div className='mt-3 grid w-full gap-3 pt-3 text-center lg:grid-cols-2'>
+      <main className='container mx-auto flex flex-col items-center justify-center p-4'>
+        <TeamBuildHeader />
+        <div className='mt-3 grid w-full gap-3 text-center lg:grid-cols-2'>
           <PokemonCard
             id={pokemonsList[120].id}
             name={pokemonsList[120].name}
@@ -85,16 +87,16 @@ const TeamBuild: NextPage = ({ pokemonsList }: any) => {
           />
         </div>
         {/* <div className='flex w-full items-center justify-center pt-6 text-2xl text-blue-500'>
-            <ul>
-              {pokemonsList.map((mon: any, i: number) => (
-                <div>
-                  <li key={i}>{mon.name}</li>
-                  <img src={mon.sprite} />
-                  <img src={mon.icon} />
-                </div>
-              ))}
-            </ul>
-          </div> */}
+          <ul>
+            {pokemonsList.map((mon: any, i: number) => (
+              <div>
+                <li key={i}>{mon.name}</li>
+                <img src={mon.sprite} />
+                <img src={mon.icon} />
+              </div>
+            ))}
+          </ul>
+        </div> */}
       </main>
     </>
   );

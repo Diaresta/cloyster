@@ -1,8 +1,10 @@
 import type { NextPage, GetStaticProps } from 'next';
+import Link from 'next/link';
 import Head from 'next/head';
 import { trpc } from '../utils/trpc';
 import { useEffect, useState } from 'react';
 import Header from './components/header';
+import TeamBuildHeader from './components/teamBuildHeader';
 
 // https://github.com/fanzeyi/pokemon.json/blob/master/moves.json
 
@@ -51,9 +53,11 @@ const Home: NextPage = ({ pokemonsList }: any) => {
       </Head>
 
       <Header />
+      {/* <Link href='/build/'>asdasdasdasd</Link> */}
 
-      <main className='container mx-auto flex items-center justify-center p-4'>
-        <div className='mt-3 grid w-full gap-3 pt-3 text-center lg:grid-cols-2'>
+      <main className='container mx-auto flex flex-col items-center justify-center p-4'>
+        <TeamBuildHeader />
+        <div className='mt-3 grid w-full gap-3 text-center lg:grid-cols-2'>
           <PokemonCard
             id={pokemonsList[120].id}
             name={pokemonsList[120].name}
