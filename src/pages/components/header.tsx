@@ -10,19 +10,21 @@ const Header: NextComponentType = () => {
       <header className='w-100 flex border-b-2 border-slate-600 bg-slate-900 px-6 py-1 text-slate-50'>
         <div className='h-100 flex w-2/4 items-center'>
           <div>
-            <Link href='/'>
-              <img
-                className='h-5/6 w-5/6 cursor-pointer'
-                src={`/images/pokemon/cloyster.${logoHover}`}
-                onMouseOver={() => {
-                  setLogoHover('gif');
-                }}
-                onMouseLeave={() => {
-                  setLogoHover('png');
-                }}
-                alt='Cloyster Logo'
-                title='Home'
-              />
+            <Link href={`/`}>
+              <a>
+                <img
+                  className='h-5/6 w-5/6 cursor-pointer'
+                  src={`/images/pokemon/cloyster.${logoHover}`}
+                  onMouseOver={() => {
+                    setLogoHover('gif');
+                  }}
+                  onMouseLeave={() => {
+                    setLogoHover('png');
+                  }}
+                  alt='Cloyster Logo'
+                  title='Home'
+                />
+              </a>
             </Link>
           </div>
 

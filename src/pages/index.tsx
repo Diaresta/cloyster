@@ -53,7 +53,10 @@ const Home: NextPage = ({ pokemonsList }: any) => {
       </Head>
 
       <Header />
-      {/* <Link href='/build/'>asdasdasdasd</Link> */}
+
+      {/* <Link href={`/teambuild/`}>
+        <a>Build</a>
+      </Link> */}
 
       <main className='container mx-auto flex flex-col items-center justify-center p-4'>
         <TeamBuildHeader />
