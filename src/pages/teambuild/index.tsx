@@ -15,8 +15,23 @@ const getStaticProps: GetStaticProps<any> = async () => {
   return { props: { pokemonsList } };
 };
 
+// Considering using React Query vvvv
+// const getPokemon: any = async () => {
+//   const res = await fetch('http://localhost:3000/json/gen1.json');
+//   const pokemonsList = await res.json();
+
+//   return pokemonsList;
+// };
+
 const TeamBuild: NextPage = ({ pokemonsList }: any) => {
   const [pokemon, setPokemon] = useState([]);
+
+  // Considering using React Query vvvv
+  // const {
+  //   data: pokemon,
+  //   isLoading: pokemonsIsLoading,
+  //   isError: pokemonIsError,
+  // }: any = useQuery(['pokemon'], getPokemon);
 
   const pokeSearch = async () => {
     await fetch('/json/gen1.json')
