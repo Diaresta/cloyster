@@ -2,9 +2,9 @@ import type { NextPage, GetStaticProps } from 'next';
 import Link from 'next/link';
 import { trpc } from '../utils/trpc';
 import { useEffect, useState } from 'react';
-import TeamBuildHeader from './components/TeamBuildHeader';
-
-// https://github.com/fanzeyi/pokemon.json/blob/master/moves.json
+import TeamBuildHeader from './teambuild/TeamBuildHeader';
+import HomeCreateTeam from './components/HomeCreateTeam';
+import TeamBuilder from './teambuild/TeamBuilder';
 
 const formatBase = (baseStat: number) => {
   let stat = (baseStat / 255) * 100;
@@ -45,6 +45,8 @@ const Home: NextPage = ({ pokemonsList }: any) => {
       </Link> */}
 
       <main className='container mx-auto flex flex-col items-center justify-center p-4'>
+        {/* <HomeCreateTeam /> */}
+        {/* <TeamBuilder pokemonsList={pokemonsList} /> */}
         <TeamBuildHeader />
         <div className='mt-3 grid w-full gap-3 text-center lg:grid-cols-2'>
           <PokemonCard
