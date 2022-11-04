@@ -45,9 +45,9 @@ const Home: NextPage = ({ pokemonsList }: any) => {
       </Link> */}
 
       <main className='container mx-auto flex flex-col items-center justify-center p-4'>
-        {/* <HomeCreateTeam /> */}
+        <HomeCreateTeam />
         {/* <TeamBuilder pokemonsList={pokemonsList} /> */}
-        <TeamBuildHeader />
+        {/* <TeamBuildHeader />
         <div className='mt-3 grid w-full gap-3 text-center lg:grid-cols-2'>
           <PokemonCard
             id={pokemonsList[120].id}
@@ -97,7 +97,7 @@ const Home: NextPage = ({ pokemonsList }: any) => {
             sprite={pokemonsList[102].sprite}
             icon={pokemonsList[102].icon}
           />
-        </div>
+        </div> */}
         {/* <div className='flex w-full items-center justify-center pt-6 text-2xl text-blue-500'>
           <ul>
             {pokemonsList.map((mon: any, i: number) => (
