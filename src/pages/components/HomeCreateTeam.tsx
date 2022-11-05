@@ -1,11 +1,10 @@
 import { NextComponentType } from 'next';
 import Link from 'next/link';
-
-/* <Link href={`/teambuild/`}>
-        <a>Build</a>
-      </Link> */
+import { useState } from 'react';
 
 const HomeCreateTeam: NextComponentType = () => {
+  const [generation, setGeneration] = useState<String>('gen1');
+
   return (
     <div className='container m-auto flex justify-center'>
       <div className='flex h-3/6 w-1/2 flex-col justify-center space-y-8 rounded border-2 border-gray-500 p-4 text-center shadow-xl'>
@@ -14,7 +13,14 @@ const HomeCreateTeam: NextComponentType = () => {
         </label>
         <form id='Generation'>
           <select placeholder='Gen1 - RBY'>
-            <option value='Gen1'>Gen1 - RBY</option>
+            <option
+              onClick={() => {
+                setGeneration('gen1');
+              }}
+              value='Gen1'
+            >
+              Gen1 - RBY
+            </option>
           </select>
         </form>
 

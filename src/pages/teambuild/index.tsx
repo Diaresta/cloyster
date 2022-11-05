@@ -8,13 +8,6 @@ const formatBase = (baseStat: any) => {
   return stat;
 };
 
-const getStaticProps: GetStaticProps<any> = async () => {
-  const res = await fetch('http://localhost:3000/json/gen1.json');
-  const pokemonsList = await res.json();
-
-  return { props: { pokemonsList } };
-};
-
 // Considering using React Query vvvv
 // const getPokemon: any = async () => {
 //   const res = await fetch('http://localhost:3000/json/gen1.json');
@@ -22,6 +15,13 @@ const getStaticProps: GetStaticProps<any> = async () => {
 
 //   return pokemonsList;
 // };
+
+export const getStaticProps: GetStaticProps<any> = async () => {
+  const res = await fetch('http://localhost:3000/json/gen1.json');
+  const pokemonsList = await res.json();
+
+  return { props: { pokemonsList } };
+};
 
 const TeamBuild: NextPage = ({ pokemonsList }: any) => {
   const [pokemon, setPokemon] = useState([]);
@@ -52,7 +52,7 @@ const TeamBuild: NextPage = ({ pokemonsList }: any) => {
       <main className='container mx-auto flex flex-col items-center justify-center p-4'>
         <TeamBuildHeader />
         <div className='mt-3 grid w-full gap-3 text-center lg:grid-cols-2'>
-          {/* <PokemonCard
+          <PokemonCard
             id={pokemonsList[120].id}
             name={pokemonsList[120].name}
             type={pokemonsList[120].type}
@@ -99,7 +99,7 @@ const TeamBuild: NextPage = ({ pokemonsList }: any) => {
             base={pokemonsList[102].base}
             sprite={pokemonsList[102].sprite}
             icon={pokemonsList[102].icon}
-          /> */}
+          />
         </div>
         {/* <div className='flex w-full items-center justify-center pt-6 text-2xl text-blue-500'>
           <ul>
