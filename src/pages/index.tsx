@@ -1,5 +1,4 @@
 import type { NextPage, GetStaticProps } from 'next';
-import Link from 'next/link';
 import { trpc } from '../utils/trpc';
 import { useEffect, useState } from 'react';
 import TeamBuildHeader from './teambuild/TeamBuildHeader';
@@ -12,12 +11,12 @@ const formatBase = (baseStat: number) => {
   return stat;
 };
 
-export const getStaticProps: GetStaticProps<any> = async () => {
-  const res = await fetch('http://localhost:3000/json/gen1.json');
-  const pokemonsList = await res.json();
+// export const getStaticProps: GetStaticProps<any> = async () => {
+//   const res = await fetch('http://localhost:3000/json/gen1.json');
+//   const pokemonsList = await res.json();
 
-  return { props: { pokemonsList } };
-};
+//   return { props: { pokemonsList } };
+// };
 
 const Home: NextPage = ({ pokemonsList }: any) => {
   const hello = trpc.useQuery(['example.hello', { text: 'from tRPC' }]);
@@ -40,75 +39,9 @@ const Home: NextPage = ({ pokemonsList }: any) => {
 
   return (
     <>
-      {/* <Link href={`/teambuild/`}>
-        <a>Build</a>
-      </Link> */}
-
       <main className='container mx-auto flex flex-col items-center justify-center p-4'>
         <HomeCreateTeam />
-        {/* <TeamBuilder pokemonsList={pokemonsList} /> */}
-        {/* <TeamBuildHeader />
-        <div className='mt-3 grid w-full gap-3 text-center lg:grid-cols-2'>
-          <PokemonCard
-            id={pokemonsList[120].id}
-            name={pokemonsList[120].name}
-            type={pokemonsList[120].type}
-            base={pokemonsList[120].base}
-            sprite={pokemonsList[120].sprite}
-            icon={pokemonsList[120].icon}
-          />
-          <PokemonCard
-            id={pokemonsList[144].id}
-            name={pokemonsList[144].name}
-            type={pokemonsList[144].type}
-            base={pokemonsList[144].base}
-            sprite={pokemonsList[144].sprite}
-            icon={pokemonsList[144].icon}
-          />
-          <PokemonCard
-            id={pokemonsList[111].id}
-            name={pokemonsList[111].name}
-            type={pokemonsList[111].type}
-            base={pokemonsList[111].base}
-            sprite={pokemonsList[111].sprite}
-            icon={pokemonsList[111].icon}
-          />
-          <PokemonCard
-            id={pokemonsList[127].id}
-            name={pokemonsList[127].name}
-            type={pokemonsList[127].type}
-            base={pokemonsList[127].base}
-            sprite={pokemonsList[127].sprite}
-            icon={pokemonsList[127].icon}
-          />
-          <PokemonCard
-            id={pokemonsList[142].id}
-            name={pokemonsList[142].name}
-            type={pokemonsList[142].type}
-            base={pokemonsList[142].base}
-            sprite={pokemonsList[142].sprite}
-            icon={pokemonsList[142].icon}
-          />
-          <PokemonCard
-            id={pokemonsList[102].id}
-            name={pokemonsList[102].name}
-            type={pokemonsList[102].type}
-            base={pokemonsList[102].base}
-            sprite={pokemonsList[102].sprite}
-            icon={pokemonsList[102].icon}
-          />
-        </div> */}
-        {/* <div className='flex w-full items-center justify-center pt-6 text-2xl text-blue-500'>
-          <ul>
-            {pokemonsList.map((mon: any, i: number) => (
-              <div>
-                <li key={i}>{mon.name}</li>
-                <img src={mon.sprite} />
-                <img src={mon.icon} />
-              </div>
-            ))}
-          </ul>
-        </div> */}
+        {/* <TeamBuilder {...pokemonsList} /> */}
       </main>
     </>
   );

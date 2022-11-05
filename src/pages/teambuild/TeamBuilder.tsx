@@ -6,7 +6,7 @@ const formatBase = (baseStat: any) => {
   return stat;
 };
 
-const TeamBuilder: NextComponentType = ({ pokemonsList }: any) => {
+const TeamBuilder: NextComponentType = (pokemonsList: any) => {
   return (
     <div className='mt-3 grid w-full gap-3 text-center lg:grid-cols-2'>
       <PokemonCard

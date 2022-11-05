@@ -1,4 +1,9 @@
 import { NextComponentType } from 'next';
+import Link from 'next/link';
+
+/* <Link href={`/teambuild/`}>
+        <a>Build</a>
+      </Link> */
 
 const HomeCreateTeam: NextComponentType = () => {
   return (
@@ -12,9 +17,12 @@ const HomeCreateTeam: NextComponentType = () => {
             <option value='Gen1'>Gen1 - RBY</option>
           </select>
         </form>
-        <button className='m-auto flex w-1/5 justify-center rounded-md border-2 border-gray-500 py-2 text-base font-medium text-gray-700 shadow-sm hover:bg-gray-100'>
-          Create Team
-        </button>
+
+        <Link href={`/teambuild/`}>
+          <a className='m-auto flex w-1/5 justify-center rounded-md border-2 border-gray-500 py-2 text-base font-medium text-gray-700 shadow-sm hover:bg-gray-100'>
+            Create Team
+          </a>
+        </Link>
       </div>
     </div>
   );
