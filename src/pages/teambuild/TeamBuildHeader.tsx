@@ -26,7 +26,10 @@ const TeamBuildHeader: NextComponentType = () => {
         </ul>
       </div>
       <div>
-        <button className='rounded bg-slate-800 py-2 px-2 text-xs font-bold text-slate-50 hover:bg-slate-700'>
+        <button
+          className='rounded bg-slate-800 py-2 px-2 text-xs font-bold text-slate-50 hover:bg-slate-700'
+          onClick={() => {}}
+        >
           Save Team
         </button>
       </div>

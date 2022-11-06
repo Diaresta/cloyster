@@ -25,7 +25,7 @@ const HomeCreateTeam: NextComponentType = () => {
         </form>
 
         <Link href={`/teambuild/`}>
-          <a className='m-auto flex w-1/5 justify-center rounded-md border-2 border-gray-500 py-2 text-base font-medium text-gray-700 shadow-sm hover:bg-gray-100'>
+          <a className='m-auto flex w-1/5 justify-center rounded-md bg-slate-800 py-2 text-base font-bold font-medium text-slate-50 shadow-sm hover:bg-slate-700'>
             Create Team
           </a>
         </Link>
