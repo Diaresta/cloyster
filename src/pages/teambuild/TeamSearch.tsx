@@ -3,15 +3,15 @@ import { NextComponentType } from 'next';
 const TeamSearch: NextComponentType = ({ pokemonsList }: any) => {
   return (
     <div>
-      {/* <ul>
-        {pokemonsList?.map((mon: any, i: number) => (
-          <div>
-            <li key={i}>{mon.name}</li>
-            <img src={mon.sprite} />
-            <img src={mon.icon} />
-          </div>
-        ))}
-      </ul> */}
+      {pokemonsList.map((mon: any, i: number) => (
+        <tr>
+          <td className='flex flex-row'>
+            <img src={`/images/pokemon/gen1/icons/${mon.id}.png`} />
+            <a>{mon.name}</a>
+            <img src={`/images/types/${mon.type}.png`} />
+          </td>
+        </tr>
+      ))}
     </div>
   );
 };
