@@ -3,7 +3,7 @@ import { NextComponentType } from 'next';
 const TeamSearch: NextComponentType = ({ pokemonsList }: any) => {
   return (
     <div>
-      {pokemonsList.map((mon: any, i: number) => (
+      {pokemonsList?.map((mon: any, i: number) => (
         <tr>
           <td className='flex flex-row'>
             <img src={`/images/pokemon/gen1/icons/${mon.id}.png`} />
