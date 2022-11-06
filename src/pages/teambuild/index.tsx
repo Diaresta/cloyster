@@ -1,6 +1,7 @@
 import { NextPage, GetStaticProps } from 'next';
 import { useEffect, useState } from 'react';
 import TeamBuildHeader from './TeamBuildHeader';
+import TeamSearch from './TeamSearch';
 
 const formatBase = (baseStat: any) => {
   let stat = (baseStat / 255) * 100;
@@ -119,6 +120,7 @@ const TeamBuild: NextPage = ({ pokemonsList }: any) => {
             icon={pokemonsList[102].icon}
           />
         </div>
+        <TeamSearch {...pokemonsList} />
         {/* <div className='flex w-full items-center justify-center pt-6 text-2xl text-blue-500'>
           <ul>
             {pokemonsList.map((mon: any, i: number) => (
