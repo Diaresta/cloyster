@@ -68,26 +68,15 @@ const TeamBuild: NextPage = ({ pokemonsList }: any) => {
   }, []);
 
   return (
-    <>
-      <main className='container mx-auto flex flex-col items-center justify-center p-4'>
-        <TeamBuildHeader />
-        <div className='w-full'>
-          <TeamBuilder {...pokemonsList} />
-        </div>
-        {/* <TeamSearch {...pokemonsList} /> */}
-        {/* <div className='flex w-full items-center justify-center pt-6 text-2xl text-blue-500'>
-          <ul>
-            {pokemonsList.map((mon: any, i: number) => (
-              <div>
-                <li key={i}>{mon.name}</li>
-                <img src={mon.sprite} />
-                <img src={mon.icon} />
-              </div>
-            ))}
-          </ul>
-        </div> */}
-      </main>
-    </>
+    <main className='container mx-auto flex flex-col items-center justify-center p-4'>
+      <TeamBuildHeader />
+      <div className='w-full'>
+        <TeamBuilder {...pokemonsList} />
+      </div>
+      <div className='w-full'>
+        <TeamSearch {...pokemonsList} />
+      </div>
+    </main>
   );
 };
 
