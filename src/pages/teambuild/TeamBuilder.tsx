@@ -1,4 +1,5 @@
 import { NextComponentType } from 'next';
+import { useState } from 'react';
 
 const formatBase = (baseStat: any) => {
   let stat = (baseStat / 255) * 100;
@@ -7,15 +8,30 @@ const formatBase = (baseStat: any) => {
 };
 
 const TeamBuilder: NextComponentType = (pokemonsList: any) => {
+  const [pokemanz, setPokemanz] = useState({
+    id: 0,
+    name: '',
+    type: ['Unknown', 'Unknown'],
+    base: {
+      HP: 0,
+      Attack: 0,
+      Defense: 0,
+      Special: 0,
+      Speed: 0,
+    },
+    sprite: '',
+    icon: '',
+    level: 0,
+  });
   return (
     <div className='mt-3 grid w-full gap-3 text-center lg:grid-cols-2'>
       <PokemonCard
-        id={pokemonsList[120].id}
-        name={pokemonsList[120].name}
-        type={pokemonsList[120].type}
-        base={pokemonsList[120].base}
-        sprite={pokemonsList[120].sprite}
-        icon={pokemonsList[120].icon}
+        id={pokemanz.id}
+        name={pokemanz.name}
+        type={pokemanz.type}
+        base={pokemanz.base}
+        sprite={pokemanz.sprite}
+        icon={pokemanz.icon}
       />
       <PokemonCard
         id={pokemonsList[144].id}
@@ -64,12 +80,12 @@ const TeamBuilder: NextComponentType = (pokemonsList: any) => {
 export default TeamBuilder;
 
 type pokemonCardProps = {
-  id: number;
-  name: string;
-  type: string[];
-  base: any;
-  sprite: string;
-  icon: string;
+  id?: number;
+  name?: string;
+  type?: string[];
+  base?: any;
+  sprite?: string;
+  icon?: string;
 };
 
 const PokemonCard = ({
@@ -97,6 +113,7 @@ const PokemonCard = ({
             id='pkmn-name'
             placeholder='Pokémon name...'
             className='w-5/6 rounded border-2 border-gray-300 hover:border-gray-400 hover:opacity-80 focus:border-gray-500 sm:text-sm'
+            onFocus={() => {}}
             required
           />
         </div>
@@ -111,7 +128,7 @@ const PokemonCard = ({
             id='pkmn-type'
             className='flex flex-row justify-evenly space-x-1 text-xs font-bold uppercase tracking-wide'
           >
-            {type.map((type, i) => (
+            {type?.map((type, i) => (
               <li key={i}>
                 <img src={`/images/types/${type}.png`} />
               </li>
