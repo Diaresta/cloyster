@@ -265,3 +265,16 @@ class Pokemon {
     this.pMoves = moves;
   }
 }
+
+// const placeholderIDea = (
+//   id: number,
+//   name: string,
+//   type: string[],
+//   base: object,
+//   sprite: string,
+//   icon: string,
+//   level: number,
+//   moves: object[]
+// ) => {
+//   // this.pokeID = id;
+// };
