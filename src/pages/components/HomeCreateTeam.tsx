@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 const HomeCreateTeam: NextComponentType = () => {
   const [generation, setGeneration] = useState<String>('gen1');
+  const [btnGen, setBtnGen] = useState<String>('Gen 1 - RBY');
 
   return (
     <div className='container m-auto flex justify-center'>
@@ -11,7 +12,10 @@ const HomeCreateTeam: NextComponentType = () => {
         <label className='text-4xl' htmlFor='Generation'>
           Select Generation:
         </label>
-        <form id='Generation'>
+        <a className='slate-800 m-auto flex w-1/5 justify-center rounded-md border-2 border-slate-800 bg-slate-100 py-2 text-base font-bold font-medium shadow-sm hover:cursor-pointer'>
+          {btnGen}
+        </a>
+        {/* <form id='Generation'>
           <select placeholder='Gen1 - RBY'>
             <option
               onClick={() => {
@@ -22,7 +26,7 @@ const HomeCreateTeam: NextComponentType = () => {
               Gen1 - RBY
             </option>
           </select>
-        </form>
+        </form> */}
 
         <Link href={`/teambuild/`}>
           <a className='m-auto flex w-1/5 justify-center rounded-md bg-slate-800 py-2 text-base font-bold font-medium text-slate-50 shadow-sm hover:bg-slate-700'>
