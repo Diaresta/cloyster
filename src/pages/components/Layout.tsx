@@ -3,10 +3,10 @@ import Header from './Header';
 
 const Layout = ({ children }: any) => {
   return (
-    <div>
+    <div className='min-h-screen'>
       <Meta />
       <Header />
-      <div>{children}</div>
+      <div className=''>{children}</div>
     </div>
   );
 };

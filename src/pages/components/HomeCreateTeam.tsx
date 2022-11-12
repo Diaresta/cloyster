@@ -7,12 +7,12 @@ const HomeCreateTeam: NextComponentType = () => {
   const [btnGen, setBtnGen] = useState<String>('Gen 1 - RBY');
 
   return (
-    <div className='container m-auto flex justify-center'>
-      <div className='flex h-3/6 w-1/2 flex-col justify-center space-y-8 rounded border-2 border-gray-500 p-4 text-center shadow-xl'>
+    <div className='container m-auto mt-12 flex justify-center'>
+      <div className='flex w-full flex-col justify-center space-y-8 rounded border-2 border-gray-500 p-4 text-center shadow-xl sm:h-3/6 sm:w-9/12 md:w-10/12 lg:w-1/2'>
         <label className='text-4xl' htmlFor='Generation'>
           Select Generation:
         </label>
-        <a className='slate-800 m-auto flex w-1/5 justify-center rounded-md border-2 border-slate-800 bg-slate-100 py-2 text-base font-bold font-medium shadow-sm hover:cursor-pointer'>
+        <a className='slate-800 m-auto flex w-2/5 justify-center rounded-md border-2 border-slate-800 bg-slate-100 py-2 text-base font-bold font-medium shadow-sm hover:cursor-pointer'>
           {btnGen}
         </a>
         {/* <form id='Generation'>
@@ -29,7 +29,7 @@ const HomeCreateTeam: NextComponentType = () => {
         </form> */}
 
         <Link href={`/teambuild/`}>
-          <a className='m-auto flex w-1/5 justify-center rounded-md bg-slate-800 py-2 text-base font-bold font-medium text-slate-50 shadow-sm hover:bg-slate-700'>
+          <a className='m-auto flex w-2/5 justify-center rounded-md bg-slate-800 py-2 text-base font-bold font-medium text-slate-50 shadow-sm hover:bg-slate-700'>
             Create Team
           </a>
         </Link>
