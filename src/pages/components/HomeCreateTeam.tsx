@@ -12,7 +12,7 @@ const HomeCreateTeam: NextComponentType = () => {
         <label className='text-4xl' htmlFor='Generation'>
           Select Generation:
         </label>
-        <a className='slate-800 m-auto flex w-2/5 justify-center rounded-md border-2 border-slate-800 bg-slate-100 py-2 text-base font-bold font-medium shadow-sm hover:cursor-pointer'>
+        <a className='slate-800 m-auto flex w-2/5 justify-center rounded-md border-2 border-slate-800 bg-slate-100 py-2 text-base font-bold font-medium shadow-sm hover:cursor-not-allowed'>
           {btnGen}
         </a>
         {/* <form id='Generation'>

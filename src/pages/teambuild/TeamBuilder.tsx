@@ -23,6 +23,7 @@ const TeamBuilder: NextComponentType = (pokemonsList: any) => {
     icon: '',
     level: 0,
   });
+
   return (
     <div className='mt-3 grid w-full gap-3 text-center lg:grid-cols-2'>
       <PokemonCard

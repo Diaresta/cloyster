@@ -3,7 +3,7 @@ import { trpc } from '../utils/trpc';
 
 import HomeCreateTeam from './components/HomeCreateTeam';
 
-const Home: NextPage = ({ pokemonsList }: any) => {
+const Home: NextPage = () => {
   // const hello = trpc.useQuery(['example.hello', { text: 'from tRPC' }]);
 
   return (
