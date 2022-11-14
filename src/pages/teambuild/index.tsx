@@ -25,7 +25,7 @@ export const getStaticProps: GetStaticProps<any> = async () => {
   return { props: { pokemonsList } };
 };
 
-const TeamBuild: NextPage = ({ pokemonsList }: any) => {
+const TeamBuild: NextPage = (props: any) => {
   const [pokemon, setPokemon] = useState([]);
   const [team, setPokemonTeam] = useState([]);
   const [pokemanz, setPokemanz] = useState({
@@ -71,10 +71,10 @@ const TeamBuild: NextPage = ({ pokemonsList }: any) => {
     <main className='container mx-auto flex flex-col items-center justify-center p-4'>
       <TeamBuildHeader />
       <div className='w-full'>
-        <TeamBuilder {...pokemonsList} />
+        <TeamBuilder {...props} />
       </div>
       <div className='w-full'>
-        <TeamSearch {...pokemonsList} />
+        <TeamSearch {...props} />
       </div>
     </main>
   );

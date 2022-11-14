@@ -7,7 +7,7 @@ const formatBase = (baseStat: any) => {
   return stat;
 };
 
-const TeamBuilder: NextComponentType = (pokemonsList: any) => {
+const TeamBuilder: NextComponentType = (props: any) => {
   const [pokemanz, setPokemanz] = useState({
     id: 0,
     name: '',
@@ -35,44 +35,44 @@ const TeamBuilder: NextComponentType = (pokemonsList: any) => {
         icon={pokemanz.icon}
       />
       <PokemonCard
-        id={pokemonsList[144].id}
-        name={pokemonsList[144].name}
-        type={pokemonsList[144].type}
-        base={pokemonsList[144].base}
-        sprite={pokemonsList[144].sprite}
-        icon={pokemonsList[144].icon}
+        id={props.pokemonsList[144].id}
+        name={props.pokemonsList[144].name}
+        type={props.pokemonsList[144].type}
+        base={props.pokemonsList[144].base}
+        sprite={props.pokemonsList[144].sprite}
+        icon={props.pokemonsList[144].icon}
       />
       <PokemonCard
-        id={pokemonsList[111].id}
-        name={pokemonsList[111].name}
-        type={pokemonsList[111].type}
-        base={pokemonsList[111].base}
-        sprite={pokemonsList[111].sprite}
-        icon={pokemonsList[111].icon}
+        id={props.pokemonsList[111].id}
+        name={props.pokemonsList[111].name}
+        type={props.pokemonsList[111].type}
+        base={props.pokemonsList[111].base}
+        sprite={props.pokemonsList[111].sprite}
+        icon={props.pokemonsList[111].icon}
       />
       <PokemonCard
-        id={pokemonsList[127].id}
-        name={pokemonsList[127].name}
-        type={pokemonsList[127].type}
-        base={pokemonsList[127].base}
-        sprite={pokemonsList[127].sprite}
-        icon={pokemonsList[127].icon}
+        id={props.pokemonsList[127].id}
+        name={props.pokemonsList[127].name}
+        type={props.pokemonsList[127].type}
+        base={props.pokemonsList[127].base}
+        sprite={props.pokemonsList[127].sprite}
+        icon={props.pokemonsList[127].icon}
       />
       <PokemonCard
-        id={pokemonsList[142].id}
-        name={pokemonsList[142].name}
-        type={pokemonsList[142].type}
-        base={pokemonsList[142].base}
-        sprite={pokemonsList[142].sprite}
-        icon={pokemonsList[142].icon}
+        id={props.pokemonsList[142].id}
+        name={props.pokemonsList[142].name}
+        type={props.pokemonsList[142].type}
+        base={props.pokemonsList[142].base}
+        sprite={props.pokemonsList[142].sprite}
+        icon={props.pokemonsList[142].icon}
       />
       <PokemonCard
-        id={pokemonsList[102].id}
-        name={pokemonsList[102].name}
-        type={pokemonsList[102].type}
-        base={pokemonsList[102].base}
-        sprite={pokemonsList[102].sprite}
-        icon={pokemonsList[102].icon}
+        id={props.pokemonsList[102].id}
+        name={props.pokemonsList[102].name}
+        type={props.pokemonsList[102].type}
+        base={props.pokemonsList[102].base}
+        sprite={props.pokemonsList[102].sprite}
+        icon={props.pokemonsList[102].icon}
       />
     </div>
   );
