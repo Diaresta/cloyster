@@ -25,14 +25,10 @@ const TeamSearch: NextComponentType = (props: any) => {
             </div>
             <div className='flex flex-row space-x-3'>
               {Object.keys(mon.base).map((keyName, i) => (
-                <div>
-                  <li>
-                    <p>{keyName}</p>
-                  </li>
-                  <li>
-                    <p>{mon.base[keyName]}</p>
-                  </li>
-                </div>
+                <li key={i}>
+                  <p>{keyName}</p>
+                  <p>{mon.base[keyName]}</p>
+                </li>
               ))}
             </div>
           </div>
