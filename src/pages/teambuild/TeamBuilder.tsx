@@ -148,6 +148,7 @@ const PokemonCard = ({
             name='pkmn-level'
             id='pkmn-level'
             placeholder='Pokémon Level...'
+            value='100'
             className='w-5/6 rounded border-2 border-gray-300 hover:border-gray-400 hover:opacity-80 focus:border-gray-500 sm:text-sm'
             required
           />

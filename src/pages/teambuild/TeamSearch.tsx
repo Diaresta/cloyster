@@ -1,9 +1,11 @@
 import { NextComponentType } from 'next';
 import { useState } from 'react';
 
-const STATS = ['HP', 'ATK', 'DEF', 'SPC', 'SPD'];
+const STATS: string[] = ['HP', 'ATK', 'DEF', 'SPC', 'SPD'];
 
 const TeamSearch: NextComponentType = (props: any) => {
+  const [currMon, setCurrMon] = useState('');
+
   return (
     <div className='flex w-full flex-col items-center justify-center pt-6'>
       <div>
