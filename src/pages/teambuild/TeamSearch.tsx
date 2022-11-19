@@ -1,6 +1,8 @@
 import { NextComponentType } from 'next';
 import { useState } from 'react';
 
+const STATS = ['HP', 'ATK', 'DEF', 'SPC', 'SPD'];
+
 const TeamSearch: NextComponentType = (props: any) => {
   return (
     <div className='flex w-full flex-col items-center justify-center pt-6'>
@@ -26,7 +28,7 @@ const TeamSearch: NextComponentType = (props: any) => {
             <div className='flex flex-row space-x-3'>
               {Object.keys(mon.base).map((keyName, i) => (
                 <li key={i}>
-                  <p>{keyName}</p>
+                  <p>{STATS[i]}</p>
                   <p>{mon.base[keyName]}</p>
                 </li>
               ))}
