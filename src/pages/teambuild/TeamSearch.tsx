@@ -7,31 +7,21 @@ const TeamSearch: NextComponentType = (props: any) => {
   const [currMon, setCurrMon] = useState('');
 
   return (
-    <div className='flex w-full flex-col items-center justify-center pt-6'>
-      <form className='relative rounded-md shadow-sm hover:opacity-90'>
-        <div className='pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3'>
-          <img
-            className=''
-            src='/images/utils/search.svg'
-            alt='Magnifying glass search'
-          />
+    // flex w-full flex-col items-center justify-center pt-6
+    <div className='mt-6 flex w-full flex-col items-center justify-center rounded border-2 border-gray-500 shadow-xl'>
+      <div className='mx-auto w-full'>
+        <div className='w-full bg-slate-200 font-bold'>
+          <div className='mx-auto flex w-3/5 flex-row justify-between'>
+            <p>Name</p>
+            <p>Type</p>
+            <p>Stats</p>
+          </div>
         </div>
-        <input
-          type='text'
-          name='team-search'
-          className='ml-2 block w-full rounded border-2 border-gray-300 pr-3 pl-6 hover:border-gray-400 focus:border-gray-500 sm:text-sm'
-          placeholder='Search Pokémon...'
-          onSubmit={() => {}}
-          required
-        />
-      </form>
-
-      <div>
-        <ul>
+        <ul className='mx-auto w-full'>
           {props.pokemonsList.map((mon: any, i: number) => (
-            <div className='flex flex-row space-x-3'>
-              <div className='mx-auto w-1/4'>
-                <li className='flex justify-end'>
+            <div className='flex flex-row space-x-1 sm:space-x-3'>
+              <div className='w-1/4'>
+                <li className='flex sm:justify-end'>
                   <img src={mon.icon} />
                 </li>
               </div>
