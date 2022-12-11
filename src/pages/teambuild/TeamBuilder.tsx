@@ -8,31 +8,48 @@ const formatBase = (baseStat: any) => {
 };
 
 const TeamBuilder: NextComponentType = (props: any) => {
-  const [pokemanz, setPokemanz] = useState({
-    id: 0,
-    name: '',
-    type: ['Unknown', 'Unknown'],
-    base: {
-      HP: 0,
-      Attack: 0,
-      Defense: 0,
-      Special: 0,
-      Speed: 0,
+  const [pokemanz, setPokemanz] = useState<any[]>([
+    {
+      id: 0,
+      name: '',
+      type: ['Unknown', 'Unknown'],
+      base: {
+        HP: 0,
+        Attack: 0,
+        Defense: 0,
+        Special: 0,
+        Speed: 0,
+      },
+      sprite: '',
+      icon: '',
+      level: 0,
     },
-    sprite: '',
-    icon: '',
-    level: 0,
-  });
+    {
+      id: 0,
+      name: '',
+      type: ['Unknown', 'Unknown'],
+      base: {
+        HP: 237,
+        Attack: 0,
+        Defense: 0,
+        Special: 0,
+        Speed: 0,
+      },
+      sprite: '',
+      icon: '',
+      level: 0,
+    },
+  ]);
 
   return (
     <div className='mt-3 grid w-full gap-3 text-center lg:grid-cols-2'>
       <PokemonCard
-        id={pokemanz.id}
-        name={pokemanz.name}
-        type={pokemanz.type}
-        base={pokemanz.base}
-        sprite={pokemanz.sprite}
-        icon={pokemanz.icon}
+        id={pokemanz[0].id}
+        name={pokemanz[0].name}
+        type={pokemanz[0].type}
+        base={pokemanz[0].base}
+        sprite={pokemanz[0].sprite}
+        icon={pokemanz[0].icon}
       />
       <PokemonCard
         id={props.pokemonsList[144].id}

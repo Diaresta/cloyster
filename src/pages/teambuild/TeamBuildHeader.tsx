@@ -1,28 +1,24 @@
 import { NextComponentType } from 'next';
+import { useState } from 'react';
 
 const TeamBuildHeader: NextComponentType = () => {
+  const [teamSprite, setTeamSprite] = useState([
+    'pokemon/gen1/icons/1',
+    'pokemon/pokeball',
+    'pokemon/pokeball',
+    'pokemon/pokeball',
+    'pokemon/pokeball',
+    'pokemon/pokeball',
+  ]);
   return (
     <div className='flex w-full flex-row justify-between'>
       <div>
         <ul className='flex flex-row'>
-          <li>
-            <img src='/images/pokemon/pokeball.png' />
-          </li>
-          <li>
-            <img src='/images/pokemon/pokeball.png' />
-          </li>
-          <li>
-            <img src='/images/pokemon/pokeball.png' />
-          </li>
-          <li>
-            <img src='/images/pokemon/pokeball.png' />
-          </li>
-          <li>
-            <img src='/images/pokemon/pokeball.png' />
-          </li>
-          <li>
-            <img src='/images/pokemon/pokeball.png' />
-          </li>
+          {teamSprite.map((mon: string) => (
+            <li>
+              <img src={`/images/${mon}.png`} />
+            </li>
+          ))}
         </ul>
       </div>
       <div>
