@@ -8,7 +8,7 @@ const formatBase = (baseStat: any) => {
 };
 
 const TeamBuilder: NextComponentType = (props: any) => {
-  const [pokemanz, setPokemanz] = useState<any[]>([
+  const [pokemonTeam, setPokemonTeam] = useState<any[]>([
     {
       id: 0,
       name: '',
@@ -29,7 +29,7 @@ const TeamBuilder: NextComponentType = (props: any) => {
       name: '',
       type: ['Unknown', 'Unknown'],
       base: {
-        HP: 237,
+        HP: 0,
         Attack: 0,
         Defense: 0,
         Special: 0,
@@ -39,58 +39,93 @@ const TeamBuilder: NextComponentType = (props: any) => {
       icon: '',
       level: 0,
     },
+    {
+      id: 0,
+      name: '',
+      type: ['Unknown', 'Unknown'],
+      base: {
+        HP: 0,
+        Attack: 0,
+        Defense: 0,
+        Special: 0,
+        Speed: 0,
+      },
+      sprite: '',
+      icon: '',
+      level: 0,
+    },
+    {
+      id: 0,
+      name: '',
+      type: ['Unknown', 'Unknown'],
+      base: {
+        HP: 0,
+        Attack: 0,
+        Defense: 0,
+        Special: 0,
+        Speed: 0,
+      },
+      sprite: '',
+      icon: '',
+      level: 0,
+    },
+    {
+      id: 0,
+      name: '',
+      type: ['Unknown', 'Unknown'],
+      base: {
+        HP: 0,
+        Attack: 0,
+        Defense: 0,
+        Special: 0,
+        Speed: 0,
+      },
+      sprite: '',
+      icon: '',
+      level: 0,
+    },
+    {
+      id: props.pokemonsList[144].id,
+      name: props.pokemonsList[144].name,
+      type: props.pokemonsList[144].type,
+      base: props.pokemonsList[144].base,
+      sprite: props.pokemonsList[144].sprite,
+      icon: props.pokemonsList[144].icon,
+      level: 100,
+    },
   ]);
+
+  const updateTeam = (index: any, e: any) => {
+    let newTeam = [...pokemonTeam];
+
+    newTeam[index] = e;
+
+    setPokemonTeam(newTeam);
+
+    // Example vvv
+    updateTeam(1, {
+      id: props.pokemonsList[144].id,
+      name: props.pokemonsList[144].name,
+      type: props.pokemonsList[144].type,
+      base: props.pokemonsList[144].base,
+      sprite: props.pokemonsList[144].sprite,
+      icon: props.pokemonsList[144].icon,
+      level: 100,
+    });
+  };
 
   return (
     <div className='mt-3 grid w-full gap-3 text-center lg:grid-cols-2'>
-      <PokemonCard
-        id={pokemanz[0].id}
-        name={pokemanz[0].name}
-        type={pokemanz[0].type}
-        base={pokemanz[0].base}
-        sprite={pokemanz[0].sprite}
-        icon={pokemanz[0].icon}
-      />
-      <PokemonCard
-        id={props.pokemonsList[144].id}
-        name={props.pokemonsList[144].name}
-        type={props.pokemonsList[144].type}
-        base={props.pokemonsList[144].base}
-        sprite={props.pokemonsList[144].sprite}
-        icon={props.pokemonsList[144].icon}
-      />
-      <PokemonCard
-        id={props.pokemonsList[111].id}
-        name={props.pokemonsList[111].name}
-        type={props.pokemonsList[111].type}
-        base={props.pokemonsList[111].base}
-        sprite={props.pokemonsList[111].sprite}
-        icon={props.pokemonsList[111].icon}
-      />
-      <PokemonCard
-        id={props.pokemonsList[127].id}
-        name={props.pokemonsList[127].name}
-        type={props.pokemonsList[127].type}
-        base={props.pokemonsList[127].base}
-        sprite={props.pokemonsList[127].sprite}
-        icon={props.pokemonsList[127].icon}
-      />
-      <PokemonCard
-        id={props.pokemonsList[142].id}
-        name={props.pokemonsList[142].name}
-        type={props.pokemonsList[142].type}
-        base={props.pokemonsList[142].base}
-        sprite={props.pokemonsList[142].sprite}
-        icon={props.pokemonsList[142].icon}
-      />
-      <PokemonCard
-        id={props.pokemonsList[102].id}
-        name={props.pokemonsList[102].name}
-        type={props.pokemonsList[102].type}
-        base={props.pokemonsList[102].base}
-        sprite={props.pokemonsList[102].sprite}
-        icon={props.pokemonsList[102].icon}
-      />
+      {pokemonTeam.map((placehold, i) => (
+        <PokemonCard
+          id={pokemonTeam[i].id}
+          name={pokemonTeam[i].name}
+          type={pokemonTeam[i].type}
+          base={pokemonTeam[i].base}
+          sprite={pokemonTeam[i].sprite}
+          icon={pokemonTeam[i].icon}
+        />
+      ))}
     </div>
   );
 };
@@ -106,7 +141,7 @@ type pokemonCardProps = {
   icon?: string;
 };
 
-const PokemonCard = ({
+export const PokemonCard = ({
   id,
   name,
   type,
