@@ -2,21 +2,37 @@ import { NextComponentType } from 'next';
 import { useState } from 'react';
 import { PokemonCard } from './TeamBuilder';
 
+// Team array = empty array. CurrMon = empty array. Populate currmon with info when saved, and push to team array.
+
 const STATS: string[] = ['HP', 'ATK', 'DEF', 'SPC', 'SPD'];
 
 const TeamSearch: NextComponentType = (props: any) => {
-  const [currMon, setCurrMon] = useState('');
+  const [currMon, setCurrMon] = useState({
+    id: 0,
+    name: '',
+    type: ['Unknown', 'Unknown'],
+    base: {
+      HP: 0,
+      Attack: 0,
+      Defense: 0,
+      Special: 0,
+      Speed: 0,
+    },
+    sprite: '',
+    icon: '',
+    level: 0,
+  });
 
   return (
     // flex w-full flex-col items-center justify-center pt-6
     <div className='mt-6'>
       <PokemonCard
-        id={0}
-        name={''}
-        type={['Unknown', 'Unknown']}
-        base={{ HP: 237, Attack: 0, Defense: 0, Special: 0, Speed: 0 }}
-        sprite={''}
-        icon={''}
+        id={currMon.id}
+        name={currMon.name}
+        type={currMon.type}
+        base={currMon.base}
+        sprite={currMon.sprite}
+        icon={currMon.icon}
       />
 
       <div className='mt-4 flex w-full flex-col items-center justify-center rounded border-2 border-gray-500 shadow-xl'>
