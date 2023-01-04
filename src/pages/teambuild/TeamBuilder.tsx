@@ -1,7 +1,7 @@
 import { NextComponentType } from 'next';
 import { useState } from 'react';
 
-const formatBase = (baseStat: any) => {
+export const formatBase = (baseStat: any) => {
   let stat = (baseStat / 255) * 100;
 
   return stat;
