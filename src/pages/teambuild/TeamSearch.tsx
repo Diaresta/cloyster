@@ -25,6 +25,18 @@ const TeamSearch: NextComponentType = (props: any) => {
     level: 0,
   });
 
+  const filterMon = (query: any, searchMon: string) => {
+    if (!searchMon) {
+      return query;
+    }
+
+    return query.filter((mon: any) => {
+      return mon.name.includes(searchMon);
+    });
+  };
+
+  const filteredSearch = filterMon(props.pokemonsList, searchMon);
+
   return (
     // flex w-full flex-col items-center justify-center pt-6
     <div className='mt-6'>
@@ -36,6 +48,23 @@ const TeamSearch: NextComponentType = (props: any) => {
         sprite={currMon.sprite}
         icon={currMon.icon}
       /> */}
+
+      <input
+        className='bg-red-700'
+        onChange={(e: any) => {
+          setSearchMon(e.target.value);
+          filterMon(props.pokemonsList, e.target.value);
+          console.log(filterMon(props.pokemonsList, searchMon));
+        }}
+      ></input>
+
+      <div>
+        <ul>
+          {filteredSearch.map((pokemon: any) => (
+            <li>{pokemon.name}</li>
+          ))}
+        </ul>
+      </div>
 
       <section className='flex w-full flex-col justify-center rounded border-2 border-gray-500 p-2 shadow-xl'>
         <div className='flex w-full justify-between'>
