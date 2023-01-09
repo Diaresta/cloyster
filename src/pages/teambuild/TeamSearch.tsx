@@ -49,26 +49,9 @@ const TeamSearch: NextComponentType = (props: any) => {
         icon={currMon.icon}
       /> */}
 
-      <input
-        className='bg-red-700'
-        onChange={(e: any) => {
-          setSearchMon(e.target.value);
-          filterMon(props.pokemonsList, e.target.value);
-          console.log(filterMon(props.pokemonsList, searchMon));
-        }}
-      ></input>
-
-      <div>
-        <ul>
-          {filteredSearch.map((pokemon: any) => (
-            <li>{pokemon.name}</li>
-          ))}
-        </ul>
-      </div>
-
       <section className='flex w-full flex-col justify-center rounded border-2 border-gray-500 p-2 shadow-xl'>
         <div className='flex w-full justify-between'>
-          {/* <div className='flex flex-col text-left'>
+          <div className='flex flex-col text-left'>
             <label
               className='justify-start text-xs font-bold uppercase tracking-wide'
               htmlFor='pkmn-name'
@@ -81,7 +64,12 @@ const TeamSearch: NextComponentType = (props: any) => {
               id='pkmn-name'
               placeholder='Pokémon name...'
               className='w-5/6 rounded border-2 border-gray-300 hover:border-gray-400 hover:opacity-80 focus:border-gray-500 sm:text-sm'
-              onFocus={() => {}}
+              // onFocus={() => {}}
+              onChange={(e: any) => {
+                setSearchMon(e.target.value);
+                filterMon(props.pokemonsList, e.target.value);
+                console.log(filterMon(props.pokemonsList, searchMon));
+              }}
               required
             />
           </div>
@@ -188,7 +176,7 @@ const TeamSearch: NextComponentType = (props: any) => {
                 </div>
               ))}
             </ul>
-          </div> */}
+          </div>
         </div>
       </section>
 
@@ -201,8 +189,9 @@ const TeamSearch: NextComponentType = (props: any) => {
               <p>Stats</p>
             </div>
           </div>
+
           <ul className='mx-auto w-full'>
-            {props.pokemonsList.map((mon: any, i: number) => (
+            {filteredSearch.map((mon: any, i: number) => (
               <div className='mb-2 flex flex-row space-x-1 sm:space-x-3'>
                 <div className='w-1/4'>
                   <li className='flex sm:justify-end'>
