@@ -4,6 +4,7 @@ import { PokemonCard } from './TeamBuilder';
 import { formatBase } from './TeamBuilder';
 
 // Team array = empty array. CurrMon = empty array. Populate currmon with info when saved, and push to team array.
+// Add array to gen1.json that's available moves per mon
 
 const STATS: string[] = ['HP', 'ATK', 'DEF', 'SPC', 'SPD'];
 
@@ -32,7 +33,7 @@ const TeamSearch: NextComponentType = (props: any) => {
     }
 
     return query.filter((mon: any) => {
-      return mon.name.includes(searchMon);
+      return mon.name.toUpperCase().includes(searchMon.toUpperCase());
     });
   };
 
