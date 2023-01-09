@@ -8,6 +8,7 @@ import { formatBase } from './TeamBuilder';
 const STATS: string[] = ['HP', 'ATK', 'DEF', 'SPC', 'SPD'];
 
 const TeamSearch: NextComponentType = (props: any) => {
+  const [searchView, setSearchView] = useState('hidden');
   const [searchMon, setSearchMon] = useState('');
   const [currMon, setCurrMon] = useState<pokemonProps>({
     id: 0,
@@ -64,7 +65,12 @@ const TeamSearch: NextComponentType = (props: any) => {
               id='pkmn-name'
               placeholder='Pokémon name...'
               className='w-5/6 rounded border-2 border-gray-300 hover:border-gray-400 hover:opacity-80 focus:border-gray-500 sm:text-sm'
-              // onFocus={() => {}}
+              onFocus={() => {
+                setSearchView('flex');
+              }}
+              onBlur={() => {
+                setSearchView('hidden');
+              }}
               onChange={(e: any) => {
                 setSearchMon(e.target.value);
                 filterMon(props.pokemonsList, e.target.value);
@@ -180,7 +186,9 @@ const TeamSearch: NextComponentType = (props: any) => {
         </div>
       </section>
 
-      <div className='mt-4 flex w-full flex-col items-center justify-center rounded border-2 border-gray-500 shadow-xl'>
+      <div
+        className={`mt-4 ${searchView} w-full flex-col items-center justify-center rounded border-2 border-gray-500 shadow-xl`}
+      >
         <div className='mx-auto w-full'>
           <div className='w-full bg-slate-200 font-bold'>
             <div className='mx-auto flex w-3/5 flex-row justify-between'>
