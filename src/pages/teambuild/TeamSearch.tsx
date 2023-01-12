@@ -201,7 +201,7 @@ const TeamSearch: NextComponentType = (props: any) => {
 
           <ul className='mx-auto w-full'>
             {filteredSearch.map((mon: any, i: number) => (
-              <div className='mb-2 flex flex-row space-x-1 sm:space-x-3'>
+              <a className='team-list mb-2 flex flex-row space-x-1 sm:space-x-3'>
                 <div className='w-1/4'>
                   <li className='flex sm:justify-end'>
                     <img src={mon.icon} />
@@ -225,7 +225,7 @@ const TeamSearch: NextComponentType = (props: any) => {
                     </li>
                   ))}
                 </div>
-              </div>
+              </a>
             ))}
           </ul>
         </div>

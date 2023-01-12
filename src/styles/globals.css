@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.team-list:hover {
+  background-color: rgb(241 245 249);
+  cursor: pointer;
+}

@@ -71,10 +71,10 @@ const TeamBuild: NextPage = (props: any) => {
     <main className='container mx-auto flex flex-col items-center justify-center p-4'>
       <TeamBuildHeader />
       <div className='w-full'>
-        <TeamBuilder {...props} />
+        <TeamSearch {...props} />
       </div>
       <div className='w-full'>
-        <TeamSearch {...props} />
+        <TeamBuilder {...props} />
       </div>
     </main>
   );
