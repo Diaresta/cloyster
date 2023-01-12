@@ -1,6 +1,5 @@
 import { NextComponentType } from 'next';
 import { useState } from 'react';
-import { PokemonCard } from './TeamBuilder';
 import { formatBase } from './TeamBuilder';
 
 // Team array = empty array. CurrMon = empty array. Populate currmon with info when saved, and push to team array.
@@ -10,6 +9,7 @@ const STATS: string[] = ['HP', 'ATK', 'DEF', 'SPC', 'SPD'];
 
 const TeamSearch: NextComponentType = (props: any) => {
   const [searchView, setSearchView] = useState('hidden');
+  const [searchParam, setSearchParam] = useState('');
   const [searchMon, setSearchMon] = useState('');
   const [currMon, setCurrMon] = useState<pokemonProps>({
     id: 0,
@@ -187,6 +187,7 @@ const TeamSearch: NextComponentType = (props: any) => {
         </div>
       </section>
 
+      {/* Ternary op, variable (searchParams) true/false showing mons vs moves*/}
       <div
         className={`mt-4 ${searchView} w-full flex-col items-center justify-center rounded border-2 border-gray-500 shadow-xl`}
       >
@@ -230,6 +231,49 @@ const TeamSearch: NextComponentType = (props: any) => {
           </ul>
         </div>
       </div>
+
+      {/* -------------------------------------- Prepping moves -------------------------------------- */}
+      {/* <div
+        className={`mt-4 ${searchView} w-full flex-col items-center justify-center rounded border-2 border-gray-500 shadow-xl`}
+      >
+        <div className='mx-auto w-full'>
+          <div className='w-full bg-slate-200 font-bold'>
+            <div className='mx-auto flex w-3/5 flex-row justify-between'>
+              <p>Name</p>
+              <p>Type</p>
+              <p>Stats</p>
+            </div>
+          </div>
+
+          <ul className='mx-auto w-full'>
+            {props.moveList.map((move: any, i: number) => (
+              <a className='team-list mb-2 flex flex-row space-x-1 sm:space-x-3'>
+                <div className='mx-auto mt-2 w-1/4 space-x-3 space-y-3 '>
+                  <li>{move.name}</li>
+                </div>
+                <div className='mx-auto mt-2 w-1/4 space-x-3 space-y-3 '>
+                  <li>{move.type}</li>
+                </div>
+                <div className='mx-auto mt-2 w-1/4 space-x-3 space-y-3 '>
+                  <li>{move.category}</li>
+                </div>
+                <div className='mx-auto mt-2 w-1/4 space-x-3 space-y-3 '>
+                  <li>{move.power}</li>
+                </div>
+                <div className='mx-auto mt-2 w-1/4 space-x-3 space-y-3 '>
+                  <li>{Math.floor(move.accuracy * 100)}%</li>
+                </div>
+                <div className='mx-auto mt-2 w-1/4 space-x-3 space-y-3 '>
+                  <li>{move.pp}</li>
+                </div>
+                <div className='mx-auto mt-2 w-1/4 space-x-3 space-y-3 '>
+                  <li>{move.effect}</li>
+                </div>
+              </a>
+            ))}
+          </ul>
+        </div>
+      </div> */}
     </div>
   );
 };

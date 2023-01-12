@@ -19,10 +19,12 @@ const formatBase = (baseStat: any) => {
 // };
 
 export const getStaticProps: GetStaticProps<any> = async () => {
-  const res = await fetch('http://localhost:3000/json/gen1.json');
-  const pokemonsList = await res.json();
+  const pokemonRes = await fetch('http://localhost:3000/json/gen1.json');
+  const movesRes = await fetch('http://localhost:3000/json/gen1Moves.json');
+  const pokemonsList = await pokemonRes.json();
+  const moveList = await movesRes.json();
 
-  return { props: { pokemonsList } };
+  return { props: { pokemonsList, moveList } };
 };
 
 const TeamBuild: NextPage = (props: any) => {
