@@ -8,7 +8,8 @@ import { formatBase } from './TeamBuilder';
 const STATS: string[] = ['HP', 'ATK', 'DEF', 'SPC', 'SPD'];
 
 const TeamSearch: NextComponentType = (props: any) => {
-  const [searchView, setSearchView] = useState('hidden');
+  const [monSearchView, setMonSearchView] = useState('hidden');
+  const [movesSearchView, setMovesSearchView] = useState('hidden');
   const [searchParam, setSearchParam] = useState('');
   const [searchMon, setSearchMon] = useState('');
   const [currMon, setCurrMon] = useState<pokemonProps>({
@@ -67,10 +68,10 @@ const TeamSearch: NextComponentType = (props: any) => {
               placeholder='Pokémon name...'
               className='w-5/6 rounded border-2 border-gray-300 hover:border-gray-400 hover:opacity-80 focus:border-gray-500 sm:text-sm'
               onFocus={() => {
-                setSearchView('flex');
+                setMonSearchView('flex');
               }}
               onBlur={() => {
-                setSearchView('hidden');
+                setMonSearchView('hidden');
               }}
               onChange={(e: any) => {
                 setSearchMon(e.target.value);
@@ -189,7 +190,7 @@ const TeamSearch: NextComponentType = (props: any) => {
 
       {/* Ternary op, variable (searchParams) true/false showing mons vs moves*/}
       <div
-        className={`mt-4 ${searchView} w-full flex-col items-center justify-center rounded border-2 border-gray-500 shadow-xl`}
+        className={`mt-4 ${monSearchView} w-full flex-col items-center justify-center rounded border-2 border-gray-500 shadow-xl`}
       >
         <div className='mx-auto w-full'>
           <div className='w-full bg-slate-200 font-bold'>
@@ -234,7 +235,7 @@ const TeamSearch: NextComponentType = (props: any) => {
 
       {/* -------------------------------------- Prepping moves -------------------------------------- */}
       {/* <div
-        className={`mt-4 ${searchView} w-full flex-col items-center justify-center rounded border-2 border-gray-500 shadow-xl`}
+        className={`mt-4 ${movesSearchView} w-full flex-col items-center justify-center rounded border-2 border-gray-500 shadow-xl`}
       >
         <div className='mx-auto w-full'>
           <div className='w-full bg-slate-200 font-bold'>
