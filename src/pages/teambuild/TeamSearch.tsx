@@ -130,6 +130,12 @@ const TeamSearch: NextComponentType = (props: any) => {
                   className='mb-1 w-5/6 rounded border-2 border-gray-300 hover:border-gray-400 hover:opacity-80 focus:border-gray-500 sm:text-sm'
                   placeholder='Move 1...'
                   onSubmit={() => {}}
+                  onFocus={() => {
+                    setMovesSearchView('flex');
+                  }}
+                  onBlur={() => {
+                    setMovesSearchView('hidden');
+                  }}
                   required
                 />
               </li>
@@ -140,6 +146,12 @@ const TeamSearch: NextComponentType = (props: any) => {
                   className='mb-1 w-5/6 rounded border-2 border-gray-300 hover:border-gray-400 hover:opacity-80 focus:border-gray-500 sm:text-sm'
                   placeholder='Move 2...'
                   onSubmit={() => {}}
+                  onFocus={() => {
+                    setMovesSearchView('flex');
+                  }}
+                  onBlur={() => {
+                    setMovesSearchView('hidden');
+                  }}
                   required
                 />
               </li>
@@ -150,6 +162,12 @@ const TeamSearch: NextComponentType = (props: any) => {
                   className='mb-1 w-5/6 rounded border-2 border-gray-300 hover:border-gray-400 hover:opacity-80 focus:border-gray-500 sm:text-sm'
                   placeholder='Move 3...'
                   onSubmit={() => {}}
+                  onFocus={() => {
+                    setMovesSearchView('flex');
+                  }}
+                  onBlur={() => {
+                    setMovesSearchView('hidden');
+                  }}
                   required
                 />
               </li>
@@ -160,6 +178,12 @@ const TeamSearch: NextComponentType = (props: any) => {
                   className='mb-1 w-5/6 rounded border-2 border-gray-300 hover:border-gray-400 hover:opacity-80 focus:border-gray-500 sm:text-sm'
                   placeholder='Move 4...'
                   onSubmit={() => {}}
+                  onFocus={() => {
+                    setMovesSearchView('flex');
+                  }}
+                  onBlur={() => {
+                    setMovesSearchView('hidden');
+                  }}
                   required
                 />
               </li>
@@ -234,7 +258,7 @@ const TeamSearch: NextComponentType = (props: any) => {
       </div>
 
       {/* -------------------------------------- Prepping moves -------------------------------------- */}
-      {/* <div
+      <div
         className={`mt-4 ${movesSearchView} w-full flex-col items-center justify-center rounded border-2 border-gray-500 shadow-xl`}
       >
         <div className='mx-auto w-full'>
@@ -274,7 +298,7 @@ const TeamSearch: NextComponentType = (props: any) => {
             ))}
           </ul>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
